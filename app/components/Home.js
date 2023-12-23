@@ -6,8 +6,11 @@ const Home = () => {
   return (
     <div>
       <div className="flex justify-between bg-purple-200">
-        <div className="px-20  py-10 flex flex-col justify-center gap-4">
-          <h1 className="text-5xl"><span className="font-semibold">DEV SRIWARARAK</span> รับเขียนโปรแกรม ทำเว็บไซต์ ขอนแก่น ครบวงจร </h1>
+        <div className=" px-10 md:px-20  py-10 flex flex-col justify-center gap-4">
+          <h1 className="text-5xl">
+            <span className="font-semibold">DEV SRIWARARAK</span>{" "}
+            รับเขียนโปรแกรม ทำเว็บไซต์ ขอนแก่น ครบวงจร{" "}
+          </h1>
           <p>
             dev sriwararak ทดสอบ next.js รับเขียนโปรแรกมขอนแก่น รับทำเว็บไซต์
             ขอนแก่น กำลังปรับปรุง{" "}
@@ -21,12 +24,9 @@ const Home = () => {
             </button>
           </div>
         </div>
-        <Image
-          src={banner}
-          loading="lazy"
-          width={600}
-          height={450}
-        />
+        <div className=" hidden md:block">
+          <Image src={banner} loading="lazy" width={600} height={450} />
+        </div>
       </div>
     </div>
   );
