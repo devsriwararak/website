@@ -8,7 +8,7 @@ const Header = () => {
        <ul className='flex flex-row gap-4'>
         <li>หน้าหลัก</li>
         <li>ฟอร์มจ้างทำงาน</li>
-        <li>ผลงาน</li>
+        {/* <li>ผลงาน</li> */}
         {/* <li>เกี่ยวกับเรา</li>
         <li>ติดต่อเรา</li> */}
         

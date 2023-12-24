@@ -15,7 +15,7 @@ const Home = () => {
       <div className="flex   bg-purple-200">
         {/* Hero Secction */}
         <div className=" px-10 md:px-20  py-20 flex flex-col gap-4 w-3/4 justify-center">
-          <h1 className="text-5xl leading-normal  ">
+          <h1 className="text-xl md:text-5xl leading-normal  ">
             <span className="font-semibold ">DEV SRIWARARAK</span>{" "}
             รับเขียนโปรแกรม ทำเว็บไซต์ ขอนแก่น{" "}
           </h1>
@@ -32,11 +32,11 @@ const Home = () => {
             </button>
           </div>
         </div>
-        <div className=" hidden md:block  w-2/4  ">
+        {/* <div className=" hidden md:block  w-2/4  ">
           <div className="flex justify-start">
             <Image src={banner} loading="lazy" width={400} height={400} />
           </div>
-        </div>
+        </div> */}
       </div>
 
       {/*  About Me section */}
@@ -46,7 +46,7 @@ const Home = () => {
           <h2 className="text-3xl">เกี่ยวกับเรา</h2>
           <p className="text-gray-700 mt-2">xxxxxxxxxxxxxxxxxxxxxxxxx</p>
           <p className="text-gray-700 ">xxxxxxxxxxxxxxxxxxxxxxxxx</p>
-          <div className="flex flex-row gap-4 mt-10">
+          <div className="flex flex-col flex-wrap md:flex-row gap-4 mt-10">
             <button className="flex gap-2 items-center bg-blue-600 px-5 py-1.5 rounded-lg text-white">
               {" "}
               <AiFillFacebook /> Facebook
@@ -67,12 +67,16 @@ const Home = () => {
         </div>
         <div className="w-full">
           <p className="text-gray-700 ">
-            xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-            xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-            xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+            xxxxxxxxxxxxxxxxxxxxxx
+            xxxxxxxxxx
+            xxxxxxxxxxxxxxxxxxxxxx
+            xxxxxxxxxxxxxxxxxxxxxx
+            xxxxxxxxxxxxxxxxxxxxxx
+            xxxxxxxxxxxxxxxxxxxxxx
+            xxxxxxxxxxxxxxxxxxxxxx
           </p>
 
-          <div className="flex flex-row gap-4 mt-10 justify-between items-center ">
+          <div className="flex flex-col md:flex-row gap-4 mt-10 justify-between items-center ">
             <h2 className="text-2xl">xxxxx</h2>
             <div>
               <p className="text-5xl font-semibold text-purple-700">10+</p>
@@ -93,26 +97,26 @@ const Home = () => {
       {/*  */}
 
       <div className="mt-20 bg-gray-200 py-20">
-        <h2 className=" text-center text-3xl">xxxxxxxxxxxxxxxxxxxxxxxxx</h2>
+        <h2 className=" text-center text-3xl">xxxxxxxxxxxxx</h2>
         <p className="text-center text-gray-700">xxxxxx</p>
 
-        <div className="flex flex-row justify-center gap-5 mt-10 ">
-          <div>
+        <div className="flex flex-col md:flex-row  gap-0 mt-10 mx-20 ">
+          <div className="w-full flex  flex-col gap-2 items-center  ">
+            <Image src={banner} loading="lazy" width={200} height={300}  />
+            <h3 className=" text-lg">1111</h3>
+            <p className=" text-gray-700">xxxxxx</p>
+          </div>
+          <div className=" w-full flex  flex-col gap-2 items-center">
             <Image src={banner} loading="lazy" width={200} height={300} />
             <h3 className="text-center text-lg">1111</h3>
             <p className="text-center text-gray-700">xxxxxx</p>
           </div>
-          <div>
+          <div className=" w-full flex  flex-col gap-2 items-center">
             <Image src={banner} loading="lazy" width={200} height={300} />
             <h3 className="text-center text-lg">1111</h3>
             <p className="text-center text-gray-700">xxxxxx</p>
           </div>
-          <div>
-            <Image src={banner} loading="lazy" width={200} height={300} />
-            <h3 className="text-center text-lg">1111</h3>
-            <p className="text-center text-gray-700">xxxxxx</p>
-          </div>
-          <div>
+          <div className=" w-full flex  flex-col gap-2 items-center">
             <Image src={banner} loading="lazy" width={200} height={300} />
             <h3 className="text-center text-lg">1111</h3>
             <p className="text-center text-gray-700">xxxxxx</p>
@@ -122,9 +126,9 @@ const Home = () => {
 
       {/* show mobile */}
 
-      <section className="flex flex-row gap-10 mx-20 mt-20 ">
+      <section className="flex flex-col md:flex-row gap-10 mx-20 mt-20 ">
         <div className="w-2/3 flex flex-col items-center justify-center gap-10 ">
-          <div className="flex flex-row gap-4 ">
+          <div className="flex  flex-row gap-4 ">
             <SiTiktok size={40} />
             <div>
               <h3 className="text-xl">xxxxxxxxxx</h3>
@@ -182,7 +186,8 @@ const Home = () => {
       <section className="mt-24">
         <h2 className="text-3xl text-center">ผลงานที่ผ่านมา</h2>
         <p className="text-gray-700 text-center mt-2">
-          xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+          xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+          xxxxxxxxxxxxxx
         </p>
         <div className="flex flex-row gap-4 mx-16 mt-10">
           <div className="w-full">
