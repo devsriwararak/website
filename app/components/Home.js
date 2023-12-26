@@ -34,7 +34,7 @@ const Home = () => {
         </div>
         {/* <div className=" hidden md:block  w-2/4  ">
           <div className="flex justify-start">
-            <Image src={banner} loading="lazy" width={400} height={400} />
+            <Image src={banner} loading="lazy" width={400} height={400} alt="รับเขียนโปรแกรรขอนแก่น รับทำเว็บไซต์ SEO ขอนแก่น" />
           </div>
         </div> */}
       </div>
@@ -102,22 +102,22 @@ const Home = () => {
 
         <div className="flex flex-col md:flex-row  gap-0 mt-10 mx-20 ">
           <div className="w-full flex  flex-col gap-2 items-center  ">
-            <Image src={banner} loading="lazy" width={200} height={300}  />
+            <Image src={banner} loading="lazy" width={200} height={300} alt="รับเขียนโปรแกรรขอนแก่น รับทำเว็บไซต์ SEO ขอนแก่น"  />
             <h3 className=" text-lg">1111</h3>
             <p className=" text-gray-700">xxxxxx</p>
           </div>
           <div className=" w-full flex  flex-col gap-2 items-center">
-            <Image src={banner} loading="lazy" width={200} height={300} />
+            <Image src={banner} loading="lazy" width={200} height={300} alt="รับเขียนโปรแกรรขอนแก่น รับทำเว็บไซต์ SEO ขอนแก่น" />
             <h3 className="text-center text-lg">1111</h3>
             <p className="text-center text-gray-700">xxxxxx</p>
           </div>
           <div className=" w-full flex  flex-col gap-2 items-center">
-            <Image src={banner} loading="lazy" width={200} height={300} />
+            <Image src={banner} loading="lazy" width={200} height={300} alt="รับเขียนโปรแกรรขอนแก่น รับทำเว็บไซต์ SEO ขอนแก่น" />
             <h3 className="text-center text-lg">1111</h3>
             <p className="text-center text-gray-700">xxxxxx</p>
           </div>
           <div className=" w-full flex  flex-col gap-2 items-center">
-            <Image src={banner} loading="lazy" width={200} height={300} />
+            <Image src={banner} loading="lazy" width={200} height={300}  alt="รับเขียนโปรแกรรขอนแก่น รับทำเว็บไซต์ SEO ขอนแก่น"/>
             <h3 className="text-center text-lg">1111</h3>
             <p className="text-center text-gray-700">xxxxxx</p>
           </div>
@@ -153,7 +153,7 @@ const Home = () => {
           </div>
         </div>
         <div className="w-1/3 flex justify-center ">
-          <Image src={mobile} loading="lazy" />
+          <Image src={mobile} loading="lazy" alt="รับเขียนโปรแกรรขอนแก่น รับทำเว็บไซต์ SEO ขอนแก่น" />
         </div>
         <div className="w-2/3 flex flex-col items-center justify-center gap-10 ">
           <div className="flex flex-row gap-4 text-right">
@@ -191,37 +191,37 @@ const Home = () => {
         </p>
         <div className="flex flex-row gap-4 mx-16 mt-10">
           <div className="w-full">
-            <Image src={review_1} loading="lazy" />
+            <Image src={review_1} loading="lazy" alt="รับเขียนโปรแกรรขอนแก่น รับทำเว็บไซต์ SEO ขอนแก่น" />
           </div>
 
           <div className="w-full">
-            <Image src={review_2} loading="lazy" />
+            <Image src={review_2} loading="lazy" alt="รับเขียนโปรแกรรขอนแก่น รับทำเว็บไซต์ SEO ขอนแก่น" />
           </div>
 
           <div className="w-full">
-            <Image src={review_1} loading="lazy" />
+            <Image src={review_1} loading="lazy" alt="รับเขียนโปรแกรรขอนแก่น รับทำเว็บไซต์ SEO ขอนแก่น" />
           </div>
 
           <div className="w-full">
-            <Image src={review_2} loading="lazy" />
+            <Image src={review_2} loading="lazy" alt="รับเขียนโปรแกรรขอนแก่น รับทำเว็บไซต์ SEO ขอนแก่น" />
           </div>
         </div>
 
         <div className="flex flex-row gap-4 mx-16 mt-5">
           <div className="w-full">
-            <Image src={review_2} loading="lazy" />
+            <Image src={review_2} loading="lazy" alt="รับเขียนโปรแกรรขอนแก่น รับทำเว็บไซต์ SEO ขอนแก่น" />
           </div>
 
           <div className="w-full">
-            <Image src={review_1} loading="lazy" />
+            <Image src={review_1} loading="lazy" alt="รับเขียนโปรแกรรขอนแก่น รับทำเว็บไซต์ SEO ขอนแก่น" />
           </div>
 
           <div className="w-full">
-            <Image src={review_2} loading="lazy" />
+            <Image src={review_2} loading="lazy" alt="รับเขียนโปรแกรรขอนแก่น รับทำเว็บไซต์ SEO ขอนแก่น" />
           </div>
 
           <div className="w-full">
-            <Image src={review_1} loading="lazy" />
+            <Image src={review_1} loading="lazy" alt="รับเขียนโปรแกรรขอนแก่น รับทำเว็บไซต์ SEO ขอนแก่น" />
           </div>
         </div>
 
