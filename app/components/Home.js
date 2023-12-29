@@ -15,13 +15,14 @@ const Home = () => {
       <div className="flex   bg-purple-200">
         {/* Hero Secction */}
         <div className=" px-10 md:px-20  py-20 flex flex-col gap-4 w-3/4 justify-center">
-          <h1 className="text-xl md:text-5xl leading-normal  ">
+          <h1 className="text-xl md:text-5xl leading-10  ">
             <span className="font-semibold ">DEV SRIWARARAK</span>{" "}
-            รับเขียนโปรแกรม ทำเว็บไซต์ ขอนแก่น{" "}
+            รับเขียนโปรแกรม ทำเว็บไซต์ SEO ขอนแก่น{" "}
           </h1>
           <p>
-            dev sriwararak ทดสอบ next.js รับเขียนโปรแรกมขอนแก่น รับทำเว็บไซต์
-            ขอนแก่น กำลังปรับปรุง{" "}
+            รับเขียนโปรแกรม ขอนแก่น และ รับทำเว็บไซต์ SEO ติด Google Search
+            พัฒนาซอฟต์แวร์ วิเคราะห์ข้อมูลโดยทีมงานมืออาชีพ
+            เหมาะสำหรับทุกธุรกิจที่กำลังเติบโต
           </p>
           <div className="flex flex-col md:flex-row gap-4 mt-5 ">
             <button className="bg-purple-700 text-white px-6 py-2 rounded-full border border-purple-700 hover:bg-purple-200 hover:text-purple-700">
@@ -43,9 +44,14 @@ const Home = () => {
 
       <div className="flex flex-col md:flex-row gap-4 mt-10 py-16 px-20">
         <div className="w-full">
-          <h2 className="text-3xl">เกี่ยวกับเรา</h2>
-          <p className="text-gray-700 mt-2">xxxxxxxxxxxxxxxxxxxxxxxxx</p>
-          <p className="text-gray-700 ">xxxxxxxxxxxxxxxxxxxxxxxxx</p>
+          <h2 className="text-3xl">เกี่ยวกับเรา รับเขียนโปรแกรม</h2>
+          <p className="text-gray-700 mt-2">
+            <b className="text-black">Dev Sriwararak</b> รับเขียน ออกแบบ โปรแกรม
+            เว็บไซต์ ในรูปแบบออนไลน์
+          </p>
+          <p className="text-gray-700 ">
+            สามารถสอบถามพูดคุยก่อนเริ่มงานได้ครับ
+          </p>
           <div className="flex flex-col flex-wrap md:flex-row gap-4 mt-10">
             <button className="flex gap-2 items-center bg-blue-600 px-5 py-1.5 rounded-lg text-white">
               {" "}
@@ -67,28 +73,26 @@ const Home = () => {
         </div>
         <div className="w-full">
           <p className="text-gray-700 ">
-            xxxxxxxxxxxxxxxxxxxxxx
-            xxxxxxxxxx
-            xxxxxxxxxxxxxxxxxxxxxx
-            xxxxxxxxxxxxxxxxxxxxxx
-            xxxxxxxxxxxxxxxxxxxxxx
-            xxxxxxxxxxxxxxxxxxxxxx
-            xxxxxxxxxxxxxxxxxxxxxx
+            การเขียนโปรแกรม เป็นเครื่องมือสำคัญในการทำให้กิจการ
+            ธุรกิจของลูกค้าเข้าสู่ยุคดิจิทัล (Industry 4.0) อย่างเต็มตัว
+            โปรแกรมสามารถตรวจสอบข้อมูล และคำนวณได้อย่างแม่นยำ และเว็บไซต์
+            ที่ติดอันดับจากการค้นหา Google Search หรือ SEO
+            จะช่วยให้สินค้าถูกมองเห็นได้มากขึ้น ขายได้มากขึ้น
           </p>
 
           <div className="flex flex-col md:flex-row gap-4 mt-10 justify-between items-center ">
-            <h2 className="text-2xl">xxxxx</h2>
+            <h2 className="text-2xl">คะแนน</h2>
             <div>
               <p className="text-5xl font-semibold text-purple-700">10+</p>
-              <p className="text-purple-600">xxxxxxxxxxxxx</p>
+              <p className="text-purple-600">ความพึงพอใจ</p>
             </div>
             <div>
-              <p className="text-5xl font-semibold text-purple-700">10+</p>
-              <p className="text-purple-600">xxxxxxxxxxxxxx</p>
+              <p className="text-5xl font-semibold text-purple-700">20+</p>
+              <p className="text-purple-600">ดูแลหลังการขาย</p>
             </div>
             <div>
-              <p className="text-5xl font-semibold text-purple-700">10+</p>
-              <p className="text-purple-600">xxxxxxxxxxxxxxx</p>
+              <p className="text-5xl font-semibold text-purple-700">30+</p>
+              <p className="text-purple-600">ราคาสบายกระเป๋า</p>
             </div>
           </div>
         </div>
@@ -97,85 +101,141 @@ const Home = () => {
       {/*  */}
 
       <div className="mt-20 bg-gray-200 py-20">
-        <h2 className=" text-center text-3xl">xxxxxxxxxxxxx</h2>
-        <p className="text-center text-gray-700">xxxxxx</p>
+        <h2 className=" text-center text-3xl">
+          4 ขั้นตอนการจ้างงาน เขียนโปรแกรม ทำเว็บไซต์ ขอนแก่น
+        </h2>
+        <p className="text-center mt-4 text-gray-700">
+          สรุปการจ้างงานกับ Dev Sriwararak 4 ขั้นตอน ดังนี้
+        </p>
 
         <div className="flex flex-col md:flex-row  gap-0 mt-10 mx-20 ">
           <div className="w-full flex  flex-col gap-2 items-center  ">
-            <Image src={banner} loading="lazy" width={200} height={300} alt="รับเขียนโปรแกรรขอนแก่น รับทำเว็บไซต์ SEO ขอนแก่น"  />
-            <h3 className=" text-lg">1111</h3>
-            <p className=" text-gray-700">xxxxxx</p>
+            <Image
+              src={banner}
+              loading="lazy"
+              width={200}
+              height={300}
+              alt="รับเขียนโปรแกรรขอนแก่น รับทำเว็บไซต์ SEO ขอนแก่น"
+            />
+            <h3 className=" text-lg">1. สอบถาม-ออกแบบ</h3>
+            <p className=" text-gray-700 text-center px-5">
+              แนะนำโปรแกรม - เว็บไซต์ ที่เหมาะสำหรับธุรกิจของลูกค้าแบบตรงจุด
+            </p>
           </div>
           <div className=" w-full flex  flex-col gap-2 items-center">
-            <Image src={banner} loading="lazy" width={200} height={300} alt="รับเขียนโปรแกรรขอนแก่น รับทำเว็บไซต์ SEO ขอนแก่น" />
-            <h3 className="text-center text-lg">1111</h3>
-            <p className="text-center text-gray-700">xxxxxx</p>
+            <Image
+              src={banner}
+              loading="lazy"
+              width={200}
+              height={300}
+              alt="รับเขียนโปรแกรรขอนแก่น รับทำเว็บไซต์ SEO ขอนแก่น"
+            />
+            <h3 className="text-center text-lg">2. ลงมือทำ</h3>
+            <p className="text-center text-gray-700 px-5">
+              เริ่มการพัฒนาโปรแกรมและเว็บไซต์ให้ตรงตามความต้องการของลูกค้า
+            </p>
           </div>
           <div className=" w-full flex  flex-col gap-2 items-center">
-            <Image src={banner} loading="lazy" width={200} height={300} alt="รับเขียนโปรแกรรขอนแก่น รับทำเว็บไซต์ SEO ขอนแก่น" />
-            <h3 className="text-center text-lg">1111</h3>
-            <p className="text-center text-gray-700">xxxxxx</p>
+            <Image
+              src={banner}
+              loading="lazy"
+              width={200}
+              height={300}
+              alt="รับเขียนโปรแกรรขอนแก่น รับทำเว็บไซต์ SEO ขอนแก่น"
+            />
+            <h3 className="text-center text-lg">3. ส่งมอบงาน</h3>
+            <p className="text-center text-gray-700 px-5">
+              ส่งตรวจงานเป็นรอบๆ เพื่อปรับแก้ไขในส่วนที่ผิดพลาด ให้ถูกต้อง{" "}
+            </p>
           </div>
           <div className=" w-full flex  flex-col gap-2 items-center">
-            <Image src={banner} loading="lazy" width={200} height={300}  alt="รับเขียนโปรแกรรขอนแก่น รับทำเว็บไซต์ SEO ขอนแก่น"/>
-            <h3 className="text-center text-lg">1111</h3>
-            <p className="text-center text-gray-700">xxxxxx</p>
+            <Image
+              src={banner}
+              loading="lazy"
+              width={200}
+              height={300}
+              alt="รับเขียนโปรแกรรขอนแก่น รับทำเว็บไซต์ SEO ขอนแก่น"
+            />
+            <h3 className="text-center text-lg">4. ดูแลหลังการขาย</h3>
+            <p className="text-center text-gray-700 px-5">
+              ซัพพอต ให้คำปรึกษา หลังการขาย หรือต้องการอัพเกรดระบบใหม่
+            </p>
           </div>
         </div>
       </div>
 
       {/* show mobile */}
 
-      <section className="flex flex-col md:flex-row gap-10 mx-20 mt-20 ">
+      <h2 className="mt-20 text-center text-3xl">
+        ทำไมธุรกิจสมัยใหม่ต้องมีโปรแกรม หรือ เว็บไซต์ เป็นของตัวเอง ?
+      </h2>
+
+      <section className="flex flex-col md:flex-row gap-10 mx-20 mt-10  ">
         <div className="w-2/3 flex flex-col items-center justify-center gap-10 ">
           <div className="flex  flex-row gap-4 ">
             <SiTiktok size={40} />
             <div>
-              <h3 className="text-xl">xxxxxxxxxx</h3>
-              <p className="text-gray-700">xxxxxxxxxxxxxxxxxxxxxxxxxx</p>
+              <h3 className="text-xl">1. ช่วยเพิ่มยอดขาย</h3>
+              <p className="text-gray-700">
+                ผู้คนจำนวนมากบนโลกออนไลน์ จะเห็นร้านค้าของคุณมากขึ้น
+                ทำให้ผู้คนเหล่านั้นแวะเวียนเข้ามาชมสินค้าในร้านมากขึ้น
+              </p>
             </div>
           </div>
 
           <div className="flex flex-row gap-4 ">
             <SiTiktok size={40} />
             <div>
-              <h3 className="text-xl">xxxxxxxxxx</h3>
-              <p className="text-gray-700">xxxxxxxxxxxxxxxxxxxxxxxxxx</p>
+              <h3 className="text-xl">2. จัดเก็บข้อมูลเป็นระบบ</h3>
+              <p className="text-gray-700">
+                โปรแกรมจะจัดเก็บข้อมูลและเอกสารให้อย่างปลอดภัย
+                สามารถค้นหาย้อนหลังได้ ไม่หายไปไหน
+              </p>
             </div>
           </div>
 
           <div className="flex flex-row gap-4 ">
             <SiTiktok size={40} />
             <div>
-              <h3 className="text-xl">xxxxxxxxxx</h3>
-              <p className="text-gray-700">xxxxxxxxxxxxxxxxxxxxxxxxxx</p>
+              <h3 className="text-xl">3. ลดการทำงานที่ซ้ำซ้อน</h3>
+              <p className="text-gray-700">
+                โปรแกรมถูกตั้งคำสั่งให้ทำงานอย่างเป็นระบบ ตามที่ลูกค้าต้องการ
+                ทำงานเสร็จเร็ว ไม่ทำงานซ้ำ{" "}
+              </p>
             </div>
           </div>
         </div>
         <div className="w-1/3 flex justify-center ">
-          <Image src={mobile} loading="lazy" alt="รับเขียนโปรแกรรขอนแก่น รับทำเว็บไซต์ SEO ขอนแก่น" />
+          <Image
+            src={mobile}
+            loading="lazy"
+            alt="รับเขียนโปรแกรรขอนแก่น รับทำเว็บไซต์ SEO ขอนแก่น"
+          />
         </div>
         <div className="w-2/3 flex flex-col items-center justify-center gap-10 ">
           <div className="flex flex-row gap-4 text-right">
             <div>
-              <h3 className="text-xl">xxxxxxxxxx</h3>
-              <p className="text-gray-700">xxxxxxxxxxxxxxxxxxxxxxxxxx</p>
+              <h3 className="text-xl">4. Online ใช้งานได้ทุกที่</h3>
+              <p className="text-gray-700">
+                ผู้จัดการสามารถตรวจสอบยอดขาย หรือ
+                ความเคลื่อนไหวของร้านค้าตัวเองได้จากที่ไหนก็ได้ ทุกที่ทุกเวลา
+              </p>
             </div>
             <SiTiktok size={40} />
           </div>
 
           <div className="flex flex-row gap-4 text-right ">
             <div>
-              <h3 className="text-xl">xxxxxxxxxx</h3>
-              <p className="text-gray-700">xxxxxxxxxxxxxxxxxxxxxxxxxx</p>
+              <h3 className="text-xl">5. คำนวณแม่น ลดการผิดพลาด</h3>
+              <p className="text-gray-700">โปรแกรมถูกตั้งคำสั่งให้ทำงานถูกต้องแม่นยำ 100% ทำให้ลดอาการผิดพลาดลงได้เยอะ ทำให้ธุรกิจเดินหน้าต่ออย่างรวดเร็ว</p>
             </div>
             <SiTiktok size={40} />
           </div>
 
           <div className="flex flex-row gap-4 text-right ">
             <div>
-              <h3 className="text-xl">xxxxxxxxxx</h3>
-              <p className="text-gray-700">xxxxxxxxxxxxxxxxxxxxxxxxxx</p>
+              <h3 className="text-xl">6. สร้างความน่าเชื่อถือ</h3>
+              <p className="text-gray-700">เว็บไซต์สำหรับธุรกิจของตัวเอง จะทำให้ลูกค้าที่จะมาใช้บริการได้รับความไว้วางใจ และเชื่อถือในความเป็นมืออาชีพของเรา</p>
             </div>
             <SiTiktok size={40} />
           </div>
@@ -184,50 +244,80 @@ const Home = () => {
 
       {/* ผลงานที่ผ่านมทา */}
       <section className="mt-24">
-        <h2 className="text-3xl text-center">ผลงานที่ผ่านมา</h2>
+        <h2 className="text-3xl text-center">ผลงานรับทำเว็บไซต์ และรับเขียนโปรแกรม ที่ผ่านมา</h2>
         <p className="text-gray-700 text-center mt-2">
-          xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-          xxxxxxxxxxxxxx
+          ขอขอบพระคุณลูกค้าทุกท่าน ที่ไว้วางใขใช้บริการเขียนโปรแกรม และทำเว็บไซต์ที่ขอนแก่น กับ Dev Sriwararak
         </p>
         <div className="flex flex-row gap-4 mx-16 mt-10">
           <div className="w-full">
-            <Image src={review_1} loading="lazy" alt="รับเขียนโปรแกรรขอนแก่น รับทำเว็บไซต์ SEO ขอนแก่น" />
+            <Image
+              src={review_1}
+              loading="lazy"
+              alt="รับเขียนโปรแกรรขอนแก่น รับทำเว็บไซต์ SEO ขอนแก่น"
+            />
           </div>
 
           <div className="w-full">
-            <Image src={review_2} loading="lazy" alt="รับเขียนโปรแกรรขอนแก่น รับทำเว็บไซต์ SEO ขอนแก่น" />
+            <Image
+              src={review_2}
+              loading="lazy"
+              alt="รับเขียนโปรแกรรขอนแก่น รับทำเว็บไซต์ SEO ขอนแก่น"
+            />
           </div>
 
           <div className="w-full">
-            <Image src={review_1} loading="lazy" alt="รับเขียนโปรแกรรขอนแก่น รับทำเว็บไซต์ SEO ขอนแก่น" />
+            <Image
+              src={review_1}
+              loading="lazy"
+              alt="รับเขียนโปรแกรรขอนแก่น รับทำเว็บไซต์ SEO ขอนแก่น"
+            />
           </div>
 
           <div className="w-full">
-            <Image src={review_2} loading="lazy" alt="รับเขียนโปรแกรรขอนแก่น รับทำเว็บไซต์ SEO ขอนแก่น" />
+            <Image
+              src={review_2}
+              loading="lazy"
+              alt="รับเขียนโปรแกรรขอนแก่น รับทำเว็บไซต์ SEO ขอนแก่น"
+            />
           </div>
         </div>
 
         <div className="flex flex-row gap-4 mx-16 mt-5">
           <div className="w-full">
-            <Image src={review_2} loading="lazy" alt="รับเขียนโปรแกรรขอนแก่น รับทำเว็บไซต์ SEO ขอนแก่น" />
+            <Image
+              src={review_2}
+              loading="lazy"
+              alt="รับเขียนโปรแกรรขอนแก่น รับทำเว็บไซต์ SEO ขอนแก่น"
+            />
           </div>
 
           <div className="w-full">
-            <Image src={review_1} loading="lazy" alt="รับเขียนโปรแกรรขอนแก่น รับทำเว็บไซต์ SEO ขอนแก่น" />
+            <Image
+              src={review_1}
+              loading="lazy"
+              alt="รับเขียนโปรแกรรขอนแก่น รับทำเว็บไซต์ SEO ขอนแก่น"
+            />
           </div>
 
           <div className="w-full">
-            <Image src={review_2} loading="lazy" alt="รับเขียนโปรแกรรขอนแก่น รับทำเว็บไซต์ SEO ขอนแก่น" />
+            <Image
+              src={review_2}
+              loading="lazy"
+              alt="รับเขียนโปรแกรรขอนแก่น รับทำเว็บไซต์ SEO ขอนแก่น"
+            />
           </div>
 
           <div className="w-full">
-            <Image src={review_1} loading="lazy" alt="รับเขียนโปรแกรรขอนแก่น รับทำเว็บไซต์ SEO ขอนแก่น" />
+            <Image
+              src={review_1}
+              loading="lazy"
+              alt="รับเขียนโปรแกรรขอนแก่น รับทำเว็บไซต์ SEO ขอนแก่น"
+            />
           </div>
         </div>
-
       </section>
 
-      <Footer/>
+      <Footer />
     </div>
   );
 };

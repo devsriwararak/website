@@ -6,14 +6,13 @@ const Footer = () => {
 <>
 <div className="mt-20 bg-gray-600  px-16 py-24 text-white flex flex-col md:flex-row gap-10">
       <div className="w-full">
-        <h3 className="text-xl">xxxxx</h3>
-        <p className="text-gray-300">xxxxxxxxxxxxxxxxxxxx</p>
-        <p className="text-gray-300">xxxxxxxxxxxxxxxxxxxx</p>
-        <button className="bg-purple-500 px-20 rounded-full mt-5">xxx</button>
+        <h3 className="text-xl">DEV SRIWARARAK</h3>
+        <p className="text-gray-300 mt-2">รับเขียนโปรแกรม รับออกแบบเว็บไซต์ ตามความต้องการของลูกค้า ทุกธุรกิจ ครบวงจร</p>
+        <button className="bg-purple-500 px-10 py-1.5 rounded-full mt-5 hover:bg-purple-600">ติดต่อเรา</button>
       </div>
 
       <div  className="w-full">
-        <h3 className="text-xl">xxxxx</h3>
+        <h3 className="text-xl">เมนู</h3>
        <ul className="text-gray-300 mt-2">
         <li>test poduction 001</li>
         <li>test notebook 002</li>
@@ -26,7 +25,7 @@ const Footer = () => {
       </div>
 
       <div  className="w-full">
-        <h3 className="text-xl">xxxxx</h3>
+        <h3 className="text-xl">ข่าวใหม่</h3>
        <ul className="text-gray-300 mt-2">
         <li>test poduction 001</li>
         <li>test notebook 002</li>
@@ -39,23 +38,21 @@ const Footer = () => {
       </div>
 
       <div  className="w-full">
-        <h3 className="text-xl">xxxxx</h3>
+        <h3 className="text-xl">Stack For Developer</h3>
        <ul className="text-gray-300 mt-2">
-        <li>test poduction 001</li>
-        <li>test notebook 002</li>
-        <li>11111</li>
-        <li>11111</li>
-        <li>11111</li>
-        <li>11111</li>
-        <li>11111</li>
+        <li>React.js / Next.js 14</li>
+        <li>Node.js</li>
+        <li>Python / Fast API</li>
+        <li>Wordpress</li>
+        <li>Html Css javascript</li>
        </ul>
       </div>
 
 
       <div  className="w-full">
-        <h3 className="text-xl">xxxxx</h3>
+        <h3 className="text-xl">ติดต่อเรา</h3>
         <p className="text-gray-300 mt-2">test : khonkaen 40000</p>
-        <p className="text-gray-300">tel : 0850032649</p>
+        <a href="tel:0850032649" className="text-gray-300">โทรศัพท์ : 085-0032649</a>
         <p className="text-gray-300">tel : 0850032649</p>
         <p className="text-gray-300">tel : 0850032649</p>
         <div className="flex flex-row gap-4 mt-4
@@ -69,7 +66,7 @@ const Footer = () => {
       </div>
     </div>
     <div className="bg-gray-800 text-white py-2 text-center">
-        1111
+        web.devsriwararak.com รับเขียนโปรแกรม รับออกแบบเว็บไซต์ ขอนแก่น
     </div>
 </>
   );
