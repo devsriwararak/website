@@ -8,6 +8,7 @@ import { FaBeer } from "react-icons/fa";
 import { AiFillFacebook, AiFillPhone } from "react-icons/ai";
 import { SiLine, SiTiktok } from "react-icons/si";
 import Footer from "./Footer";
+import Link from "next/link";
 
 const Home = () => {
   return (
@@ -62,22 +63,33 @@ const Home = () => {
             สามารถสอบถามพูดคุยก่อนเริ่มงานได้ครับ
           </p>
           <div className="flex flex-row justify-center md:justify-start flex-wrap md:flex-row gap-2 mt-10">
-            <button className="flex gap-2 items-center bg-blue-600 px-5 py-1.5 rounded-lg text-white">
-              {" "}
-              <AiFillFacebook /> Facebook
-            </button>
-            <button className="flex gap-2 items-center bg-red-600 px-4 py-1.5 rounded-full text-white">
-              {" "}
-              <AiFillPhone /> โทรศัพท์
-            </button>
-            <button className="flex gap-2 items-center bg-green-700 px-4 py-1.5 rounded-full text-white">
-              {" "}
-              <SiLine /> Line ติดต่อ
-            </button>
-            <button className="flex gap-2 items-center bg-black px-4 py-1.5 rounded-full text-white">
+            <Link
+              href={"https://www.facebook.com/dev.sriwararak"}
+              target="_blank"
+            >
+              <button className="flex gap-2 items-center bg-blue-600 px-5 py-1.5 rounded-lg text-white">
+                {" "}
+                <AiFillFacebook /> Facebook
+              </button>
+            </Link>
+            <Link href={"tel:0850032649"}>
+              <button className="flex gap-2 items-center bg-red-600 px-4 py-1.5 rounded-full text-white">
+                {" "}
+                <AiFillPhone /> โทรศัพท์
+              </button>
+            </Link>
+            <Link href={"https://line.me/ti/p/KMjKL3G9qz"} target="_blank">
+              <button className="flex gap-2 items-center bg-green-700 px-4 py-1.5 rounded-full text-white">
+                {" "}
+                <SiLine /> Line ติดต่อ
+              </button>
+            </Link>
+           <Link href={"https://www.tiktok.com/@dev_sriwararak"} target="_blank">
+           <button className="flex gap-2 items-center bg-black px-4 py-1.5 rounded-full text-white">
               {" "}
               <SiTiktok /> Tiktok
             </button>
+           </Link>
           </div>
         </div>
         <div className="w-full hidden md:block">
