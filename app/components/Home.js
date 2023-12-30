@@ -303,7 +303,7 @@ const Home = () => {
           </div>
         </div>
 
-        <div className="flex flex-row flex-wrap gap-1 md:gap-4 md:mx-16  mt-2 md:mt-5">
+        <div className="flex flex-row  gap-1 md:gap-4 md:mx-16  mt-2 md:mt-5">
           <div className="w-full">
             <Image
               src={review_2}
