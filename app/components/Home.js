@@ -219,14 +219,15 @@ const Home = () => {
             src={mobile}
             loading="lazy"
             className="w-32 md:w-full"
-            
             alt="รับเขียนโปรแกรม ขอนแก่น รับทำเว็บไซต์ SEO ขอนแก่น"
           />
         </div>
         <div className="w-full lg:w-2/3 flex flex-col items-center justify-center gap-10 ">
           <div className="flex flex-row gap-4 text-right">
             <div>
-              <h3 className="text-base lg:text-xl">4. Online ใช้งานได้ทุกที่</h3>
+              <h3 className="text-base lg:text-xl">
+                4. Online ใช้งานได้ทุกที่
+              </h3>
               <p className="text-gray-700 text-sm lg:text-base mt-1">
                 ผู้จัดการสามารถตรวจสอบยอดขาย หรือ
                 ความเคลื่อนไหวของร้านค้าตัวเองได้จากที่ไหนก็ได้ ทุกที่ทุกเวลา
@@ -237,7 +238,9 @@ const Home = () => {
 
           <div className="flex flex-row gap-4 text-right ">
             <div>
-              <h3 className="text-base lg:text-xl">5. คำนวณแม่น ลดการผิดพลาด</h3>
+              <h3 className="text-base lg:text-xl">
+                5. คำนวณแม่น ลดการผิดพลาด
+              </h3>
               <p className="text-gray-700 text-sm lg:text-base mt-1">
                 โปรแกรมถูกตั้งคำสั่งให้ทำงานถูกต้องแม่นยำ 100%
                 ทำให้ลดอาการผิดพลาดลงได้เยอะ ทำให้ธุรกิจเดินหน้าต่ออย่างรวดเร็ว
@@ -274,6 +277,8 @@ const Home = () => {
             <Image
               src={review_1}
               loading="lazy"
+              width={400}
+              height={400}
               alt="รับเขียนโปรแกรม ขอนแก่น รับทำเว็บไซต์ SEO ขอนแก่น"
             />
           </div>
@@ -282,6 +287,8 @@ const Home = () => {
             <Image
               src={review_2}
               loading="lazy"
+              width={400}
+              height={400}
               alt="รับเขียนโปรแกรม ขอนแก่น รับทำเว็บไซต์ SEO ขอนแก่น"
             />
           </div>
@@ -290,6 +297,8 @@ const Home = () => {
             <Image
               src={review_1}
               loading="lazy"
+              width={400}
+              height={400}
               alt="รับเขียนโปรแกรม ขอนแก่น รับทำเว็บไซต์ SEO ขอนแก่น"
             />
           </div>
@@ -298,6 +307,8 @@ const Home = () => {
             <Image
               src={review_2}
               loading="lazy"
+              width={400}
+              height={400}
               alt="รับเขียนโปรแกรม ขอนแก่น รับทำเว็บไซต์ SEO ขอนแก่น"
             />
           </div>
@@ -308,6 +319,8 @@ const Home = () => {
             <Image
               src={review_2}
               loading="lazy"
+              width={400}
+              height={400}
               alt="รับเขียนโปรแกรม ขอนแก่น รับทำเว็บไซต์ SEO ขอนแก่น"
             />
           </div>
@@ -316,6 +329,8 @@ const Home = () => {
             <Image
               src={review_1}
               loading="lazy"
+              width={400}
+              height={400}
               alt="รับเขียนโปรแกรม ขอนแก่น รับทำเว็บไซต์ SEO ขอนแก่น"
             />
           </div>
@@ -324,6 +339,8 @@ const Home = () => {
             <Image
               src={review_2}
               loading="lazy"
+              width={400}
+              height={400}
               alt="รับเขียนโปรแกรม ขอนแก่น รับทำเว็บไซต์ SEO ขอนแก่น"
             />
           </div>
@@ -332,6 +349,8 @@ const Home = () => {
             <Image
               src={review_1}
               loading="lazy"
+              width={400}
+              height={400}
               alt="รับเขียนโปรแกรม ขอนแก่น รับทำเว็บไซต์ SEO ขอนแก่น"
             />
           </div>
