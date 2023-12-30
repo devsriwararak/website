@@ -43,7 +43,7 @@ const Home = () => {
               loading="lazy"
               width={400}
               height={400}
-              alt="รับเขียนโปรแกรรขอนแก่น รับทำเว็บไซต์ SEO ขอนแก่น"
+              alt="รับเขียนโปรแกรม ขอนแก่น รับทำเว็บไซต์ SEO ขอนแก่น"
             />
           </div>
         </div>
@@ -124,7 +124,7 @@ const Home = () => {
               loading="lazy"
               width={200}
               height={300}
-              alt="รับเขียนโปรแกรรขอนแก่น รับทำเว็บไซต์ SEO ขอนแก่น"
+              alt="รับเขียนโปรแกรม ขอนแก่น รับทำเว็บไซต์ SEO ขอนแก่น"
             />
             <h3 className=" text-lg">1. สอบถาม-ออกแบบ</h3>
             <p className=" text-gray-700 text-center text-sm lg:text-base px-2 lg:px-5">
@@ -137,7 +137,7 @@ const Home = () => {
               loading="lazy"
               width={200}
               height={300}
-              alt="รับเขียนโปรแกรรขอนแก่น รับทำเว็บไซต์ SEO ขอนแก่น"
+              alt="รับเขียนโปรแกรม ขอนแก่น รับทำเว็บไซต์ SEO ขอนแก่น"
             />
             <h3 className="text-center text-lg">2. ลงมือทำ</h3>
             <p className="text-center text-gray-700 text-sm lg:text-base px-2 lg:px-5">
@@ -150,7 +150,7 @@ const Home = () => {
               loading="lazy"
               width={200}
               height={300}
-              alt="รับเขียนโปรแกรรขอนแก่น รับทำเว็บไซต์ SEO ขอนแก่น"
+              alt="รับเขียนโปรแกรม ขอนแก่น รับทำเว็บไซต์ SEO ขอนแก่น"
             />
             <h3 className="text-center text-lg">3. ส่งมอบงาน</h3>
             <p className="text-center text-gray-700 text-sm lg:text-base px-2 lg:px-5">
@@ -163,7 +163,7 @@ const Home = () => {
               loading="lazy"
               width={200}
               height={300}
-              alt="รับเขียนโปรแกรรขอนแก่น รับทำเว็บไซต์ SEO ขอนแก่น"
+              alt="รับเขียนโปรแกรม ขอนแก่น รับทำเว็บไซต์ SEO ขอนแก่น"
             />
             <h3 className="text-center text-lg">4. ดูแลหลังการขาย</h3>
             <p className="text-center text-gray-700 text-sm lg:text-base px-2 lg:px-5">
@@ -220,7 +220,7 @@ const Home = () => {
             loading="lazy"
             className="w-32 md:w-full"
             
-            alt="รับเขียนโปรแกรรขอนแก่น รับทำเว็บไซต์ SEO ขอนแก่น"
+            alt="รับเขียนโปรแกรม ขอนแก่น รับทำเว็บไซต์ SEO ขอนแก่น"
           />
         </div>
         <div className="w-full lg:w-2/3 flex flex-col items-center justify-center gap-10 ">
@@ -274,7 +274,7 @@ const Home = () => {
             <Image
               src={review_1}
               loading="lazy"
-              alt="รับเขียนโปรแกรรขอนแก่น รับทำเว็บไซต์ SEO ขอนแก่น"
+              alt="รับเขียนโปรแกรม ขอนแก่น รับทำเว็บไซต์ SEO ขอนแก่น"
             />
           </div>
 
@@ -282,7 +282,7 @@ const Home = () => {
             <Image
               src={review_2}
               loading="lazy"
-              alt="รับเขียนโปรแกรรขอนแก่น รับทำเว็บไซต์ SEO ขอนแก่น"
+              alt="รับเขียนโปรแกรม ขอนแก่น รับทำเว็บไซต์ SEO ขอนแก่น"
             />
           </div>
 
@@ -290,7 +290,7 @@ const Home = () => {
             <Image
               src={review_1}
               loading="lazy"
-              alt="รับเขียนโปรแกรรขอนแก่น รับทำเว็บไซต์ SEO ขอนแก่น"
+              alt="รับเขียนโปรแกรม ขอนแก่น รับทำเว็บไซต์ SEO ขอนแก่น"
             />
           </div>
 
@@ -298,7 +298,7 @@ const Home = () => {
             <Image
               src={review_2}
               loading="lazy"
-              alt="รับเขียนโปรแกรรขอนแก่น รับทำเว็บไซต์ SEO ขอนแก่น"
+              alt="รับเขียนโปรแกรม ขอนแก่น รับทำเว็บไซต์ SEO ขอนแก่น"
             />
           </div>
         </div>
@@ -308,7 +308,7 @@ const Home = () => {
             <Image
               src={review_2}
               loading="lazy"
-              alt="รับเขียนโปรแกรรขอนแก่น รับทำเว็บไซต์ SEO ขอนแก่น"
+              alt="รับเขียนโปรแกรม ขอนแก่น รับทำเว็บไซต์ SEO ขอนแก่น"
             />
           </div>
 
@@ -316,7 +316,7 @@ const Home = () => {
             <Image
               src={review_1}
               loading="lazy"
-              alt="รับเขียนโปรแกรรขอนแก่น รับทำเว็บไซต์ SEO ขอนแก่น"
+              alt="รับเขียนโปรแกรม ขอนแก่น รับทำเว็บไซต์ SEO ขอนแก่น"
             />
           </div>
 
@@ -324,7 +324,7 @@ const Home = () => {
             <Image
               src={review_2}
               loading="lazy"
-              alt="รับเขียนโปรแกรรขอนแก่น รับทำเว็บไซต์ SEO ขอนแก่น"
+              alt="รับเขียนโปรแกรม ขอนแก่น รับทำเว็บไซต์ SEO ขอนแก่น"
             />
           </div>
 
@@ -332,7 +332,7 @@ const Home = () => {
             <Image
               src={review_1}
               loading="lazy"
-              alt="รับเขียนโปรแกรรขอนแก่น รับทำเว็บไซต์ SEO ขอนแก่น"
+              alt="รับเขียนโปรแกรม ขอนแก่น รับทำเว็บไซต์ SEO ขอนแก่น"
             />
           </div>
         </div>
