@@ -15,7 +15,7 @@ const Header = () => {
     <div className="bg-white shadow-lg px-5 py-3 sm:px-20 sm:py-5 lg:py-4 w-full sticky top-0">
       <div className="flex justify-between items-center">
         <p className="font-semibold">DEV SRIWARARAK</p>
-        <div className="hidden sm:flex">
+        <div className="hidden md:flex">
           <ul className="flex flex-row gap-4 items-center cursor-pointer">
             <li className="hover:bg-purple-100 px-2 py-2 rounded-lg">หน้าหลัก</li>
             <li className="hover:bg-purple-100 px-2 py-2 rounded-lg">เกี่ยวกับเรา</li>
@@ -29,7 +29,7 @@ const Header = () => {
         </div>
 
         {/* Mobile Menu Button */}
-        <div className="sm:hidden">
+        <div className="md:hidden">
           <button
             onClick={() => openMobileMenu()}
             className="text-gray-600 hover:text-gray-800 focus:outline-none "
@@ -42,7 +42,7 @@ const Header = () => {
       </div>
   
       {/* Mobile Menu */}
-      <div style={{ display: open ? "block" : "none" }} className="sm:hidden mt-2 py-4 ">
+      <div style={{ display: open ? "block" : "none" }} className="md:hidden mt-2 py-4 ">
         <ul className="flex flex-col gap-2 justify-start ">
           <li className="hover:bg-purple-100 px-2 py-2 rounded-lg">หน้าหลัก</li>
           <li className="hover:bg-purple-100 px-2 py-2 rounded-lg">เกี่ยวกับเรา</li>
