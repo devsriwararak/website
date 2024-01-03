@@ -105,7 +105,7 @@ const Home = () => {
           </p>
 
           <div className="flex flex-col md:flex-row gap-4 mt-10 justify-between items-center ">
-            <h2 className="text-2xl">คะแนน</h2>
+            <p className="text-2xl">คะแนน</p>
             <div>
               <p className="text-5xl font-semibold text-purple-700">10+</p>
               <p className="text-purple-600">ความพึงพอใจ</p>
@@ -284,10 +284,63 @@ const Home = () => {
           ผลงานรับทำเว็บไซต์ และรับเขียนโปรแกรม ที่ผ่านมา
         </h2>
         <p className="text-gray-700 text-center mt-2 text-sm lg:text-base">
+          รวบรวมผลงานเขียนโปรแกรม และ ออกแบบ รับทำเว็บไซต์ SEO กับ Dev Sriwararak
+        </p>
+
+    
+
+        <div className="flex flex-row  gap-1 md:gap-4 md:mx-16  mt-2 md:mt-5">
+          <div className="w-full">
+            <Image
+              src="https://devsriwararak.com/wp-content/uploads/2023/09/fb-post-1.webp"
+              loading="lazy"
+              width={768}
+              height={644}
+              alt="รับเขียนโปรแกรม ขอนแก่น รับทำเว็บไซต์ SEO ขอนแก่น"
+            />
+          </div>
+
+          <div className="w-full">
+            <Image
+              src="https://devsriwararak.com/wp-content/uploads/2023/08/fb-post.webp"
+              loading="lazy"
+              width={768}
+              height={644}
+              alt="รับเขียนโปรแกรม ขอนแก่น รับทำเว็บไซต์ SEO ขอนแก่น"
+            />
+          </div>
+
+          <div className="w-full">
+            <Image
+              src="https://devsriwararak.com/wp-content/uploads/2023/08/finalp.webp"
+              loading="lazy"
+              width={768}
+              height={644}
+              alt="รับเขียนโปรแกรม ขอนแก่น รับทำเว็บไซต์ SEO ขอนแก่น"
+            />
+          </div>
+
+          <div className="w-full">
+            <Image
+              src="https://scontent.fkkc3-1.fna.fbcdn.net/v/t39.30808-6/395059840_658384996428036_6882490399155135565_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=3635dc&_nc_eui2=AeHQa8BOc296gZcKFf5cMmqVLRADMEPukkItEAMwQ-6SQgwTKXExJileUxy93UyFhcTT5q3Ien2N6Cy9sNYnaYLW&_nc_ohc=K1ZBrc0poVkAX_uBo-9&_nc_ht=scontent.fkkc3-1.fna&oh=00_AfDJ610qcRemDFlIivs7fk3JSy-wMMGTDIIh6ZB3dn6nTg&oe=659A119C"
+              loading="lazy"
+              width={768}
+              height={644}
+              alt="รับเขียนโปรแกรม ขอนแก่น รับทำเว็บไซต์ SEO ขอนแก่น"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section className="mt-24 px-10">
+
+      <h2 className="text-2xl lg:text-3xl text-center">
+          ขอขอบคุณลูกค้าทุกท่าน
+        </h2>
+        <p className="text-gray-700 text-center mt-2 text-sm lg:text-base">
           ขอขอบพระคุณลูกค้าทุกท่าน ที่ไว้วางใขใช้บริการเขียนโปรแกรม
           และทำเว็บไซต์ที่ขอนแก่น กับ Dev Sriwararak
         </p>
-        {/* <div className="flex flex-row gap-1 md:gap-4 md:mx-16 mt-10"> */}
 
         <div className=" grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2 md:gap-4 md:mx-16 mt-10">
           <div className="w-full">
@@ -331,44 +384,11 @@ const Home = () => {
           </div>
         </div>
 
-        <div className="flex flex-row  gap-1 md:gap-4 md:mx-16  mt-2 md:mt-5">
-          <div className="w-full">
-            <Image
-              src={review_2}
-              loading="lazy"
-              sizes="100vw"
-              alt="รับเขียนโปรแกรม ขอนแก่น รับทำเว็บไซต์ SEO ขอนแก่น"
-            />
-          </div>
-
-          <div className="w-full">
-            <Image
-              src={review_1}
-              loading="lazy"
-              sizes="100vw"
-              alt="รับเขียนโปรแกรม ขอนแก่น รับทำเว็บไซต์ SEO ขอนแก่น"
-            />
-          </div>
-
-          <div className="w-full">
-            <Image
-              src={review_2}
-              loading="lazy"
-              sizes="100vw"
-              alt="รับเขียนโปรแกรม ขอนแก่น รับทำเว็บไซต์ SEO ขอนแก่น"
-            />
-          </div>
-
-          <div className="w-full">
-            <Image
-              src={review_1}
-              loading="lazy"
-              sizes="100vw"
-              alt="รับเขียนโปรแกรม ขอนแก่น รับทำเว็บไซต์ SEO ขอนแก่น"
-            />
-          </div>
-        </div>
       </section>
+
+      <div className="mt-24">
+      <h2 className="text-center text-2xl lg:text-3xl">FAQ คำถามที่พบบ่อย เกี่ยวกับการเขียนโปรแกรม และทำเว็บไซต์บริษัท</h2>
+      </div>
 
       <Footer />
     </div>
