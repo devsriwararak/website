@@ -14,26 +14,24 @@ const Footer = () => {
       <div  className="w-full">
         <h3 className="text-xl">เมนู</h3>
        <ul className="text-gray-300 mt-2">
-        <li>test poduction 001</li>
-        <li>test notebook 002</li>
-        <li>11111</li>
-        <li>11111</li>
-        <li>11111</li>
-        <li>11111</li>
-        <li>11111</li>
+        <li>หน้าหลัก</li>
+        <li>เกี่ยวกับเรา</li>
+        <li>ผลงานที่ผ่านมา</li>
+        <li>บทความ เขียนโปรแกรม</li>
+        <li>ติดต่อเรา</li>
+        <li className="py-1 bg-red-500 hover:bg-red-600 mt-2 text-white flex justify-center rounded-full cursor-pointer">แบบฟอร์มจ้างงาน</li>
        </ul>
       </div>
 
       <div  className="w-full">
         <h3 className="text-xl">ข่าวใหม่</h3>
        <ul className="text-gray-300 mt-2">
-        <li>test poduction 001</li>
-        <li>test notebook 002</li>
-        <li>11111</li>
-        <li>11111</li>
-        <li>11111</li>
-        <li>11111</li>
-        <li>11111</li>
+        <li>Next.js เวอร์ชั่นใหม่</li>
+        <li>PERN STACK สอน</li>
+        <li>สอนทำ SEO 2024</li>
+        <li>สอนใช้ Astro Framework </li>
+        <li>อัพเดทข่าวโปรแกรมเมอร์ 2024</li>
+      
        </ul>
       </div>
 

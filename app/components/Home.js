@@ -84,12 +84,15 @@ const Home = () => {
                 <SiLine /> Line ติดต่อ
               </button>
             </Link>
-           <Link href={"https://www.tiktok.com/@dev_sriwararak"} target="_blank">
-           <button className="flex gap-2 items-center bg-black px-4 py-1.5 rounded-full text-white">
-              {" "}
-              <SiTiktok /> Tiktok
-            </button>
-           </Link>
+            <Link
+              href={"https://www.tiktok.com/@dev_sriwararak"}
+              target="_blank"
+            >
+              <button className="flex gap-2 items-center bg-black px-4 py-1.5 rounded-full text-white">
+                {" "}
+                <SiTiktok /> Tiktok
+              </button>
+            </Link>
           </div>
         </div>
         <div className="w-full hidden md:block">
@@ -284,43 +287,45 @@ const Home = () => {
           ขอขอบพระคุณลูกค้าทุกท่าน ที่ไว้วางใขใช้บริการเขียนโปรแกรม
           และทำเว็บไซต์ที่ขอนแก่น กับ Dev Sriwararak
         </p>
-        <div className="flex flex-row gap-1 md:gap-4 md:mx-16 mt-10">
+        {/* <div className="flex flex-row gap-1 md:gap-4 md:mx-16 mt-10"> */}
+
+        <div className=" grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2 md:gap-4 md:mx-16 mt-10">
           <div className="w-full">
             <Image
-              src={review_1}
+              src="https://devsriwararak.com/wp-content/uploads/2023/09/%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B9%80%E0%B8%82%E0%B8%B5%E0%B8%A2%E0%B8%99%E0%B9%82%E0%B8%9B%E0%B8%A3%E0%B9%81%E0%B8%81%E0%B8%A3%E0%B8%A1-%E0%B8%82%E0%B8%AD%E0%B8%99%E0%B9%81%E0%B8%81%E0%B9%88%E0%B8%99-7-768x644.webp"
               loading="lazy"
-              width={400}
-              height={400}
+              width={768}
+              height={644}
               alt="รับเขียนโปรแกรม ขอนแก่น รับทำเว็บไซต์ SEO ขอนแก่น"
             />
           </div>
 
           <div className="w-full">
             <Image
-              src={review_2}
+              src="https://devsriwararak.com/wp-content/uploads/2023/09/%E0%B8%A3%E0%B8%B5%E0%B8%A7%E0%B8%B4%E0%B8%A7%E0%B8%A5%E0%B8%B9%E0%B8%81%E0%B8%84%E0%B9%89%E0%B8%B2-%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B9%80%E0%B8%82%E0%B8%B5%E0%B8%A2%E0%B8%99%E0%B9%82%E0%B8%9B%E0%B8%A3%E0%B9%81%E0%B8%81%E0%B8%A3%E0%B8%A1%E0%B8%82%E0%B8%AD%E0%B8%AD%E0%B8%99%E0%B9%81%E0%B8%81%E0%B9%88%E0%B8%99-%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B8%97%E0%B8%B3%E0%B9%80%E0%B8%A7%E0%B9%87%E0%B8%9A%E0%B9%84%E0%B8%8B%E0%B8%95%E0%B9%8C-%E0%B8%82%E0%B8%AD%E0%B8%99%E0%B9%81%E0%B8%81%E0%B9%88%E0%B8%99-1-768x644.webp"
               loading="lazy"
-              width={400}
-              height={400}
+              width={768}
+              height={644}
               alt="รับเขียนโปรแกรม ขอนแก่น รับทำเว็บไซต์ SEO ขอนแก่น"
             />
           </div>
 
           <div className="w-full">
             <Image
-              src={review_1}
+              src="https://devsriwararak.com/wp-content/uploads/2023/09/%E0%B8%A3%E0%B8%B5%E0%B8%A7%E0%B8%B4%E0%B8%A7%E0%B8%A5%E0%B8%B9%E0%B8%81%E0%B8%84%E0%B9%89%E0%B8%B2-%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B9%80%E0%B8%82%E0%B8%B5%E0%B8%A2%E0%B8%99%E0%B9%82%E0%B8%9B%E0%B8%A3%E0%B9%81%E0%B8%81%E0%B8%A3%E0%B8%A1%E0%B8%82%E0%B8%AD%E0%B8%AD%E0%B8%99%E0%B9%81%E0%B8%81%E0%B9%88%E0%B8%99-%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B8%97%E0%B8%B3%E0%B9%80%E0%B8%A7%E0%B9%87%E0%B8%9A%E0%B9%84%E0%B8%8B%E0%B8%95%E0%B9%8C-%E0%B8%82%E0%B8%AD%E0%B8%99%E0%B9%81%E0%B8%81%E0%B9%88%E0%B8%99-2-768x605.webp"
               loading="lazy"
-              width={400}
-              height={400}
+              width={768}
+              height={644}
               alt="รับเขียนโปรแกรม ขอนแก่น รับทำเว็บไซต์ SEO ขอนแก่น"
             />
           </div>
 
           <div className="w-full">
             <Image
-              src={review_2}
+              src="https://scontent.fkkc3-1.fna.fbcdn.net/v/t39.30808-6/391651922_651562217110314_7027506916239292627_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=dd5e9f&_nc_eui2=AeGLQgHMSuBTKABzWIYA-Y1JEe5KA1OjbSIR7koDU6NtIrYfRHwj3aIyVTiuaE2BHBC4QO99Ho0ZLLwyBhBhvogV&_nc_ohc=jyn7qRj6MWkAX96RM0f&_nc_ht=scontent.fkkc3-1.fna&oh=00_AfDkiPW-njaBa9LgsvebqWgJrUZQaWEc1vxny3Xpb5SSdg&oe=65999725"
               loading="lazy"
-              width={400}
-              height={400}
+              width={768}
+              height={644}
               alt="รับเขียนโปรแกรม ขอนแก่น รับทำเว็บไซต์ SEO ขอนแก่น"
             />
           </div>
@@ -331,8 +336,7 @@ const Home = () => {
             <Image
               src={review_2}
               loading="lazy"
-              width={400}
-              height={400}
+              sizes="100vw"
               alt="รับเขียนโปรแกรม ขอนแก่น รับทำเว็บไซต์ SEO ขอนแก่น"
             />
           </div>
@@ -341,8 +345,7 @@ const Home = () => {
             <Image
               src={review_1}
               loading="lazy"
-              width={400}
-              height={400}
+              sizes="100vw"
               alt="รับเขียนโปรแกรม ขอนแก่น รับทำเว็บไซต์ SEO ขอนแก่น"
             />
           </div>
@@ -351,8 +354,7 @@ const Home = () => {
             <Image
               src={review_2}
               loading="lazy"
-              width={400}
-              height={400}
+              sizes="100vw"
               alt="รับเขียนโปรแกรม ขอนแก่น รับทำเว็บไซต์ SEO ขอนแก่น"
             />
           </div>
@@ -361,8 +363,7 @@ const Home = () => {
             <Image
               src={review_1}
               loading="lazy"
-              width={400}
-              height={400}
+              sizes="100vw"
               alt="รับเขียนโปรแกรม ขอนแก่น รับทำเว็บไซต์ SEO ขอนแก่น"
             />
           </div>
