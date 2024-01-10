@@ -8,7 +8,7 @@ const Footer = () => {
       <div className="w-full">
         <h3 className="text-xl">DEV SRIWARARAK</h3>
         <p className="text-gray-300 mt-2">รับเขียนโปรแกรม รับออกแบบเว็บไซต์ ตามความต้องการของลูกค้า ทุกธุรกิจ ครบวงจร</p>
-        <button className="bg-purple-500 px-10 py-1.5 rounded-full mt-5 hover:bg-purple-600">ติดต่อเรา</button>
+        <button className="bg-purple-700 px-10 py-1.5 rounded-full mt-5 hover:bg-purple-600">ติดต่อเรา</button>
       </div>
 
       <div  className="w-full">
@@ -19,7 +19,7 @@ const Footer = () => {
         <li>ผลงานที่ผ่านมา</li>
         <li>บทความ เขียนโปรแกรม</li>
         <li>ติดต่อเรา</li>
-        <li className="py-1 bg-red-500 hover:bg-red-600 mt-2 text-white flex justify-center rounded-full cursor-pointer">แบบฟอร์มจ้างงาน</li>
+        <li className="py-1 bg-red-700 hover:bg-red-600 mt-2 text-white flex justify-center rounded-full cursor-pointer">แบบฟอร์มจ้างงาน</li>
        </ul>
       </div>
 

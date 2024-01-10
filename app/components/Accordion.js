@@ -125,7 +125,7 @@ const Accordion = () => {
 
         {/* number 3 */}
         <div className="border border-t-0  border-gray-300 ">
-          <h2 className="mb-0" id="headingTwo">
+          <h2 className="mb-0" id="headingThree">
             <button
               className={` ${
                 isActive.number3
@@ -135,9 +135,9 @@ const Accordion = () => {
               type="button"
               data-te-collapse-init
               data-te-collapse-collapsed
-              data-te-target="#collapseTwo"
+              data-te-target="#collapseThree"
               aria-expanded="false"
-              aria-controls="collapseTwo"
+              aria-controls="collapseThree"
               onClick={() => handleActive("number3")}
             >
               3. พัฒนาผลิตภัณฑ์และบริการให้ดีขึ้น
@@ -165,7 +165,7 @@ const Accordion = () => {
             id="collapseTwo"
             className={`!visible bg-white ${!isActive.number3 && "hidden"} `}
             data-te-collapse-item
-            aria-labelledby="headingTwo"
+            aria-labelledby="headingThree"
             data-te-parent="#accordionExample"
           >
             <div className="px-5 py-4">
@@ -179,7 +179,7 @@ const Accordion = () => {
 
         {/* number 4 */}
         <div className="rounded-b-lg border border-t-0  border-gray-300 ">
-          <h2 className="accordion-header mb-0" id="headingThree">
+          <h2 className="accordion-header mb-0" id="headingFore">
             <button
               className={` ${
                 isActive.number4
@@ -189,9 +189,9 @@ const Accordion = () => {
               type="button"
               data-te-collapse-init
               data-te-collapse-collapsed
-              data-te-target="#collapseThree"
+              data-te-target="#collapseFore"
               aria-expanded="false"
-              aria-controls="collapseThree"
+              aria-controls="collapseFore"
               onClick={() => handleActive("number4")}
             >
               4. เพิ่มความปลอดภัย ทุกอย่างตรวจสอบได้
@@ -219,7 +219,7 @@ const Accordion = () => {
             id="collapseThree"
             className={`!visible bg-white ${!isActive.number4 && "hidden"} `}
             data-te-collapse-item
-            aria-labelledby="headingThree"
+            aria-labelledby="headingFore"
             data-te-parent="#accordionExample"
           >
             <div className="px-5 py-4">
