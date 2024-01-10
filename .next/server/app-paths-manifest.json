@@ -1,1 +1,6 @@
-{}
+{
+  "/page": "app/page.js",
+  "/about/page": "app/about/page.js",
+  "/robots.txt/route": "app/robots.txt/route.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js"
+}

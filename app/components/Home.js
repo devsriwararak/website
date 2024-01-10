@@ -1,14 +1,35 @@
 import React from "react";
-import banner from "../../public/images/banner.png";
-import mobile from "../../app/components/images/mobile.png";
-import review_1 from "../components/images/รับเขียนโปรแกรม-ขอนแก่น-1.webp";
-import review_2 from "../components/images/รับเขียนโปรแกรม-ขอนแก่น-2.webp";
+import banner from "../../public/images/banner.webp";
+import mobile from "../../public/images/mobile.webp";
+import logo from "../../public/images/dev_sriwararak-รับทำเว็บไซต์-รับเขียนโปรแกรม-ขอนแก่น.webp";
+// เกี่ยวกับ
+import about_1 from "../../public/images/สอบถาม-ออกแบบ รับเขียนโปรแกรม ขอนแก่น.webp";
+import about_2 from "../../public/images/ลงมือทำ รับเขียนโปรแกรม ขอนแก่น.webp";
+import about_3 from "../../public/images/ส่งมอบงาน รับเขียนโปรแกรม ขอนแก่น.webp";
+import about_4 from "../../public/images/ดูแลหลังการขาย รับเขียนโปรแกรม ขอนแก่น.webp";
+// ผลงานที่ผ่านมา
+import review_1 from "../../public/images/ผลงาน/ผลงานเขียนโปรแกรมศาลเจ้าขอนแก่น.webp";
+import review_2 from "../../public/images/ผลงาน/ผลงานรับทำเว็บไซต์ บริษัทอสังหาริมทรัพย์.webp";
+import review_3 from "../../public/images/ผลงาน/ผงานทำเว็บไซต์โรงน้ำแข็งที่ขอนแก่น.webp";
+import review_4 from "../../public/images/ผลงาน/ผลงานรับทำเว็บไซต์ ขอนแก่น บริษัทจำหน่ายอุปกรณ์ฟิตเนส.webp";
+import review_5 from "../../public/images/ผลงาน/ผลงานรับทำเว็บไซต์ ขอนแก่น เว็บขายเสื้อผ้าออนไลน์.webp";
+import review_6 from "../../public/images/ผลงาน/ผลงานรับทำเว็บไซต์ ขอนแก่น เว็บรับฝากสุนัข.webp";
+// ขอขอบคุณลูกค้า
+import thankyou_1 from "../../public/images/ขอบคุณลูกค้า/ขอขอบคุณลูกค้า รับเขียนโปรแกรม ขอนแก่น 1.webp";
+import thankyou_2 from "../../public/images/ขอบคุณลูกค้า/ขอขอบคุณลูกค้า-รับเขียนโปรแกรม-ขอนแก่น-2.webp";
+import thankyou_3 from "../../public/images/ขอบคุณลูกค้า/ขอขอบคุณลูกค้า-รับเขียนโปรแกรม-ขอนแก่น-3.webp";
+import thankyou_4 from "../../public/images/ขอบคุณลูกค้า/ขอขอบคุณลูกค้า รับเขียนโปรแกรม ขอนแก่น 4.webp";
+
 import Image from "next/image";
 import { FaBeer } from "react-icons/fa";
 import { AiFillFacebook, AiFillPhone } from "react-icons/ai";
+import { FcComboChart } from "react-icons/fc";
 import { SiLine, SiTiktok } from "react-icons/si";
+import { HiComputerDesktop, HiMiniCpuChip, HiMiniGlobeAsiaAustralia, HiMiniPresentationChartLine, HiMiniServerStack, HiMiniShieldExclamation, HiMiniUserGroup } from "react-icons/hi2";
+
 import Footer from "./Footer";
 import Link from "next/link";
+import Accordion from "./Accordion";
 
 const Home = () => {
   return (
@@ -37,13 +58,13 @@ const Home = () => {
             </button>
           </div>
         </div>
-        <div className=" hidden lg:block  w-2/4   ">
-          <div className="flex justify-start ">
+        <div className=" hidden   w-2/4  lg:flex justify-center items-end    ">
+          <div className="">
             <Image
-              src={banner}
+              src={about_1}
               loading="lazy"
-              width={400}
-              height={400}
+              width={500}
+              height={500}
               alt="รับเขียนโปรแกรม ขอนแก่น รับทำเว็บไซต์ SEO ขอนแก่น"
             />
           </div>
@@ -67,7 +88,7 @@ const Home = () => {
               href={"https://www.facebook.com/dev.sriwararak"}
               target="_blank"
             >
-              <button className="flex gap-2 items-center bg-blue-600 px-5 py-1.5 rounded-lg text-white">
+              <button className="flex gap-2 items-center bg-blue-700 px-5 py-1.5 rounded-lg text-white">
                 {" "}
                 <AiFillFacebook /> Facebook
               </button>
@@ -135,7 +156,7 @@ const Home = () => {
         <div className="flex flex-col md:flex-row   gap-0 mt-10 mx-14 lg:mx-20 ">
           <div className="w-full flex  flex-col gap-2 items-center  ">
             <Image
-              src={banner}
+              src={about_1}
               loading="lazy"
               width={200}
               height={300}
@@ -148,20 +169,20 @@ const Home = () => {
           </div>
           <div className=" w-full flex  flex-col gap-2 items-center">
             <Image
-              src={banner}
+              src={about_2}
               loading="lazy"
               width={200}
               height={300}
               alt="รับเขียนโปรแกรม ขอนแก่น รับทำเว็บไซต์ SEO ขอนแก่น"
             />
-            <h3 className="text-center text-lg">2. ลงมือทำ</h3>
+            <h3 className="text-center text-lg ">2. ลงมือทำ</h3>
             <p className="text-center text-gray-700 text-sm lg:text-base px-2 lg:px-5">
               เริ่มการพัฒนาโปรแกรมและเว็บไซต์ให้ตรงตามความต้องการของลูกค้า
             </p>
           </div>
           <div className=" w-full flex  flex-col gap-2 items-center">
             <Image
-              src={banner}
+              src={about_3}
               loading="lazy"
               width={200}
               height={300}
@@ -174,7 +195,7 @@ const Home = () => {
           </div>
           <div className=" w-full flex  flex-col gap-2 items-center">
             <Image
-              src={banner}
+              src={about_4}
               loading="lazy"
               width={200}
               height={300}
@@ -197,7 +218,7 @@ const Home = () => {
       <section className="flex flex-col md:flex-row gap-2 lg:gap-10 mx-10 lg:mx-20 mt-10  ">
         <div className=" w-full lg:w-2/3 flex flex-col items-center justify-center gap-10  ">
           <div className="flex  flex-row gap-4 ">
-            <SiTiktok size={40} />
+            <HiMiniPresentationChartLine  size={49} />
             <div>
               <h3 className="text-base lg:text-xl">1. ช่วยเพิ่มยอดขาย</h3>
               <p className="text-gray-700 text-sm lg:text-base mt-1">
@@ -208,7 +229,7 @@ const Home = () => {
           </div>
 
           <div className="flex flex-row gap-4 ">
-            <SiTiktok size={40} />
+            <HiMiniServerStack size={40} />
             <div>
               <h3 className="text-base lg:text-xl">2. จัดเก็บข้อมูลเป็นระบบ</h3>
               <p className="text-gray-700 text-sm lg:text-base mt-1">
@@ -219,7 +240,7 @@ const Home = () => {
           </div>
 
           <div className="flex flex-row gap-4 ">
-            <SiTiktok size={40} />
+            <HiMiniShieldExclamation size={42} />
             <div>
               <h3 className="text-base lg:text-xl">3. ลดการทำงานที่ซ้ำซ้อน</h3>
               <p className="text-gray-700 text-sm lg:text-base mt-1">
@@ -238,20 +259,20 @@ const Home = () => {
           />
         </div>
         <div className="w-full lg:w-2/3 flex flex-col items-center justify-center gap-10 ">
-          <div className="flex flex-row gap-4 text-right">
+          <div className="flex flex-row gap-4 text-left md:text-right">
             <div>
               <h3 className="text-base lg:text-xl">
-                4. Online ใช้งานได้ทุกที่
+                4. ออนไลน์ใช้งานได้ทุกที่
               </h3>
               <p className="text-gray-700 text-sm lg:text-base mt-1">
                 ผู้จัดการสามารถตรวจสอบยอดขาย หรือ
                 ความเคลื่อนไหวของร้านค้าตัวเองได้จากที่ไหนก็ได้ ทุกที่ทุกเวลา
               </p>
             </div>
-            <SiTiktok size={40} />
+            <HiMiniGlobeAsiaAustralia size={42} />
           </div>
 
-          <div className="flex flex-row gap-4 text-right ">
+          <div className="flex flex-row gap-4 text-left md:text-right ">
             <div>
               <h3 className="text-base lg:text-xl">
                 5. คำนวณแม่น ลดการผิดพลาด
@@ -261,10 +282,10 @@ const Home = () => {
                 ทำให้ลดอาการผิดพลาดลงได้เยอะ ทำให้ธุรกิจเดินหน้าต่ออย่างรวดเร็ว
               </p>
             </div>
-            <SiTiktok size={40} />
+            <HiMiniCpuChip size={49} />
           </div>
 
-          <div className="flex flex-row gap-4 text-right ">
+          <div className="flex flex-row gap-4 text-left md:text-right ">
             <div>
               <h3 className="text-base lg:text-xl">6. สร้างความน่าเชื่อถือ</h3>
               <p className="text-gray-700 text-sm lg:text-base mt-1">
@@ -273,7 +294,7 @@ const Home = () => {
                 และเชื่อถือในความเป็นมืออาชีพของเรา
               </p>
             </div>
-            <SiTiktok size={40} />
+            <HiMiniUserGroup size={49} />
           </div>
         </div>
       </section>
@@ -284,57 +305,87 @@ const Home = () => {
           ผลงานรับทำเว็บไซต์ และรับเขียนโปรแกรม ที่ผ่านมา
         </h2>
         <p className="text-gray-700 text-center mt-2 text-sm lg:text-base">
-          รวบรวมผลงานเขียนโปรแกรม และ ออกแบบ รับทำเว็บไซต์ SEO กับ Dev Sriwararak
+          รวบรวมผลงานเขียนโปรแกรม และ ออกแบบ รับทำเว็บไซต์ SEO กับ Dev
+          Sriwararak
         </p>
-
-    
 
         <div className="flex flex-row  gap-1 md:gap-4 md:mx-16  mt-2 md:mt-5">
           <div className="w-full">
             <Image
-              src="https://devsriwararak.com/wp-content/uploads/2023/09/fb-post-1.webp"
+              src={review_1}
               loading="lazy"
               width={768}
               height={644}
-              alt="รับเขียนโปรแกรม ขอนแก่น รับทำเว็บไซต์ SEO ขอนแก่น"
+              alt="ผลงานเขียนโปรแกรมศาลเจ้าขอนแก่น"
             />
           </div>
 
           <div className="w-full">
             <Image
-              src="https://devsriwararak.com/wp-content/uploads/2023/08/fb-post.webp"
+              src={review_2}
               loading="lazy"
               width={768}
               height={644}
-              alt="รับเขียนโปรแกรม ขอนแก่น รับทำเว็บไซต์ SEO ขอนแก่น"
+              alt="ผลงานรับทำเว็บไซต์ บริษัทอสังหาริมทรัพย์"
             />
           </div>
 
           <div className="w-full">
             <Image
-              src="https://devsriwararak.com/wp-content/uploads/2023/08/finalp.webp"
+              src={review_3}
               loading="lazy"
               width={768}
               height={644}
-              alt="รับเขียนโปรแกรม ขอนแก่น รับทำเว็บไซต์ SEO ขอนแก่น"
+              alt="ผงานทำเว็บไซต์โรงน้ำแข็งที่ขอนแก่น"
+            />
+          </div>
+        </div>
+
+        <div className=" grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2 md:gap-4 md:mx-16 mt-5">
+          <div className="w-full">
+            <Image
+              src={review_4}
+              loading="lazy"
+              width={768}
+              height={644}
+              alt="ผลงานรับทำเว็บไซต์ ขอนแก่น บริษัทจำหน่ายอุปกรณ์ฟิตเนส"
             />
           </div>
 
           <div className="w-full">
             <Image
-              src="https://scontent.fkkc3-1.fna.fbcdn.net/v/t39.30808-6/395059840_658384996428036_6882490399155135565_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=3635dc&_nc_eui2=AeHQa8BOc296gZcKFf5cMmqVLRADMEPukkItEAMwQ-6SQgwTKXExJileUxy93UyFhcTT5q3Ien2N6Cy9sNYnaYLW&_nc_ohc=K1ZBrc0poVkAX_uBo-9&_nc_ht=scontent.fkkc3-1.fna&oh=00_AfDJ610qcRemDFlIivs7fk3JSy-wMMGTDIIh6ZB3dn6nTg&oe=659A119C"
+              src={review_5}
               loading="lazy"
               width={768}
               height={644}
-              alt="รับเขียนโปรแกรม ขอนแก่น รับทำเว็บไซต์ SEO ขอนแก่น"
+              alt="ผลงานรับทำเว็บไซต์ ขอนแก่น เว็บขายเสื้อผ้าออนไลน์"
+            />
+          </div>
+
+          <div className="w-full">
+            <Image
+              src={review_6}
+              loading="lazy"
+              width={768}
+              height={644}
+              alt="ผลงานรับทำเว็บไซต์ ขอนแก่น เว็บรับฝากสุนัข"
+            />
+          </div>
+
+          <div className="w-full">
+            <Image
+              src={review_5}
+              loading="lazy"
+              width={768}
+              height={644}
+              alt="ผลงานรับทำเว็บไซต์ ขอนแก่น เว็บขายเสื้อผ้าออนไลน์"
             />
           </div>
         </div>
       </section>
 
       <section className="mt-24 px-10">
-
-      <h2 className="text-2xl lg:text-3xl text-center">
+        <h2 className="text-2xl lg:text-3xl text-center">
           ขอขอบคุณลูกค้าทุกท่าน
         </h2>
         <p className="text-gray-700 text-center mt-2 text-sm lg:text-base">
@@ -345,50 +396,67 @@ const Home = () => {
         <div className=" grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2 md:gap-4 md:mx-16 mt-10">
           <div className="w-full">
             <Image
-              src="https://devsriwararak.com/wp-content/uploads/2023/09/%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B9%80%E0%B8%82%E0%B8%B5%E0%B8%A2%E0%B8%99%E0%B9%82%E0%B8%9B%E0%B8%A3%E0%B9%81%E0%B8%81%E0%B8%A3%E0%B8%A1-%E0%B8%82%E0%B8%AD%E0%B8%99%E0%B9%81%E0%B8%81%E0%B9%88%E0%B8%99-7-768x644.webp"
+              src={thankyou_1}
               loading="lazy"
               width={768}
               height={644}
-              alt="รับเขียนโปรแกรม ขอนแก่น รับทำเว็บไซต์ SEO ขอนแก่น"
+              alt="ขอขอบคุณลูกค้า รับเขียนโปรแกรม รับทำเว็บไซต์"
             />
           </div>
 
           <div className="w-full">
             <Image
-              src="https://devsriwararak.com/wp-content/uploads/2023/09/%E0%B8%A3%E0%B8%B5%E0%B8%A7%E0%B8%B4%E0%B8%A7%E0%B8%A5%E0%B8%B9%E0%B8%81%E0%B8%84%E0%B9%89%E0%B8%B2-%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B9%80%E0%B8%82%E0%B8%B5%E0%B8%A2%E0%B8%99%E0%B9%82%E0%B8%9B%E0%B8%A3%E0%B9%81%E0%B8%81%E0%B8%A3%E0%B8%A1%E0%B8%82%E0%B8%AD%E0%B8%AD%E0%B8%99%E0%B9%81%E0%B8%81%E0%B9%88%E0%B8%99-%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B8%97%E0%B8%B3%E0%B9%80%E0%B8%A7%E0%B9%87%E0%B8%9A%E0%B9%84%E0%B8%8B%E0%B8%95%E0%B9%8C-%E0%B8%82%E0%B8%AD%E0%B8%99%E0%B9%81%E0%B8%81%E0%B9%88%E0%B8%99-1-768x644.webp"
+              src={thankyou_2}
               loading="lazy"
               width={768}
               height={644}
-              alt="รับเขียนโปรแกรม ขอนแก่น รับทำเว็บไซต์ SEO ขอนแก่น"
+              alt="ขอขอบคุณลูกค้า รับเขียนโปรแกรม รับทำเว็บไซต์ "
             />
           </div>
 
           <div className="w-full">
             <Image
-              src="https://devsriwararak.com/wp-content/uploads/2023/09/%E0%B8%A3%E0%B8%B5%E0%B8%A7%E0%B8%B4%E0%B8%A7%E0%B8%A5%E0%B8%B9%E0%B8%81%E0%B8%84%E0%B9%89%E0%B8%B2-%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B9%80%E0%B8%82%E0%B8%B5%E0%B8%A2%E0%B8%99%E0%B9%82%E0%B8%9B%E0%B8%A3%E0%B9%81%E0%B8%81%E0%B8%A3%E0%B8%A1%E0%B8%82%E0%B8%AD%E0%B8%AD%E0%B8%99%E0%B9%81%E0%B8%81%E0%B9%88%E0%B8%99-%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B8%97%E0%B8%B3%E0%B9%80%E0%B8%A7%E0%B9%87%E0%B8%9A%E0%B9%84%E0%B8%8B%E0%B8%95%E0%B9%8C-%E0%B8%82%E0%B8%AD%E0%B8%99%E0%B9%81%E0%B8%81%E0%B9%88%E0%B8%99-2-768x605.webp"
+              src={thankyou_3}
               loading="lazy"
               width={768}
               height={644}
-              alt="รับเขียนโปรแกรม ขอนแก่น รับทำเว็บไซต์ SEO ขอนแก่น"
+              alt="ขอขอบคุณลูกค้า รับเขียนโปรแกรม รับทำเว็บไซต์"
             />
           </div>
 
           <div className="w-full">
             <Image
-              src="https://scontent.fkkc3-1.fna.fbcdn.net/v/t39.30808-6/391651922_651562217110314_7027506916239292627_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=dd5e9f&_nc_eui2=AeGLQgHMSuBTKABzWIYA-Y1JEe5KA1OjbSIR7koDU6NtIrYfRHwj3aIyVTiuaE2BHBC4QO99Ho0ZLLwyBhBhvogV&_nc_ohc=jyn7qRj6MWkAX96RM0f&_nc_ht=scontent.fkkc3-1.fna&oh=00_AfDkiPW-njaBa9LgsvebqWgJrUZQaWEc1vxny3Xpb5SSdg&oe=65999725"
+              src={thankyou_4}
               loading="lazy"
               width={768}
               height={644}
-              alt="รับเขียนโปรแกรม ขอนแก่น รับทำเว็บไซต์ SEO ขอนแก่น"
+              alt="ขอขอบคุณลูกค้า รับเขียนโปรแกรม รับทำเว็บไซต์"
             />
           </div>
         </div>
-
       </section>
 
-      <div className="mt-24">
-      <h2 className="text-center text-2xl lg:text-3xl">FAQ คำถามที่พบบ่อย เกี่ยวกับการเขียนโปรแกรม และทำเว็บไซต์บริษัท</h2>
-      </div>
+      <section className="mt-24 mx-10 md:mx-32">
+        <h2 className="text-center text-2xl lg:text-3xl">
+          FAQ คำถามที่พบบ่อย เกี่ยวกับการเขียนโปรแกรม และทำเว็บไซต์บริษัท
+        </h2>
+
+        <div className="flex flex-col md:flex-row gap-4 justify-center mt-12 ">
+          <div className="w-full">
+            <Accordion />
+          </div>
+          <div className="w-full  block mt-4 ">
+            <div className="flex justify-center items-center">
+              <Image
+                src={logo}
+                loading="lazy"
+                className=" rounded-lg w-64 md:w-80 block "
+                alt="ขอขอบคุณลูกค้า รับเขียนโปรแกรม รับทำเว็บไซต์"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
 
       <Footer />
     </div>

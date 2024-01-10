@@ -2,9 +2,12 @@
 
 import Link from "next/link";
 import React, { useState } from "react";
+import { usePathname } from 'next/navigation'
+
 
 const Header = () => {
   const [open, setOpen] = useState(false);
+  const pathname = usePathname()
 
   // Function to open mobile menu
   const openMobileMenu = () => {
@@ -13,16 +16,16 @@ const Header = () => {
   return (
     <div className="bg-white shadow-lg px-5 py-3 sm:px-20 sm:py-5 lg:py-4 w-full sticky top-0">
       <div className="flex justify-between items-center">
-        <p className="font-semibold">DEV SRIWARARAK</p>
+        <p className="font-semibold">DEV SRIWARARAK </p>
         <div className="hidden md:flex">
           <ul className="flex flex-row gap-4 items-center cursor-pointer">
             <Link href="/">
-              <li className="hover:bg-purple-100 px-2 py-2 rounded-lg">
+            <li className={`hover:bg-purple-100 px-2 py-2 rounded-lg ${pathname === "/" && "bg-purple-100"}`}>
                 หน้าหลัก
               </li>
             </Link>
             <Link href="/about">
-              <li className="hover:bg-purple-100 px-2 py-2 rounded-lg">
+              <li className={`hover:bg-purple-100 px-2 py-2 rounded-lg ${pathname === "/about" && "bg-purple-100"}`}>
                 เกี่ยวกับเรา
               </li>
             </Link>
@@ -32,8 +35,8 @@ const Header = () => {
               ติดต่อเรา
             </li>
             <li>
-              <button className="bg-purple-600 hover:bg-purple-700 text-white px-3 py-1.5 rounded-full">
-                แบบฟอร์มจ้างงาน
+              <button className="bg-purple-800 hover:bg-purple-700 text-white px-3 py-1.5 rounded-full">
+                ฟอร์มจ้างงาน
               </button>
             </li>
           </ul>
