@@ -1,24 +1,24 @@
 import React from "react";
-import banner from "../../public/images/banner.webp";
-import mobile from "../../public/images/mobile.webp";
-import logo from "../../public/images/dev_sriwararak-รับทำเว็บไซต์-รับเขียนโปรแกรม-ขอนแก่น.webp";
+// import banner from "../../public/images/banner.webp";
+// import mobile from "../../public/images/mobile.webp";
+// import logo from "../../public/images/dev_sriwararak-รับทำเว็บไซต์-รับเขียนโปรแกรม-ขอนแก่น.webp";
 // เกี่ยวกับ
-import about_1 from "../../public/images/สอบถาม-ออกแบบ รับเขียนโปรแกรม ขอนแก่น.webp";
-import about_2 from "../../public/images/ลงมือทำ รับเขียนโปรแกรม ขอนแก่น.webp";
-import about_3 from "../../public/images/ส่งมอบงาน รับเขียนโปรแกรม ขอนแก่น.webp";
-import about_4 from "../../public/images/ดูแลหลังการขาย รับเขียนโปรแกรม ขอนแก่น.webp";
+// import about_1 from "../../public/images/สอบถาม-ออกแบบ รับเขียนโปรแกรม ขอนแก่น.webp";
+// import about_2 from "../../public/images/ลงมือทำ รับเขียนโปรแกรม ขอนแก่น.webp";
+// import about_3 from "../../public/images/ส่งมอบงาน รับเขียนโปรแกรม ขอนแก่น.webp";
+// import about_4 from "../../public/images/ดูแลหลังการขาย รับเขียนโปรแกรม ขอนแก่น.webp";
 // ผลงานที่ผ่านมา
-import review_1 from "../../public/images/ผลงาน/ผลงานเขียนโปรแกรมศาลเจ้าขอนแก่น.webp";
-import review_2 from "../../public/images/ผลงาน/ผลงานรับทำเว็บไซต์ บริษัทอสังหาริมทรัพย์.webp";
-import review_3 from "../../public/images/ผลงาน/ผงานทำเว็บไซต์โรงน้ำแข็งที่ขอนแก่น.webp";
-import review_4 from "../../public/images/ผลงาน/ผลงานรับทำเว็บไซต์ ขอนแก่น บริษัทจำหน่ายอุปกรณ์ฟิตเนส.webp";
-import review_5 from "../../public/images/ผลงาน/ผลงานรับทำเว็บไซต์ ขอนแก่น เว็บขายเสื้อผ้าออนไลน์.webp";
-import review_6 from "../../public/images/ผลงาน/ผลงานรับทำเว็บไซต์ ขอนแก่น เว็บรับฝากสุนัข.webp";
+// import review_1 from "../../public/images/ผลงาน/ผลงานเขียนโปรแกรมศาลเจ้าขอนแก่น.webp";
+// import review_2 from "../../public/images/ผลงาน/ผลงานรับทำเว็บไซต์ บริษัทอสังหาริมทรัพย์.webp";
+// import review_3 from "../../public/images/ผลงาน/ผงานทำเว็บไซต์โรงน้ำแข็งที่ขอนแก่น.webp";
+// import review_4 from "../../public/images/ผลงาน/ผลงานรับทำเว็บไซต์ ขอนแก่น บริษัทจำหน่ายอุปกรณ์ฟิตเนส.webp";
+// import review_5 from "../../public/images/ผลงาน/ผลงานรับทำเว็บไซต์ ขอนแก่น เว็บขายเสื้อผ้าออนไลน์.webp";
+// import review_6 from "../../public/images/ผลงาน/ผลงานรับทำเว็บไซต์ ขอนแก่น เว็บรับฝากสุนัข.webp";
 // ขอขอบคุณลูกค้า
-import thankyou_1 from "../../public/images/ขอบคุณลูกค้า/ขอขอบคุณลูกค้า รับเขียนโปรแกรม ขอนแก่น 1.webp";
-import thankyou_2 from "../../public/images/ขอบคุณลูกค้า/ขอขอบคุณลูกค้า-รับเขียนโปรแกรม-ขอนแก่น-2.webp";
-import thankyou_3 from "../../public/images/ขอบคุณลูกค้า/ขอขอบคุณลูกค้า-รับเขียนโปรแกรม-ขอนแก่น-3.webp";
-import thankyou_4 from "../../public/images/ขอบคุณลูกค้า/ขอขอบคุณลูกค้า รับเขียนโปรแกรม ขอนแก่น 4.webp";
+// import thankyou_1 from "../../public/images/ขอบคุณลูกค้า/ขอขอบคุณลูกค้า รับเขียนโปรแกรม ขอนแก่น 1.webp";
+// import thankyou_2 from "../../public/images/ขอบคุณลูกค้า/ขอขอบคุณลูกค้า-รับเขียนโปรแกรม-ขอนแก่น-2.webp";
+// import thankyou_3 from "../../public/images/ขอบคุณลูกค้า/ขอขอบคุณลูกค้า-รับเขียนโปรแกรม-ขอนแก่น-3.webp";
+// import thankyou_4 from "../../public/images/ขอบคุณลูกค้า/ขอขอบคุณลูกค้า รับเขียนโปรแกรม ขอนแก่น 4.webp";
 
 import Image from "next/image";
 import { FaBeer } from "react-icons/fa";
@@ -61,7 +61,7 @@ const Home = () => {
         <div className=" hidden   w-2/4  lg:flex justify-center items-end    ">
           <div className="">
             <Image
-              src={about_1}
+              src="https://devsriwararak.com/wp-content/uploads/2024/01/%E0%B8%AA%E0%B8%AD%E0%B8%9A%E0%B8%96%E0%B8%B2%E0%B8%A1-%E0%B8%AD%E0%B8%AD%E0%B8%81%E0%B9%81%E0%B8%9A%E0%B8%9A-%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B9%80%E0%B8%82%E0%B8%B5%E0%B8%A2%E0%B8%99%E0%B9%82%E0%B8%9B%E0%B8%A3%E0%B9%81%E0%B8%81%E0%B8%A3%E0%B8%A1-%E0%B8%82%E0%B8%AD%E0%B8%99%E0%B9%81%E0%B8%81%E0%B9%88%E0%B8%99.webp"
               loading="lazy"
               width={500}
               height={500}
@@ -70,6 +70,7 @@ const Home = () => {
           </div>
         </div>
       </div>
+
 
       {/*  About Me section */}
 
@@ -156,7 +157,7 @@ const Home = () => {
         <div className="flex flex-col md:flex-row   gap-0 mt-10 mx-14 lg:mx-20 ">
           <div className="w-full flex  flex-col gap-2 items-center  ">
             <Image
-              src={about_1}
+              src="https://devsriwararak.com/wp-content/uploads/2024/01/%E0%B8%AA%E0%B8%AD%E0%B8%9A%E0%B8%96%E0%B8%B2%E0%B8%A1-%E0%B8%AD%E0%B8%AD%E0%B8%81%E0%B9%81%E0%B8%9A%E0%B8%9A-%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B9%80%E0%B8%82%E0%B8%B5%E0%B8%A2%E0%B8%99%E0%B9%82%E0%B8%9B%E0%B8%A3%E0%B9%81%E0%B8%81%E0%B8%A3%E0%B8%A1-%E0%B8%82%E0%B8%AD%E0%B8%99%E0%B9%81%E0%B8%81%E0%B9%88%E0%B8%99.webp"
               loading="lazy"
               width={200}
               height={300}
@@ -169,7 +170,7 @@ const Home = () => {
           </div>
           <div className=" w-full flex  flex-col gap-2 items-center">
             <Image
-              src={about_2}
+              src="https://devsriwararak.com/wp-content/uploads/2024/01/%E0%B8%A5%E0%B8%87%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%97%E0%B8%B3-%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B9%80%E0%B8%82%E0%B8%B5%E0%B8%A2%E0%B8%99%E0%B9%82%E0%B8%9B%E0%B8%A3%E0%B9%81%E0%B8%81%E0%B8%A3%E0%B8%A1-%E0%B8%82%E0%B8%AD%E0%B8%99%E0%B9%81%E0%B8%81%E0%B9%88%E0%B8%99.webp"
               loading="lazy"
               width={200}
               height={300}
@@ -182,7 +183,7 @@ const Home = () => {
           </div>
           <div className=" w-full flex  flex-col gap-2 items-center">
             <Image
-              src={about_3}
+              src="https://devsriwararak.com/wp-content/uploads/2024/01/%E0%B8%AA%E0%B9%88%E0%B8%87%E0%B8%A1%E0%B8%AD%E0%B8%9A%E0%B8%87%E0%B8%B2%E0%B8%99-%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B9%80%E0%B8%82%E0%B8%B5%E0%B8%A2%E0%B8%99%E0%B9%82%E0%B8%9B%E0%B8%A3%E0%B9%81%E0%B8%81%E0%B8%A3%E0%B8%A1-%E0%B8%82%E0%B8%AD%E0%B8%99%E0%B9%81%E0%B8%81%E0%B9%88%E0%B8%99.webp"
               loading="lazy"
               width={200}
               height={300}
@@ -195,7 +196,7 @@ const Home = () => {
           </div>
           <div className=" w-full flex  flex-col gap-2 items-center">
             <Image
-              src={about_4}
+              src="https://devsriwararak.com/wp-content/uploads/2024/01/%E0%B8%94%E0%B8%B9%E0%B9%81%E0%B8%A5%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%87%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%82%E0%B8%B2%E0%B8%A2-%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B9%80%E0%B8%82%E0%B8%B5%E0%B8%A2%E0%B8%99%E0%B9%82%E0%B8%9B%E0%B8%A3%E0%B9%81%E0%B8%81%E0%B8%A3%E0%B8%A1-%E0%B8%82%E0%B8%AD%E0%B8%99%E0%B9%81%E0%B8%81%E0%B9%88%E0%B8%99.webp"
               loading="lazy"
               width={200}
               height={300}
@@ -252,7 +253,9 @@ const Home = () => {
         </div>
         <div className=" w-full md:w-2/3 lg:w-1/3 flex justify-center py-5 md:py-0  ">
           <Image
-            src={mobile}
+            src="https://devsriwararak.com/wp-content/uploads/2024/01/mobile.webp"
+            width={200}
+            height={300}
             loading="lazy"
             className="w-32 md:w-full"
             alt="รับเขียนโปรแกรม ขอนแก่น รับทำเว็บไซต์ SEO ขอนแก่น"
@@ -312,7 +315,7 @@ const Home = () => {
         <div className="flex flex-row  gap-1 md:gap-4 md:mx-16  mt-2 md:mt-5">
           <div className="w-full">
             <Image
-              src={review_1}
+              src="https://devsriwararak.com/wp-content/uploads/2024/01/%E0%B8%9C%E0%B8%A5%E0%B8%87%E0%B8%B2%E0%B8%99%E0%B9%80%E0%B8%82%E0%B8%B5%E0%B8%A2%E0%B8%99%E0%B9%82%E0%B8%9B%E0%B8%A3%E0%B9%81%E0%B8%81%E0%B8%A3%E0%B8%A1%E0%B8%A8%E0%B8%B2%E0%B8%A5%E0%B9%80%E0%B8%88%E0%B9%89%E0%B8%B2%E0%B8%82%E0%B8%AD%E0%B8%99%E0%B9%81%E0%B8%81%E0%B9%88%E0%B8%99.webp"
               loading="lazy"
               width={768}
               height={644}
@@ -322,7 +325,7 @@ const Home = () => {
 
           <div className="w-full">
             <Image
-              src={review_2}
+              src="https://devsriwararak.com/wp-content/uploads/2023/11/webport.webp"
               loading="lazy"
               width={768}
               height={644}
@@ -332,7 +335,7 @@ const Home = () => {
 
           <div className="w-full">
             <Image
-              src={review_3}
+              src="https://devsriwararak.com/wp-content/uploads/2023/08/finalp.webp"
               loading="lazy"
               width={768}
               height={644}
@@ -344,7 +347,7 @@ const Home = () => {
         <div className=" grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2 md:gap-4 md:mx-16 mt-5">
           <div className="w-full">
             <Image
-              src={review_4}
+              src="https://devsriwararak.com/wp-content/uploads/2023/09/fb-post-1.webp"
               loading="lazy"
               width={768}
               height={644}
@@ -354,7 +357,7 @@ const Home = () => {
 
           <div className="w-full">
             <Image
-              src={review_5}
+              src="https://devsriwararak.com/wp-content/uploads/2023/08/fb-post.webp"
               loading="lazy"
               width={768}
               height={644}
@@ -364,7 +367,7 @@ const Home = () => {
 
           <div className="w-full">
             <Image
-              src={review_6}
+              src="https://devsriwararak.com/wp-content/uploads/2023/10/fb-post-2.webp"
               loading="lazy"
               width={768}
               height={644}
@@ -374,7 +377,7 @@ const Home = () => {
 
           <div className="w-full">
             <Image
-              src={review_5}
+              src="https://devsriwararak.com/wp-content/uploads/2023/08/fb-post.webp"
               loading="lazy"
               width={768}
               height={644}
@@ -396,7 +399,7 @@ const Home = () => {
         <div className=" grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2 md:gap-4 md:mx-16 mt-10">
           <div className="w-full">
             <Image
-              src={thankyou_1}
+              src="https://devsriwararak.com/wp-content/uploads/2023/09/%E0%B8%A3%E0%B8%B5%E0%B8%A7%E0%B8%B4%E0%B8%A7%E0%B8%A5%E0%B8%B9%E0%B8%81%E0%B8%84%E0%B9%89%E0%B8%B2-%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B9%80%E0%B8%82%E0%B8%B5%E0%B8%A2%E0%B8%99%E0%B9%82%E0%B8%9B%E0%B8%A3%E0%B9%81%E0%B8%81%E0%B8%A3%E0%B8%A1%E0%B8%82%E0%B8%AD%E0%B8%AD%E0%B8%99%E0%B9%81%E0%B8%81%E0%B9%88%E0%B8%99-%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B8%97%E0%B8%B3%E0%B9%80%E0%B8%A7%E0%B9%87%E0%B8%9A%E0%B9%84%E0%B8%8B%E0%B8%95%E0%B9%8C-%E0%B8%82%E0%B8%AD%E0%B8%99%E0%B9%81%E0%B8%81%E0%B9%88%E0%B8%99-1.webp"
               loading="lazy"
               width={768}
               height={644}
@@ -406,7 +409,7 @@ const Home = () => {
 
           <div className="w-full">
             <Image
-              src={thankyou_2}
+              src="https://devsriwararak.com/wp-content/uploads/2023/09/%E0%B8%A3%E0%B8%B5%E0%B8%A7%E0%B8%B4%E0%B8%A7%E0%B8%A5%E0%B8%B9%E0%B8%81%E0%B8%84%E0%B9%89%E0%B8%B2-%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B9%80%E0%B8%82%E0%B8%B5%E0%B8%A2%E0%B8%99%E0%B9%82%E0%B8%9B%E0%B8%A3%E0%B9%81%E0%B8%81%E0%B8%A3%E0%B8%A1%E0%B8%82%E0%B8%AD%E0%B8%AD%E0%B8%99%E0%B9%81%E0%B8%81%E0%B9%88%E0%B8%99-%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B8%97%E0%B8%B3%E0%B9%80%E0%B8%A7%E0%B9%87%E0%B8%9A%E0%B9%84%E0%B8%8B%E0%B8%95%E0%B9%8C-%E0%B8%82%E0%B8%AD%E0%B8%99%E0%B9%81%E0%B8%81%E0%B9%88%E0%B8%99-2.webp"
               loading="lazy"
               width={768}
               height={644}
@@ -416,7 +419,7 @@ const Home = () => {
 
           <div className="w-full">
             <Image
-              src={thankyou_3}
+              src="https://devsriwararak.com/wp-content/uploads/2024/01/%E0%B8%82%E0%B8%AD%E0%B8%82%E0%B8%AD%E0%B8%9A%E0%B8%84%E0%B8%B8%E0%B8%93%E0%B8%A5%E0%B8%B9%E0%B8%81%E0%B8%84%E0%B9%89%E0%B8%B2-%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B9%80%E0%B8%82%E0%B8%B5%E0%B8%A2%E0%B8%99%E0%B9%82%E0%B8%9B%E0%B8%A3%E0%B9%81%E0%B8%81%E0%B8%A3%E0%B8%A1-%E0%B8%82%E0%B8%AD%E0%B8%99%E0%B9%81%E0%B8%81%E0%B9%88%E0%B8%99-3.webp"
               loading="lazy"
               width={768}
               height={644}
@@ -426,7 +429,7 @@ const Home = () => {
 
           <div className="w-full">
             <Image
-              src={thankyou_4}
+              src="https://devsriwararak.com/wp-content/uploads/2024/01/%E0%B8%82%E0%B8%AD%E0%B8%82%E0%B8%AD%E0%B8%9A%E0%B8%84%E0%B8%B8%E0%B8%93%E0%B8%A5%E0%B8%B9%E0%B8%81%E0%B8%84%E0%B9%89%E0%B8%B2-%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B9%80%E0%B8%82%E0%B8%B5%E0%B8%A2%E0%B8%99%E0%B9%82%E0%B8%9B%E0%B8%A3%E0%B9%81%E0%B8%81%E0%B8%A3%E0%B8%A1-%E0%B8%82%E0%B8%AD%E0%B8%99%E0%B9%81%E0%B8%81%E0%B9%88%E0%B8%99-4.webp"
               loading="lazy"
               width={768}
               height={644}
@@ -448,8 +451,10 @@ const Home = () => {
           <div className="w-full  block mt-4 ">
             <div className="flex justify-center items-center">
               <Image
-                src={logo}
+                src="https://devsriwararak.com/wp-content/uploads/2023/09/dev_sriwararak-%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B8%97%E0%B8%B3%E0%B9%80%E0%B8%A7%E0%B9%87%E0%B8%9A%E0%B9%84%E0%B8%8B%E0%B8%95%E0%B9%8C-%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B9%80%E0%B8%82%E0%B8%B5%E0%B8%A2%E0%B8%99%E0%B9%82%E0%B8%9B%E0%B8%A3%E0%B9%81%E0%B8%81%E0%B8%A3%E0%B8%A1-%E0%B8%82%E0%B8%AD%E0%B8%99%E0%B9%81%E0%B8%81%E0%B9%88%E0%B8%99.webp"
                 loading="lazy"
+                width={768}
+                height={644}
                 className=" rounded-lg w-64 md:w-80 block "
                 alt="ขอขอบคุณลูกค้า รับเขียนโปรแกรม รับทำเว็บไซต์"
               />
@@ -457,6 +462,8 @@ const Home = () => {
           </div>
         </div>
       </section>
+
+      
 
       <Footer />
     </div>
