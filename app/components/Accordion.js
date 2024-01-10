@@ -162,7 +162,7 @@ const Accordion = () => {
             </button>
           </h2>
           <div
-            id="collapseTwo"
+            id="collapseThree"
             className={`!visible bg-white ${!isActive.number3 && "hidden"} `}
             data-te-collapse-item
             aria-labelledby="headingThree"
@@ -216,7 +216,7 @@ const Accordion = () => {
             </button>
           </h2>
           <div
-            id="collapseThree"
+            id="collapseFore"
             className={`!visible bg-white ${!isActive.number4 && "hidden"} `}
             data-te-collapse-item
             aria-labelledby="headingFore"
