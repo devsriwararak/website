@@ -54,13 +54,14 @@ const page = () => {
         </div>
 
         <div className="flex flex-row  gap-1 md:gap-4  mt-6">
-          <div className="w-full">
+          <div className="w-full ">
             <Image
               src="https://devsriwararak.com/wp-content/uploads/2024/01/%E0%B8%9C%E0%B8%A5%E0%B8%87%E0%B8%B2%E0%B8%99%E0%B9%80%E0%B8%82%E0%B8%B5%E0%B8%A2%E0%B8%99%E0%B9%82%E0%B8%9B%E0%B8%A3%E0%B9%81%E0%B8%81%E0%B8%A3%E0%B8%A1%E0%B8%A8%E0%B8%B2%E0%B8%A5%E0%B9%80%E0%B8%88%E0%B9%89%E0%B8%B2%E0%B8%82%E0%B8%AD%E0%B8%99%E0%B9%81%E0%B8%81%E0%B9%88%E0%B8%99.webp"
               loading="lazy"
               width={760}
               height={500}
               alt="ผลงานเขียนโปรแกรมศาลเจ้าขอนแก่น"
+              className="rounded-md"
             />
           </div>
 
@@ -71,6 +72,7 @@ const page = () => {
               width={760}
               height={500}
               alt="ผลงานรับทำเว็บไซต์ บริษัทอสังหาริมทรัพย์"
+              className="rounded-md"
             />
           </div>
 
@@ -81,6 +83,7 @@ const page = () => {
               width={760}
               height={500}
               alt="ผงานทำเว็บไซต์โรงน้ำแข็งที่ขอนแก่น"
+              className="rounded-md"
             />
           </div>
         </div>
@@ -93,6 +96,7 @@ const page = () => {
               width={760}
               height={500}
               alt="ผลงานรับทำเว็บไซต์ ขอนแก่น บริษัทจำหน่ายอุปกรณ์ฟิตเนส"
+              className="rounded-md"
             />
           </div>
 
@@ -103,6 +107,7 @@ const page = () => {
               width={760}
               height={500}
               alt="ผลงานรับทำเว็บไซต์ ขอนแก่น เว็บขายเสื้อผ้าออนไลน์"
+              className="rounded-md"
             />
           </div>
 
@@ -113,6 +118,7 @@ const page = () => {
               width={760}
               height={500}
               alt="ผลงานรับทำเว็บไซต์ ขอนแก่น เว็บรับฝากสุนัข"
+              className="rounded-md"
             />
           </div>
 
@@ -123,6 +129,7 @@ const page = () => {
               width={500}
               height={500}
               alt="ผลงานรับทำเว็บไซต์ ขอนแก่น เว็บขายเสื้อผ้าออนไลน์"
+              className="rounded-md"
             />
           </div>
         </div>
