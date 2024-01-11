@@ -65,12 +65,10 @@ const Home = () => {
             </Link>
 
             <Link href="/review">
-            <button className="bg-purple-200 text-purple-700 px-6 py-2 rounded-full border border-purple-700 hover:bg-purple-900 hover:text-white hover:border-white">
-              ผลงานที่ผ่านมา
-            </button>
+              <button className="bg-purple-200 text-purple-700 px-6 py-2 rounded-full border border-purple-700 hover:bg-purple-900 hover:text-white hover:border-white">
+                ผลงานที่ผ่านมา
+              </button>
             </Link>
-
-      
           </div>
         </div>
         <div className=" hidden   w-2/4  lg:flex justify-center items-end    ">
@@ -81,6 +79,9 @@ const Home = () => {
               width={500}
               height={500}
               alt="รับเขียนโปรแกรม ขอนแก่น รับทำเว็บไซต์ SEO ขอนแก่น"
+              // layout="responsive"
+              objectFit="cover"
+              quality={75}
             />
           </div>
         </div>
@@ -176,6 +177,8 @@ const Home = () => {
               width={200}
               height={130}
               alt="รับเขียนโปรแกรม ขอนแก่น รับทำเว็บไซต์ SEO ขอนแก่น"
+              objectFit="cover"
+              quality={75}
             />
             <h3 className=" text-lg">1. สอบถาม-ออกแบบ</h3>
             <p className=" text-gray-700 text-center text-sm lg:text-base px-2 lg:px-5">
@@ -189,6 +192,8 @@ const Home = () => {
               width={200}
               height={130}
               alt="รับเขียนโปรแกรม ขอนแก่น รับทำเว็บไซต์ SEO ขอนแก่น"
+              objectFit="cover"
+              quality={75}
             />
             <h3 className="text-center text-lg ">2. ลงมือทำ</h3>
             <p className="text-center text-gray-700 text-sm lg:text-base px-2 lg:px-5">
@@ -202,6 +207,8 @@ const Home = () => {
               width={200}
               height={130}
               alt="รับเขียนโปรแกรม ขอนแก่น รับทำเว็บไซต์ SEO ขอนแก่น"
+              objectFit="cover"
+              quality={75}
             />
             <h3 className="text-center text-lg">3. ส่งมอบงาน</h3>
             <p className="text-center text-gray-700 text-sm lg:text-base px-2 lg:px-5">
@@ -215,6 +222,8 @@ const Home = () => {
               width={200}
               height={130}
               alt="รับเขียนโปรแกรม ขอนแก่น รับทำเว็บไซต์ SEO ขอนแก่น"
+              objectFit="cover"
+              quality={75}
             />
             <h3 className="text-center text-lg">4. ดูแลหลังการขาย</h3>
             <p className="text-center text-gray-700 text-sm lg:text-base px-2 lg:px-5">
@@ -273,6 +282,8 @@ const Home = () => {
             loading="lazy"
             className="w-32 md:w-full"
             alt="รับเขียนโปรแกรม ขอนแก่น รับทำเว็บไซต์ SEO ขอนแก่น"
+            objectFit="cover"
+            quality={75}
           />
         </div>
         <div className="w-full lg:w-2/3 flex flex-col items-center justify-center gap-10 ">
@@ -334,6 +345,8 @@ const Home = () => {
               width={768}
               height={644}
               alt="ผลงานเขียนโปรแกรมศาลเจ้าขอนแก่น"
+              objectFit="cover"
+              quality={75}
             />
           </div>
 
@@ -344,6 +357,8 @@ const Home = () => {
               width={768}
               height={644}
               alt="ผลงานรับทำเว็บไซต์ บริษัทอสังหาริมทรัพย์"
+              objectFit="cover"
+              quality={75}
             />
           </div>
 
@@ -354,6 +369,8 @@ const Home = () => {
               width={768}
               height={644}
               alt="ผงานทำเว็บไซต์โรงน้ำแข็งที่ขอนแก่น"
+              objectFit="cover"
+              quality={75}
             />
           </div>
         </div>
@@ -366,6 +383,8 @@ const Home = () => {
               width={760}
               height={500}
               alt="ผลงานรับทำเว็บไซต์ ขอนแก่น บริษัทจำหน่ายอุปกรณ์ฟิตเนส"
+              objectFit="cover"
+              quality={75}
             />
           </div>
 
@@ -376,6 +395,8 @@ const Home = () => {
               width={760}
               height={500}
               alt="ผลงานรับทำเว็บไซต์ ขอนแก่น เว็บขายเสื้อผ้าออนไลน์"
+              objectFit="cover"
+              quality={75}
             />
           </div>
 
@@ -386,6 +407,8 @@ const Home = () => {
               width={760}
               height={500}
               alt="ผลงานรับทำเว็บไซต์ ขอนแก่น เว็บรับฝากสุนัข"
+              objectFit="cover"
+              quality={75}
             />
           </div>
 
@@ -396,6 +419,8 @@ const Home = () => {
               width={760}
               height={500}
               alt="ผลงานรับทำเว็บไซต์ ขอนแก่น เว็บขายเสื้อผ้าออนไลน์"
+              objectFit="cover"
+              quality={75}
             />
           </div>
         </div>
@@ -418,6 +443,8 @@ const Home = () => {
               width={760}
               height={500}
               alt="ขอขอบคุณลูกค้า รับเขียนโปรแกรม รับทำเว็บไซต์"
+              objectFit="cover"
+              quality={75}
             />
           </div>
 
@@ -428,6 +455,8 @@ const Home = () => {
               width={760}
               height={500}
               alt="ขอขอบคุณลูกค้า รับเขียนโปรแกรม รับทำเว็บไซต์ "
+              objectFit="cover"
+              quality={75}
             />
           </div>
 
@@ -438,6 +467,8 @@ const Home = () => {
               width={760}
               height={500}
               alt="ขอขอบคุณลูกค้า รับเขียนโปรแกรม รับทำเว็บไซต์"
+              objectFit="cover"
+              quality={75}
             />
           </div>
 
@@ -448,6 +479,8 @@ const Home = () => {
               width={760}
               height={500}
               alt="ขอขอบคุณลูกค้า รับเขียนโปรแกรม รับทำเว็บไซต์"
+              objectFit="cover"
+              quality={75}
             />
           </div>
         </div>
@@ -476,7 +509,6 @@ const Home = () => {
           </div>
         </div>
       </section>
-
     </div>
   );
 };
