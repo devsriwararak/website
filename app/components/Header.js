@@ -94,17 +94,18 @@ const Header = () => {
         className="md:hidden mt-2 py-4 "
       >
         <ul className="flex flex-col gap-2 justify-start ">
-          <Link href="/">
+          <Link href="/" onClick={() => openMobileMenu()}>
             <li
               className={`hover:bg-purple-100 px-2 py-2 rounded-lg ${
                 pathname === "/" && "bg-purple-200"
               }`}
+              
             >
               หน้าหลัก
             </li>
           </Link>
 
-          <Link href="/about">
+          <Link href="/about"  onClick={() => openMobileMenu()}>
             <li
               className={`hover:bg-purple-100 px-2 py-2 rounded-lg ${
                 pathname === "/about" && "bg-purple-200"
@@ -114,7 +115,7 @@ const Header = () => {
             </li>
           </Link>
 
-          <Link href="/review">
+          <Link href="/review"  onClick={() => openMobileMenu()}>
             <li
               className={`hover:bg-purple-100 px-2 py-2 rounded-lg ${
                 pathname === "/review" && "bg-purple-200"
@@ -126,7 +127,7 @@ const Header = () => {
 
           <li className="hover:bg-purple-100 px-2 py-2 rounded-lg">บทความ</li>
 
-          <Link href="/contact">
+          <Link href="/contact"  onClick={() => openMobileMenu()}>
             <li
               className={`hover:bg-purple-100 px-2 py-2 rounded-lg ${
                 pathname === "/contact" && "bg-purple-200"
