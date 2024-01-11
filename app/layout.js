@@ -2,6 +2,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import Header from "./components/Header";
 import SpeedDial from "./components/SpeedDial";
+import Footer from "./components/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -38,6 +39,8 @@ export default function RootLayout({ children }) {
           <SpeedDial />
           {children}
         </div>
+
+        <Footer/>
       </body>
     </html>
   );
