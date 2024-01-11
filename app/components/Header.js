@@ -2,12 +2,11 @@
 
 import Link from "next/link";
 import React, { useState } from "react";
-import { usePathname } from 'next/navigation'
-
+import { usePathname } from "next/navigation";
 
 const Header = () => {
   const [open, setOpen] = useState(false);
-  const pathname = usePathname()
+  const pathname = usePathname();
 
   // Function to open mobile menu
   const openMobileMenu = () => {
@@ -20,20 +19,43 @@ const Header = () => {
         <div className="hidden md:flex">
           <ul className="flex flex-row gap-4 items-center cursor-pointer">
             <Link href="/">
-            <li className={`hover:bg-purple-100 px-2 py-2 rounded-lg ${pathname === "/" && "bg-purple-100"}`}>
+              <li
+                className={`hover:bg-purple-100 px-2 py-2 rounded-lg ${
+                  pathname === "/" && "bg-purple-100"
+                }`}
+              >
                 หน้าหลัก
               </li>
             </Link>
             <Link href="/about">
-              <li className={`hover:bg-purple-100 px-2 py-2 rounded-lg ${pathname === "/about" && "bg-purple-100"}`}>
+              <li
+                className={`hover:bg-purple-100 px-2 py-2 rounded-lg ${
+                  pathname === "/about" && "bg-purple-100"
+                }`}
+              >
                 เกี่ยวกับเรา
               </li>
             </Link>
-            <li className="hover:bg-purple-100 px-2 py-2 rounded-lg">ผลงาน</li>
+            <Link href="/review">
+              <li
+                className={`hover:bg-purple-100 px-2 py-2 rounded-lg ${
+                  pathname === "/review" && "bg-purple-100"
+                }`}
+              >
+                ผลงาน
+              </li>
+            </Link>
             <li className="hover:bg-purple-100 px-2 py-2 rounded-lg">บทความ</li>
-            <li className="hover:bg-purple-100 px-2 py-2 rounded-lg">
-              ติดต่อเรา
-            </li>
+            <Link href="/contact">
+              <li
+                className={`hover:bg-purple-100 px-2 py-2 rounded-lg ${
+                  pathname === "/contact" && "bg-purple-100"
+                }`}
+              >
+                ติดต่อเรา
+              </li>
+            </Link>
+
             <li>
               <button className="bg-purple-800 hover:bg-purple-700 text-white px-3 py-1.5 rounded-full">
                 ฟอร์มจ้างงาน
@@ -73,21 +95,48 @@ const Header = () => {
       >
         <ul className="flex flex-col gap-2 justify-start ">
           <Link href="/">
-            <li className="hover:bg-purple-100 px-2 py-2 rounded-lg">
+            <li
+              className={`hover:bg-purple-100 px-2 py-2 rounded-lg ${
+                pathname === "/" && "bg-purple-200"
+              }`}
+            >
               หน้าหลัก
             </li>
           </Link>
 
-      <Link href="/about">
-      <li className="hover:bg-purple-100 px-2 py-2 rounded-lg">
-            เกี่ยวกับเรา
-          </li>
-      </Link>
-          <li className="hover:bg-purple-100 px-2 py-2 rounded-lg">ผลงาน</li>
+          <Link href="/about">
+            <li
+              className={`hover:bg-purple-100 px-2 py-2 rounded-lg ${
+                pathname === "/about" && "bg-purple-200"
+              }`}
+            >
+              เกี่ยวกับเรา
+            </li>
+          </Link>
+
+          <Link href="/review">
+            <li
+              className={`hover:bg-purple-100 px-2 py-2 rounded-lg ${
+                pathname === "/review" && "bg-purple-200"
+              }`}
+            >
+              ผลงาน
+            </li>
+          </Link>
+
           <li className="hover:bg-purple-100 px-2 py-2 rounded-lg">บทความ</li>
-          <li className="hover:bg-purple-100 px-2 py-2 rounded-lg">
-            ติดต่อเรา
-          </li>
+
+          <Link href="/contact">
+            <li
+              className={`hover:bg-purple-100 px-2 py-2 rounded-lg ${
+                pathname === "/contact" && "bg-purple-200"
+              }`}
+            >
+              ติดต่อเรา
+            </li>
+          </Link>
+
+       
           <li>
             <button className="bg-purple-600 hover:bg-purple-700 text-white px-3 py-1.5 rounded-full">
               แบบฟอร์มจ้างงาน

@@ -25,7 +25,15 @@ import { FaBeer } from "react-icons/fa";
 import { AiFillFacebook, AiFillPhone } from "react-icons/ai";
 import { FcComboChart } from "react-icons/fc";
 import { SiLine, SiTiktok } from "react-icons/si";
-import { HiComputerDesktop, HiMiniCpuChip, HiMiniGlobeAsiaAustralia, HiMiniPresentationChartLine, HiMiniServerStack, HiMiniShieldExclamation, HiMiniUserGroup } from "react-icons/hi2";
+import {
+  HiComputerDesktop,
+  HiMiniCpuChip,
+  HiMiniGlobeAsiaAustralia,
+  HiMiniPresentationChartLine,
+  HiMiniServerStack,
+  HiMiniShieldExclamation,
+  HiMiniUserGroup,
+} from "react-icons/hi2";
 
 import Footer from "./Footer";
 import Link from "next/link";
@@ -50,12 +58,19 @@ const Home = () => {
             เหมาะสำหรับทุกธุรกิจที่กำลังเติบโต
           </p>
           <div className="flex flex-col justify-center lg:justify-normal md:flex-row gap-4 mt-5 ">
-            <button className="bg-purple-700 text-white px-6 py-2 rounded-full border border-purple-700 hover:bg-purple-200 hover:text-purple-700">
-              ติดต่อเรา
-            </button>
+            <Link href="/contact">
+              <button className="bg-purple-700 text-white px-6 py-2 rounded-full border border-purple-700 hover:bg-purple-200 hover:text-purple-700">
+                ติดต่อเรา
+              </button>
+            </Link>
+
+            <Link href="/review">
             <button className="bg-purple-200 text-purple-700 px-6 py-2 rounded-full border border-purple-700 hover:bg-purple-900 hover:text-white hover:border-white">
               ผลงานที่ผ่านมา
             </button>
+            </Link>
+
+      
           </div>
         </div>
         <div className=" hidden   w-2/4  lg:flex justify-center items-end    ">
@@ -70,7 +85,6 @@ const Home = () => {
           </div>
         </div>
       </div>
-
 
       {/*  About Me section */}
 
@@ -160,7 +174,7 @@ const Home = () => {
               src="https://devsriwararak.com/wp-content/uploads/2024/01/%E0%B8%AA%E0%B8%AD%E0%B8%9A%E0%B8%96%E0%B8%B2%E0%B8%A1-%E0%B8%AD%E0%B8%AD%E0%B8%81%E0%B9%81%E0%B8%9A%E0%B8%9A-%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B9%80%E0%B8%82%E0%B8%B5%E0%B8%A2%E0%B8%99%E0%B9%82%E0%B8%9B%E0%B8%A3%E0%B9%81%E0%B8%81%E0%B8%A3%E0%B8%A1-%E0%B8%82%E0%B8%AD%E0%B8%99%E0%B9%81%E0%B8%81%E0%B9%88%E0%B8%99.webp"
               loading="lazy"
               width={200}
-              height={300}
+              height={130}
               alt="รับเขียนโปรแกรม ขอนแก่น รับทำเว็บไซต์ SEO ขอนแก่น"
             />
             <h3 className=" text-lg">1. สอบถาม-ออกแบบ</h3>
@@ -173,7 +187,7 @@ const Home = () => {
               src="https://devsriwararak.com/wp-content/uploads/2024/01/%E0%B8%A5%E0%B8%87%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%97%E0%B8%B3-%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B9%80%E0%B8%82%E0%B8%B5%E0%B8%A2%E0%B8%99%E0%B9%82%E0%B8%9B%E0%B8%A3%E0%B9%81%E0%B8%81%E0%B8%A3%E0%B8%A1-%E0%B8%82%E0%B8%AD%E0%B8%99%E0%B9%81%E0%B8%81%E0%B9%88%E0%B8%99.webp"
               loading="lazy"
               width={200}
-              height={300}
+              height={130}
               alt="รับเขียนโปรแกรม ขอนแก่น รับทำเว็บไซต์ SEO ขอนแก่น"
             />
             <h3 className="text-center text-lg ">2. ลงมือทำ</h3>
@@ -186,7 +200,7 @@ const Home = () => {
               src="https://devsriwararak.com/wp-content/uploads/2024/01/%E0%B8%AA%E0%B9%88%E0%B8%87%E0%B8%A1%E0%B8%AD%E0%B8%9A%E0%B8%87%E0%B8%B2%E0%B8%99-%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B9%80%E0%B8%82%E0%B8%B5%E0%B8%A2%E0%B8%99%E0%B9%82%E0%B8%9B%E0%B8%A3%E0%B9%81%E0%B8%81%E0%B8%A3%E0%B8%A1-%E0%B8%82%E0%B8%AD%E0%B8%99%E0%B9%81%E0%B8%81%E0%B9%88%E0%B8%99.webp"
               loading="lazy"
               width={200}
-              height={300}
+              height={130}
               alt="รับเขียนโปรแกรม ขอนแก่น รับทำเว็บไซต์ SEO ขอนแก่น"
             />
             <h3 className="text-center text-lg">3. ส่งมอบงาน</h3>
@@ -199,7 +213,7 @@ const Home = () => {
               src="https://devsriwararak.com/wp-content/uploads/2024/01/%E0%B8%94%E0%B8%B9%E0%B9%81%E0%B8%A5%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%87%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%82%E0%B8%B2%E0%B8%A2-%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B9%80%E0%B8%82%E0%B8%B5%E0%B8%A2%E0%B8%99%E0%B9%82%E0%B8%9B%E0%B8%A3%E0%B9%81%E0%B8%81%E0%B8%A3%E0%B8%A1-%E0%B8%82%E0%B8%AD%E0%B8%99%E0%B9%81%E0%B8%81%E0%B9%88%E0%B8%99.webp"
               loading="lazy"
               width={200}
-              height={300}
+              height={130}
               alt="รับเขียนโปรแกรม ขอนแก่น รับทำเว็บไซต์ SEO ขอนแก่น"
             />
             <h3 className="text-center text-lg">4. ดูแลหลังการขาย</h3>
@@ -219,7 +233,7 @@ const Home = () => {
       <section className="flex flex-col md:flex-row gap-2 lg:gap-10 mx-10 lg:mx-20 mt-10  ">
         <div className=" w-full lg:w-2/3 flex flex-col items-center justify-center gap-10  ">
           <div className="flex  flex-row gap-4 ">
-            <HiMiniPresentationChartLine  size={49} />
+            <HiMiniPresentationChartLine size={49} />
             <div>
               <h3 className="text-base lg:text-xl">1. ช่วยเพิ่มยอดขาย</h3>
               <p className="text-gray-700 text-sm lg:text-base mt-1">
@@ -254,8 +268,8 @@ const Home = () => {
         <div className=" w-full md:w-2/3 lg:w-1/3 flex justify-center py-5 md:py-0  ">
           <Image
             src="https://devsriwararak.com/wp-content/uploads/2024/01/mobile.webp"
-            width={200}
-            height={300}
+            width={150}
+            height={80}
             loading="lazy"
             className="w-32 md:w-full"
             alt="รับเขียนโปรแกรม ขอนแก่น รับทำเว็บไซต์ SEO ขอนแก่น"
@@ -349,8 +363,8 @@ const Home = () => {
             <Image
               src="https://devsriwararak.com/wp-content/uploads/2023/09/fb-post-1.webp"
               loading="lazy"
-              width={768}
-              height={644}
+              width={760}
+              height={500}
               alt="ผลงานรับทำเว็บไซต์ ขอนแก่น บริษัทจำหน่ายอุปกรณ์ฟิตเนส"
             />
           </div>
@@ -359,8 +373,8 @@ const Home = () => {
             <Image
               src="https://devsriwararak.com/wp-content/uploads/2023/08/fb-post.webp"
               loading="lazy"
-              width={768}
-              height={644}
+              width={760}
+              height={500}
               alt="ผลงานรับทำเว็บไซต์ ขอนแก่น เว็บขายเสื้อผ้าออนไลน์"
             />
           </div>
@@ -369,8 +383,8 @@ const Home = () => {
             <Image
               src="https://devsriwararak.com/wp-content/uploads/2023/10/fb-post-2.webp"
               loading="lazy"
-              width={768}
-              height={644}
+              width={760}
+              height={500}
               alt="ผลงานรับทำเว็บไซต์ ขอนแก่น เว็บรับฝากสุนัข"
             />
           </div>
@@ -379,8 +393,8 @@ const Home = () => {
             <Image
               src="https://devsriwararak.com/wp-content/uploads/2023/08/fb-post.webp"
               loading="lazy"
-              width={768}
-              height={644}
+              width={760}
+              height={500}
               alt="ผลงานรับทำเว็บไซต์ ขอนแก่น เว็บขายเสื้อผ้าออนไลน์"
             />
           </div>
@@ -401,8 +415,8 @@ const Home = () => {
             <Image
               src="https://devsriwararak.com/wp-content/uploads/2023/09/%E0%B8%A3%E0%B8%B5%E0%B8%A7%E0%B8%B4%E0%B8%A7%E0%B8%A5%E0%B8%B9%E0%B8%81%E0%B8%84%E0%B9%89%E0%B8%B2-%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B9%80%E0%B8%82%E0%B8%B5%E0%B8%A2%E0%B8%99%E0%B9%82%E0%B8%9B%E0%B8%A3%E0%B9%81%E0%B8%81%E0%B8%A3%E0%B8%A1%E0%B8%82%E0%B8%AD%E0%B8%AD%E0%B8%99%E0%B9%81%E0%B8%81%E0%B9%88%E0%B8%99-%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B8%97%E0%B8%B3%E0%B9%80%E0%B8%A7%E0%B9%87%E0%B8%9A%E0%B9%84%E0%B8%8B%E0%B8%95%E0%B9%8C-%E0%B8%82%E0%B8%AD%E0%B8%99%E0%B9%81%E0%B8%81%E0%B9%88%E0%B8%99-1.webp"
               loading="lazy"
-              width={768}
-              height={644}
+              width={760}
+              height={500}
               alt="ขอขอบคุณลูกค้า รับเขียนโปรแกรม รับทำเว็บไซต์"
             />
           </div>
@@ -411,8 +425,8 @@ const Home = () => {
             <Image
               src="https://devsriwararak.com/wp-content/uploads/2023/09/%E0%B8%A3%E0%B8%B5%E0%B8%A7%E0%B8%B4%E0%B8%A7%E0%B8%A5%E0%B8%B9%E0%B8%81%E0%B8%84%E0%B9%89%E0%B8%B2-%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B9%80%E0%B8%82%E0%B8%B5%E0%B8%A2%E0%B8%99%E0%B9%82%E0%B8%9B%E0%B8%A3%E0%B9%81%E0%B8%81%E0%B8%A3%E0%B8%A1%E0%B8%82%E0%B8%AD%E0%B8%AD%E0%B8%99%E0%B9%81%E0%B8%81%E0%B9%88%E0%B8%99-%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B8%97%E0%B8%B3%E0%B9%80%E0%B8%A7%E0%B9%87%E0%B8%9A%E0%B9%84%E0%B8%8B%E0%B8%95%E0%B9%8C-%E0%B8%82%E0%B8%AD%E0%B8%99%E0%B9%81%E0%B8%81%E0%B9%88%E0%B8%99-2.webp"
               loading="lazy"
-              width={768}
-              height={644}
+              width={760}
+              height={500}
               alt="ขอขอบคุณลูกค้า รับเขียนโปรแกรม รับทำเว็บไซต์ "
             />
           </div>
@@ -421,8 +435,8 @@ const Home = () => {
             <Image
               src="https://devsriwararak.com/wp-content/uploads/2024/01/%E0%B8%82%E0%B8%AD%E0%B8%82%E0%B8%AD%E0%B8%9A%E0%B8%84%E0%B8%B8%E0%B8%93%E0%B8%A5%E0%B8%B9%E0%B8%81%E0%B8%84%E0%B9%89%E0%B8%B2-%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B9%80%E0%B8%82%E0%B8%B5%E0%B8%A2%E0%B8%99%E0%B9%82%E0%B8%9B%E0%B8%A3%E0%B9%81%E0%B8%81%E0%B8%A3%E0%B8%A1-%E0%B8%82%E0%B8%AD%E0%B8%99%E0%B9%81%E0%B8%81%E0%B9%88%E0%B8%99-3.webp"
               loading="lazy"
-              width={768}
-              height={644}
+              width={760}
+              height={500}
               alt="ขอขอบคุณลูกค้า รับเขียนโปรแกรม รับทำเว็บไซต์"
             />
           </div>
@@ -431,8 +445,8 @@ const Home = () => {
             <Image
               src="https://devsriwararak.com/wp-content/uploads/2024/01/%E0%B8%82%E0%B8%AD%E0%B8%82%E0%B8%AD%E0%B8%9A%E0%B8%84%E0%B8%B8%E0%B8%93%E0%B8%A5%E0%B8%B9%E0%B8%81%E0%B8%84%E0%B9%89%E0%B8%B2-%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B9%80%E0%B8%82%E0%B8%B5%E0%B8%A2%E0%B8%99%E0%B9%82%E0%B8%9B%E0%B8%A3%E0%B9%81%E0%B8%81%E0%B8%A3%E0%B8%A1-%E0%B8%82%E0%B8%AD%E0%B8%99%E0%B9%81%E0%B8%81%E0%B9%88%E0%B8%99-4.webp"
               loading="lazy"
-              width={768}
-              height={644}
+              width={760}
+              height={500}
               alt="ขอขอบคุณลูกค้า รับเขียนโปรแกรม รับทำเว็บไซต์"
             />
           </div>
@@ -453,8 +467,8 @@ const Home = () => {
               <Image
                 src="https://devsriwararak.com/wp-content/uploads/2023/09/dev_sriwararak-%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B8%97%E0%B8%B3%E0%B9%80%E0%B8%A7%E0%B9%87%E0%B8%9A%E0%B9%84%E0%B8%8B%E0%B8%95%E0%B9%8C-%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B9%80%E0%B8%82%E0%B8%B5%E0%B8%A2%E0%B8%99%E0%B9%82%E0%B8%9B%E0%B8%A3%E0%B9%81%E0%B8%81%E0%B8%A3%E0%B8%A1-%E0%B8%82%E0%B8%AD%E0%B8%99%E0%B9%81%E0%B8%81%E0%B9%88%E0%B8%99.webp"
                 loading="lazy"
-                width={768}
-                height={644}
+                width={300}
+                height={300}
                 className=" rounded-lg w-64 md:w-80 block "
                 alt="ขอขอบคุณลูกค้า รับเขียนโปรแกรม รับทำเว็บไซต์"
               />
@@ -462,8 +476,6 @@ const Home = () => {
           </div>
         </div>
       </section>
-
-      
 
       <Footer />
     </div>
