@@ -7,6 +7,7 @@ import Footer from "./components/Footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
+  manifest: "/manifest.json",
   title: {
     default :  "DEV SRIWARARAK รับเขียนโปรแกรม รับทำเว็บไซต์ SEO ขอนแก่น",
     template :  "%s - DEV SRIWARARAK รับเขียนโปรแกรม รับทำเว็บไซต์ SEO ขอนแก่น"
