@@ -20,22 +20,7 @@ const SpeedDial = () => {
           " flex-col items-center  mb-4 space-y-2"
         )}
       >
-        {/* <button
-          type="button"
-          data-tooltip-target="tooltip-share"
-          data-tooltip-placement="left"
-          className="flex justify-center items-center w-[52px] h-[52px]   rounded-full border border-green-200 dark:border-green-600 shadow-sm  dark:text-white hover:bg-green-50 dark:bg-green-600 dark:hover:bg-green-700   "
-        >
-  
-          <Image
-            src={"https://www.vectorlogo.zone/logos/line/line-official.svg"}
-            loading="lazy"
-            width={500}
-            height={500}
-            alt="รับเขียนโปรแกรม ขอนแก่น รับทำเว็บไซต์ SEO ขอนแก่น"
-          />
-
-        </button> */}
+    
         <Link href={"https://line.me/ti/p/KMjKL3G9qz"} target="_blank">
           <Image
             src={"https://www.vectorlogo.zone/logos/line/line-official.svg"}

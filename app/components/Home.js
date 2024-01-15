@@ -35,7 +35,6 @@ import {
   HiMiniUserGroup,
 } from "react-icons/hi2";
 
-import Footer from "./Footer";
 import Link from "next/link";
 import Accordion from "./Accordion";
 
@@ -52,12 +51,12 @@ const Home = () => {
             รับเขียนโปรแกรม ทำเว็บไซต์ SEO ขอนแก่น{" "}
           </h1>
 
-          <p className="mt-3">
+          <p className="mt-3 text-base">
             รับเขียนโปรแกรม ขอนแก่น และ รับทำเว็บไซต์ SEO ติด Google Search
             พัฒนาซอฟต์แวร์ วิเคราะห์ข้อมูลโดยทีมงานมืออาชีพ
             เหมาะสำหรับทุกธุรกิจที่กำลังเติบโต
           </p>
-          <div className="flex flex-col justify-center lg:justify-normal md:flex-row gap-4 mt-5 ">
+          <div className="flex flex-row justify-center lg:justify-normal  gap-4 mt-5 ">
             <Link href="/contact">
               <button className="bg-purple-700 text-white px-6 py-2 rounded-full border border-purple-700 hover:bg-purple-200 hover:text-purple-700">
                 ติดต่อเรา
