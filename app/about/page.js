@@ -25,7 +25,7 @@ const page = () => {
         <p className="text-gray-800 mt-8">
           <strong>
             {" "}
-            Dev Sriwararak รับเขียนโปรแกรม รับออกแบบและทำเว็บไซต์ ขอนแก่น
+            Dev Sriwararak <Link href='/'>รับเขียนโปรแกรม รับออกแบบและทำเว็บไซต์ ขอนแก่น</Link>
           </strong>{" "}
           ทุกรูปแบบ ทุกธุรกิจ รับทำเว็บไซต์ SEO ทำให้ธุรกิจออนไลน์ของคุณ
           ติดอันดับการค้นหาใน Google Search

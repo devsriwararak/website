@@ -77,6 +77,15 @@ const page = () => {
       
 
           </ul>
+          
+          <div className="mt-4">
+          <small  >Tag : 
+            <Link href='/' className="bg-gray-100 px-2 py-1 rounded-sm">รับเขียนโปรแกรม ขอนแก่น</Link>
+            <Link href='/' className="bg-gray-100 px-2 py-1 rounded-sm">รับทำเว็บไซต์ SEO ขอนแก่น</Link>
+            
+            </small>
+
+          </div>
         </div>
 
         <div className="w-full">
@@ -112,6 +121,7 @@ const page = () => {
           ></iframe>
         </div>
       </div>
+      
     </div>
   );
 };
