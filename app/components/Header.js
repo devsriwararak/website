@@ -45,7 +45,9 @@ const Header = () => {
                 ผลงาน
               </li>
             </Link>
-            <li className="hover:bg-purple-100 px-2 py-2 rounded-lg">บทความ</li>
+            <li className="hover:bg-purple-100 px-2 py-2 rounded-lg">
+              <Link href="/blogs">บทความ</Link>
+            </li>
             <Link href="/contact">
               <li
                 className={`hover:bg-purple-100 px-2 py-2 rounded-lg ${
@@ -125,7 +127,7 @@ const Header = () => {
             </li>
           </Link>
 
-          <li className="hover:bg-purple-100 px-2 py-2 rounded-lg">บทความ</li>
+          <li className="hover:bg-purple-100 px-2 py-2 rounded-lg"><Link href="/blogs">บทความ</Link></li>
 
           <Link href="/contact"  onClick={() => openMobileMenu()}>
             <li

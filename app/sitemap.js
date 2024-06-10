@@ -1,5 +1,5 @@
 export default async function sitemap() {
-    const page = ['/', '/about','/review', '/contact']
+    const page = ['/', '/about','/review', '/contact', '/blogs']
 
     const allPage = page.map((item)=>({
         url: `https://web.devsriwararak.com${item}`,
