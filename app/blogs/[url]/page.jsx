@@ -3,6 +3,7 @@ import Reviewmoviehit_com from "../all/Reviewmoviehit_com";
 import data from "../data";
 import React from "react";
 import { AllBlogs } from "../page";
+import Link from "next/link";
 
 // SEO
 export async function generateMetadata({ params }) {
@@ -18,6 +19,7 @@ export async function generateMetadata({ params }) {
 
 const page = ({ params }) => {
   const newData = data.find((item) => item.url === params.url);
+  const link = params.url.replace("_", ".");
 
   return (
     <div>
@@ -25,14 +27,23 @@ const page = ({ params }) => {
         <img
           className="border-2 border-gray-300 rounded-lg w-[900px]"
           src={newData.image}
-          alt=""
+          alt={newData.title}
         />
       </div>
       <h1 className="text-xl md:text-3xl font-semibold mt-4 md:mt-12">
-        {newData.title} 
+        {newData.title}
       </h1>
       <p className="mt-4">{newData.dec}</p>
 
+      <div className="mt-4">
+        <Link
+          className=" bg-purple-500 hover:bg-purple-600 text-white px-4 py-1 rounded-full"
+          href={`https://${link}`}
+          target="_bank"
+        >
+          เยี่ยมชมเว็บไซต์{" "}
+        </Link>
+      </div>
       <div className="md:mx-5 px-4 md:px-10 py-4 mt-8 border-2 border-gray-200 rounded-lg">
         <DynamicContant url={newData.url} />
       </div>
