@@ -4,6 +4,7 @@ import data from "../data";
 import React from "react";
 import { AllBlogs } from "../page";
 import Link from "next/link";
+import Travelandexplore_co from "../all/Travelandexplore_co";
 
 // SEO
 export async function generateMetadata({ params }) {
@@ -66,11 +67,13 @@ const DefaultComponent = () => (
 
 const Test011 = () => <Devsriwararak_com />;
 const Test022 = () => <Reviewmoviehit_com />;
+const Test03 = () => <Travelandexplore_co />;
 
 const DynamicContant = ({ url }) => {
   const componentMap = {
     devsriwararak_com: <Test011 />,
     reviewmoviehit_com: <Test022 />,
+    travelandexplore_co: <Test03 />,
   };
 
   const SelectedComponent = componentMap[url] || <DefaultComponent />;
