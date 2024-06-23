@@ -1,18 +1,8 @@
-import Image from "next/image";
-import Header from "./components/Header";
-import HomePage from "./components/HomePage";
-import Banner from "./components/Banner";
-import Footer from "./components/Footer";
-
+import Home1 from "./components/Home";
 export default function Home() {
   return (
     <div>
-      
-      <Banner/>
-      <main className="flex p-10 ">
-        <HomePage />
-      </main>
-      <Footer/>
+      <Home1 />
     </div>
   );
 }
