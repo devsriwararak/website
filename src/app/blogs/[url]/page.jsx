@@ -5,7 +5,7 @@ import React from "react";
 import { AllBlogs } from "../page";
 import Link from "next/link";
 import Travelandexplore_co_1 from "../all/Travelandexplore_co_1";
-import Travelandexplore_co_2 from "../all/travelandexplore_co_2";
+import Travelandexplore_co_2 from "../all/Travelandexplore_co_2";
 
 // SEO
 export async function generateMetadata({ params }) {

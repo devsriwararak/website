@@ -4,7 +4,7 @@ import React from "react";
 const Travelandexplore_co_2 = () => {
   return (
     <div>
-      test
+      
       <p className="mt-8">
         <Link className="link" href="https://travelandexplore.co"> Thailand Travel Guide </Link> is a treasure trove of stunning destinations, from the bustling
         streets of Bangkok to the serene beaches of Phuket. Bangkok, the capital
