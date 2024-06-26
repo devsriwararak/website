@@ -34,7 +34,7 @@ const Travelandexplore_co_2 = () => {
         sun, especially if you plan on exploring Thailand's outdoor attractions.
         Additionally, always keep an eye on your belongings and be cautious of
         scams, particularly in tourist-heavy areas. By following these Thailand
-        travel tips, you can ensure a smooth and enjoyable journey.
+        travel tips , you can ensure a smooth and enjoyable journey.
       </p>
 
       <h2 className="mt-5 text-3xl">Thailand Cuisine A Food Lover Paradise</h2>
