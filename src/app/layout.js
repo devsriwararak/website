@@ -10,21 +10,20 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata = {
   manifest: "/manifest.json",
   title: {
-    default :  "DEV SRIWARARAK รับเขียนโปรแกรม รับทำเว็บไซต์ SEO ขอนแก่น",
-    template :  "%s - DEV SRIWARARAK รับเขียนโปรแกรม รับทำเว็บไซต์ SEO ขอนแก่น"
+    default: "DEV SRIWARARAK รับเขียนโปรแกรม รับทำเว็บไซต์ SEO ขอนแก่น",
+    template: "%s - DEV SRIWARARAK รับเขียนโปรแกรม รับทำเว็บไซต์ SEO ขอนแก่น",
   },
   description:
     "รับเขียนโปรแกรม รับทำเว็บไซต์ seo ติดหน้าค้นหา Google ขอนแก่น สำหรับธุรกิจที่กำลังเติบโต เว็บขายของครบวงจร โดยโปรแกรมเมอร์มืออาชีพมากมาย",
   keywords:
     "รับเขียนโปรแกรม , รับทำเว็บไซต์ , รับเขียนโปรแกรม ขอนแก่น , รับทำเว็บไซต์ ขอนแก่น , รับทำเว็บไซต์ SEO ",
-    openGraph: {
-      images:
-        "https://devsriwararak.com/wp-content/uploads/2024/01/%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B9%80%E0%B8%82%E0%B8%B5%E0%B8%A2%E0%B8%99%E0%B9%82%E0%B8%9B%E0%B8%A3%E0%B9%81%E0%B8%81%E0%B8%A3%E0%B8%A1%E0%B8%82%E0%B8%AD%E0%B8%99%E0%B9%81%E0%B8%81%E0%B9%88%E0%B8%99-%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B8%97%E0%B8%B3%E0%B9%80%E0%B8%A7%E0%B9%87%E0%B8%9A%E0%B9%84%E0%B8%8B%E0%B8%95%E0%B9%8C-%E0%B8%82%E0%B8%AD%E0%B8%99%E0%B9%81%E0%B8%81%E0%B9%88%E0%B8%99-1.webp",
-    },
-
+  openGraph: {
+    images:
+      "https://devsriwararak.com/wp-content/uploads/2024/01/%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B9%80%E0%B8%82%E0%B8%B5%E0%B8%A2%E0%B8%99%E0%B9%82%E0%B8%9B%E0%B8%A3%E0%B9%81%E0%B8%81%E0%B8%A3%E0%B8%A1%E0%B8%82%E0%B8%AD%E0%B8%99%E0%B9%81%E0%B8%81%E0%B9%88%E0%B8%99-%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B8%97%E0%B8%B3%E0%B9%80%E0%B8%A7%E0%B9%87%E0%B8%9A%E0%B9%84%E0%B8%8B%E0%B8%95%E0%B9%8C-%E0%B8%82%E0%B8%AD%E0%B8%99%E0%B9%81%E0%B8%81%E0%B9%88%E0%B8%99-1.webp",
+  },
 };
 
-const jsonLd  = {
+const jsonLd = {
   "@context": "https://schema.org",
   "@type": "FAQPage",
   mainEntity: [
@@ -51,7 +50,7 @@ const jsonLd  = {
         "@type": "Answer",
         text: "โปรแกรมช่วยในกระบวนการวิจัยและพัฒนาผลิตภัณฑ์ ทำให้ธุรกิจสามารถสร้างผลิตภัณฑ์และบริการใหม่ ๆ ที่ถูกต้องและแม่นยำในการควบคุม และการผลิต มีคุณภาพ และตอบสนองต่อความต้องการของลูกค้ามากขึ้น",
       },
-    }, 
+    },
     {
       "@type": "Question",
       name: "เพิ่มความปลอดภัย ทุกอย่างตรวจสอบได้xxxxx",
@@ -59,7 +58,7 @@ const jsonLd  = {
         "@type": "Answer",
         text: "โปรแกรมช่วยในการจัดการความเสี่ยงและความปลอดภัยของธุรกิจ ไม่ว่าจะเป็นการจัดการข้อมูลลูกค้าที่อยู่ในระบบ หรือตรวจสอบกระแสข้อมูลภายในองค์กรของตัวเอง ได้อย่างปลอดภัย",
       },
-    }
+    },
   ],
   headline: "รับเขียนโปรแกรม รับทำเว็บไซต์ SEO ติดอันดับค้นหา Google ขอนแก่น",
   description:
@@ -69,20 +68,34 @@ const jsonLd  = {
     name: "dev sriwararak",
     url: "https://web.devsriwararak.com",
   },
-  image: "https://devsriwararak.com/wp-content/uploads/2024/01/%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B9%80%E0%B8%82%E0%B8%B5%E0%B8%A2%E0%B8%99%E0%B9%82%E0%B8%9B%E0%B8%A3%E0%B9%81%E0%B8%81%E0%B8%A3%E0%B8%A1%E0%B8%82%E0%B8%AD%E0%B8%99%E0%B9%81%E0%B8%81%E0%B9%88%E0%B8%99-%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B8%97%E0%B8%B3%E0%B9%80%E0%B8%A7%E0%B9%87%E0%B8%9A%E0%B9%84%E0%B8%8B%E0%B8%95%E0%B9%8C-%E0%B8%82%E0%B8%AD%E0%B8%99%E0%B9%81%E0%B8%81%E0%B9%88%E0%B8%99-1.webp"
+  image:
+    "https://devsriwararak.com/wp-content/uploads/2024/01/%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B9%80%E0%B8%82%E0%B8%B5%E0%B8%A2%E0%B8%99%E0%B9%82%E0%B8%9B%E0%B8%A3%E0%B9%81%E0%B8%81%E0%B8%A3%E0%B8%A1%E0%B8%82%E0%B8%AD%E0%B8%99%E0%B9%81%E0%B8%81%E0%B9%88%E0%B8%99-%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B8%97%E0%B8%B3%E0%B9%80%E0%B8%A7%E0%B9%87%E0%B8%9A%E0%B9%84%E0%B8%8B%E0%B8%95%E0%B9%8C-%E0%B8%82%E0%B8%AD%E0%B8%99%E0%B9%81%E0%B8%81%E0%B9%88%E0%B8%99-1.webp",
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className}>
-      <Script
-        id="faq-schema"
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify(jsonLd),
-        }}
-      />
+        <Script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-9FEGTX90P2"
+        />
+        <Script strategy="lazyOnload">
+          {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-9FEGTX90P2');
+        `}
+        </Script>
+
+        <Script
+          id="faq-schema"
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(jsonLd),
+          }}
+        />
 
         <Header />
         <div className=" w-full    ">
@@ -90,7 +103,7 @@ export default function RootLayout({ children }) {
           {children}
         </div>
 
-        <Footer/>
+        <Footer />
       </body>
     </html>
   );
