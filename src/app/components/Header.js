@@ -45,9 +45,15 @@ const Header = () => {
                 ผลงาน
               </li>
             </Link>
-            <li 
+            {/* <li 
               className={`hover:bg-purple-100 px-2 py-2 rounded-lg ${
-                pathname === "/blogs/*" && "bg-purple-200"
+                pathname === "/blogs" && "bg-purple-200"
+              }`}
+            
+            > */}
+              <li 
+              className={`hover:bg-purple-100 px-2 py-2 rounded-lg ${
+                pathname.startsWith('/blogs') && "bg-purple-200"
               }`}
             
             >
@@ -134,7 +140,7 @@ const Header = () => {
 
           <li 
             className={`hover:bg-purple-100 px-2 py-2 rounded-lg ${
-              pathname === "/blogs" && "bg-purple-200"
+              pathname.startsWith('/blogs') && "bg-purple-200"
             }`}
           >
             <Link href="/blogs" onClick={() => openMobileMenu()}>บทความ</Link></li>

@@ -1,32 +1,10 @@
 import React from "react";
-// import banner from "../../public/images/banner.webp";
-// import mobile from "../../public/images/mobile.webp";
-// import logo from "../../public/images/dev_sriwararak-รับทำเว็บไซต์-รับเขียนโปรแกรม-ขอนแก่น.webp";
-// เกี่ยวกับ
-// import about_1 from "../../public/images/สอบถาม-ออกแบบ รับเขียนโปรแกรม ขอนแก่น.webp";
-// import about_2 from "../../public/images/ลงมือทำ รับเขียนโปรแกรม ขอนแก่น.webp";
-// import about_3 from "../../public/images/ส่งมอบงาน รับเขียนโปรแกรม ขอนแก่น.webp";
-// import about_4 from "../../public/images/ดูแลหลังการขาย รับเขียนโปรแกรม ขอนแก่น.webp";
-// ผลงานที่ผ่านมา
-// import review_1 from "../../public/images/ผลงาน/ผลงานเขียนโปรแกรมศาลเจ้าขอนแก่น.webp";
-// import review_2 from "../../public/images/ผลงาน/ผลงานรับทำเว็บไซต์ บริษัทอสังหาริมทรัพย์.webp";
-// import review_3 from "../../public/images/ผลงาน/ผงานทำเว็บไซต์โรงน้ำแข็งที่ขอนแก่น.webp";
-// import review_4 from "../../public/images/ผลงาน/ผลงานรับทำเว็บไซต์ ขอนแก่น บริษัทจำหน่ายอุปกรณ์ฟิตเนส.webp";
-// import review_5 from "../../public/images/ผลงาน/ผลงานรับทำเว็บไซต์ ขอนแก่น เว็บขายเสื้อผ้าออนไลน์.webp";
-// import review_6 from "../../public/images/ผลงาน/ผลงานรับทำเว็บไซต์ ขอนแก่น เว็บรับฝากสุนัข.webp";
-// ขอขอบคุณลูกค้า
-// import thankyou_1 from "../../public/images/ขอบคุณลูกค้า/ขอขอบคุณลูกค้า รับเขียนโปรแกรม ขอนแก่น 1.webp";
-// import thankyou_2 from "../../public/images/ขอบคุณลูกค้า/ขอขอบคุณลูกค้า-รับเขียนโปรแกรม-ขอนแก่น-2.webp";
-// import thankyou_3 from "../../public/images/ขอบคุณลูกค้า/ขอขอบคุณลูกค้า-รับเขียนโปรแกรม-ขอนแก่น-3.webp";
-// import thankyou_4 from "../../public/images/ขอบคุณลูกค้า/ขอขอบคุณลูกค้า รับเขียนโปรแกรม ขอนแก่น 4.webp";
-
 import Image from "next/image";
 import { FaBeer } from "react-icons/fa";
 import { AiFillFacebook, AiFillPhone } from "react-icons/ai";
 import { FcComboChart } from "react-icons/fc";
 import { SiLine, SiTiktok } from "react-icons/si";
 import {
-  HiComputerDesktop,
   HiMiniCpuChip,
   HiMiniGlobeAsiaAustralia,
   HiMiniPresentationChartLine,
@@ -41,9 +19,9 @@ import Accordion from "./Accordion";
 const Home = () => {
   return (
     <div>
-      <div className="flex flex-col md:flex-row  gap-1  bg-purple-200">
+      <div className="flex flex-col md:flex-row  gap-1  bg-purple-200  px-9  lg:px-32 ">
         {/* Hero Secction */}
-        <div className="  px-10 md:px-16 lg:px-0 lg:pl-20  text-center lg:text-left py-16 md:py-20 flex flex-col gap-3 lg:w-3/4 justify-center ">
+        <div className=" text-center lg:text-left py-16 md:py-20 flex flex-col gap-3 lg:w-3/4 justify-center ">
           <h1 className="text-2xl md:text-3xl lg:text-5xl   ">
             <span className="font-semibold  leading-relaxed ">
               DEV SRIWARARAK
@@ -52,7 +30,7 @@ const Home = () => {
           </h1>
 
           <p className="mt-3 text-base">
-            รับเขียนโปรแกรม ขอนแก่น และ รับทำเว็บไซต์ SEO ติด Google Search
+            รับเขียนโปรแกรม รับทำเว็บไซต์ SEO ค้นหาเจอใน Google Search
             พัฒนาซอฟต์แวร์ วิเคราะห์ข้อมูลโดยทีมงานมืออาชีพ
             เหมาะสำหรับทุกธุรกิจที่กำลังเติบโต
           </p>
@@ -70,7 +48,7 @@ const Home = () => {
             </Link>
           </div>
         </div>
-        <div className=" hidden   w-2/4  lg:flex justify-center items-end    ">
+        <div className=" hidden    w-2/4  lg:flex justify-center items-end    ">
           <div className="">
             <Image
               src="https://devsriwararak.com/wp-content/uploads/2024/01/%E0%B8%AA%E0%B8%AD%E0%B8%9A%E0%B8%96%E0%B8%B2%E0%B8%A1-%E0%B8%AD%E0%B8%AD%E0%B8%81%E0%B9%81%E0%B8%9A%E0%B8%9A-%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B9%80%E0%B8%82%E0%B8%B5%E0%B8%A2%E0%B8%99%E0%B9%82%E0%B8%9B%E0%B8%A3%E0%B9%81%E0%B8%81%E0%B8%A3%E0%B8%A1-%E0%B8%82%E0%B8%AD%E0%B8%99%E0%B9%81%E0%B8%81%E0%B9%88%E0%B8%99.webp"
@@ -88,17 +66,16 @@ const Home = () => {
 
       {/*  About Me section */}
 
-      <section className="flex flex-col lg:flex-row gap-4 mt-16 md:mt-20 py-0 px-10 md:px-20">
+      <section className="flex flex-col lg:flex-row gap-4 mt-16 md:mt-20 py-0 px-9 md:px-32">
         <div className="w-full ">
-          <h2 className="text-2xl lg:text-3xl">เกี่ยวกับเรา รับเขียนโปรแกรม</h2>
+          <h2 className="text-2xl lg:text-3xl">ออกแบบ พัฒนาซอฟต์แวร์ </h2>
           <p className="text-gray-700 mt-2 text-sm lg:text-base">
-            <b className="text-black">Dev Sriwararak</b> รับเขียน ออกแบบ โปรแกรม
-            เว็บไซต์ ในรูปแบบออนไลน์
+            <b className="text-black">รับเขียนโปรแกรม รับทำเว็บไซต์ ขอนแก่น</b>{" "}
+            ให้เราดูแลคุณในการออกแบบ และพัฒนาซอฟต์แวร์สำหรับธุรกิจของคุณ
+            ให้มีความแม่นยำ รวดเร็ว และปลอดภัย
           </p>
-          <p className="text-gray-700 ">
-            สามารถสอบถามพูดคุยก่อนเริ่มงานได้ครับ
-          </p>
-          <div className="flex flex-row justify-center md:justify-start flex-wrap md:flex-row gap-2 mt-10">
+
+          <div className="flex flex-row justify-center md:justify-start flex-wrap md:flex-row gap-2 mt-8">
             <Link
               href={"https://www.facebook.com/dev.sriwararak"}
               target="_blank"
@@ -133,11 +110,11 @@ const Home = () => {
         </div>
         <div className="w-full hidden md:block">
           <p className="text-gray-700 mt-5 text-sm lg:text-base ">
-            การเขียนโปรแกรม เป็นเครื่องมือสำคัญในการทำให้กิจการ
+            โปรแกรม เป็นเครื่องมือสำคัญในการทำให้กิจการ
             ธุรกิจของลูกค้าเข้าสู่ยุคดิจิทัล (Industry 4.0) อย่างเต็มตัว
-            โปรแกรมสามารถตรวจสอบข้อมูล และคำนวณได้อย่างแม่นยำ และเว็บไซต์
+            โปรแกรมสามารถตรวจสอบข้อมูล และคำนวณได้อย่างแม่นยำ 100% และเว็บไซต์
             ที่ติดอันดับจากการค้นหา Google Search หรือ SEO
-            จะช่วยให้สินค้าถูกมองเห็นได้มากขึ้น ขายได้มากขึ้น
+            จะช่วยให้สินค้าถูกมองเห็นได้มากขึ้น ธุรกิจมียอดขายได้มากขึ้น
           </p>
 
           <div className="flex flex-col md:flex-row gap-4 mt-10 justify-between items-center ">
@@ -160,15 +137,15 @@ const Home = () => {
 
       {/*  */}
 
-      <div className="mt-20 bg-gray-200 py-20">
+      <div className="mt-20 bg-gray-200 py-20 px-9 lg:px-32">
         <h2 className=" text-center text-2xl  lg:text-3xl mx-10  md:mx-14 lg:mx-0">
-          4 ขั้นตอนการจ้างงาน เขียนโปรแกรม ทำเว็บไซต์ ขอนแก่น
+          4 ขั้นตอนการจ้างงาน เขียนโปรแกรม รับทำเว็บไซต์ ขอนแก่น
         </h2>
         <p className="text-center mt-4 text-gray-700 text-sm lg:text-base">
-          สรุปการจ้างงานกับ Dev Sriwararak 4 ขั้นตอน ดังนี้
+          สรุป 4 ขั้นตอนง่ายๆ เพื่อโปรแกรมที่สมบูรณ์ที่สุด
         </p>
 
-        <div className="flex flex-col md:flex-row   gap-0 mt-10 mx-14 lg:mx-20 ">
+        <div className="flex flex-col md:flex-row   gap-0 mt-10  ">
           <div className="w-full flex  flex-col gap-2 items-center  ">
             <Image
               src="https://devsriwararak.com/wp-content/uploads/2024/01/%E0%B8%AA%E0%B8%AD%E0%B8%9A%E0%B8%96%E0%B8%B2%E0%B8%A1-%E0%B8%AD%E0%B8%AD%E0%B8%81%E0%B9%81%E0%B8%9A%E0%B8%9A-%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B9%80%E0%B8%82%E0%B8%B5%E0%B8%A2%E0%B8%99%E0%B9%82%E0%B8%9B%E0%B8%A3%E0%B9%81%E0%B8%81%E0%B8%A3%E0%B8%A1-%E0%B8%82%E0%B8%AD%E0%B8%99%E0%B9%81%E0%B8%81%E0%B9%88%E0%B8%99.webp"
@@ -179,9 +156,9 @@ const Home = () => {
               objectFit="cover"
               quality={75}
             />
-            <h3 className=" text-lg">1. สอบถาม-ออกแบบ</h3>
-            <p className=" text-gray-700 text-center text-sm lg:text-base px-2 lg:px-5">
-              แนะนำโปรแกรม - เว็บไซต์ ที่เหมาะสำหรับธุรกิจของลูกค้าแบบตรงจุด
+            <h3 className=" text-lg">1. สอบถาม-ออกแบบระบบ</h3>
+            <p className=" text-gray-700 text-center text-sm  px-2 lg:px-10">
+              แนะนำโปรแกรม หรือเว็บไซต์ ที่เหมาะสำหรับธุรกิจของลูกค้าแบบตรงจุด
             </p>
           </div>
           <div className=" w-full flex  flex-col gap-2 items-center">
@@ -194,8 +171,8 @@ const Home = () => {
               objectFit="cover"
               quality={75}
             />
-            <h3 className="text-center text-lg ">2. ลงมือทำ</h3>
-            <p className="text-center text-gray-700 text-sm lg:text-base px-2 lg:px-5">
+            <h3 className="text-center text-lg ">2. พัฒนาซอฟต์แวร์</h3>
+            <p className="text-center text-gray-700 text-sm  px-2 lg:px-10">
               เริ่มการพัฒนาโปรแกรมและเว็บไซต์ให้ตรงตามความต้องการของลูกค้า
             </p>
           </div>
@@ -210,7 +187,7 @@ const Home = () => {
               quality={75}
             />
             <h3 className="text-center text-lg">3. ส่งมอบงาน</h3>
-            <p className="text-center text-gray-700 text-sm lg:text-base px-2 lg:px-5">
+            <p className="text-center text-gray-700 text-sm  px-2 lg:px-10">
               ส่งตรวจงานเป็นรอบๆ เพื่อปรับแก้ไขในส่วนที่ผิดพลาด ให้ถูกต้อง{" "}
             </p>
           </div>
@@ -225,7 +202,7 @@ const Home = () => {
               quality={75}
             />
             <h3 className="text-center text-lg">4. ดูแลหลังการขาย</h3>
-            <p className="text-center text-gray-700 text-sm lg:text-base px-2 lg:px-5">
+            <p className="text-center text-gray-700 text-sm  px-2 lg:px-10">
               ซัพพอต ให้คำปรึกษา หลังการขาย หรือต้องการอัพเกรดระบบใหม่
             </p>
           </div>
@@ -422,6 +399,11 @@ const Home = () => {
               quality={75}
             />
           </div>
+        </div>
+        <div className="text-center mt-20">
+          <Link href="/about" className="bg-purple-700 hover:bg-purple-800 text-white px-10 md:px-32 py-2 rounded-full">
+            ผลงานทั้งหมด
+          </Link>
         </div>
       </section>
 
