@@ -16,7 +16,7 @@ export const metadata = {
 
 const page = () => {
   return (
-    <div className="     md:px-20">
+    <div className="  md:px-10 lg:px-36 container mx-auto">
       <h1 className="text-2xl md:text-3xl text-center px-8 mt-12">
         เกี่ยวกับเรา รับเขียนโปรแกรม รับทำเว็บไซต์ SEO ขอนแก่น
       </h1>
@@ -50,8 +50,8 @@ const page = () => {
           </div>
         </div>
 
-        <div className="flex flex-col md:flex-row gap-4 mt-5 ">
-          <div className="w-full bg-white shadow-xl ring ring-gray-300/5 rounded-lg px-5 py-5 ">
+        <div className="flex flex-col lg:flex-row  gap-4 mt-5  ">
+          <div className="w-full bg-white shadow-xl ring ring-gray-300/5 rounded-lg px-5 py-5 flex flex-col justify-center items-center ">
             <Image
               src="https://devsriwararak.com/wp-content/uploads/2024/01/%E0%B8%94%E0%B8%B9%E0%B9%81%E0%B8%A5%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%87%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%82%E0%B8%B2%E0%B8%A2-%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B9%80%E0%B8%82%E0%B8%B5%E0%B8%A2%E0%B8%99%E0%B9%82%E0%B8%9B%E0%B8%A3%E0%B9%81%E0%B8%81%E0%B8%A3%E0%B8%A1-%E0%B8%82%E0%B8%AD%E0%B8%99%E0%B9%81%E0%B8%81%E0%B9%88%E0%B8%99.webp"
               loading="lazy"
@@ -61,7 +61,7 @@ const page = () => {
             />
             <p className="text-center">Frontend Dev</p>
           </div>
-          <div className="w-full bg-white shadow-xl ring ring-gray-300/5 rounded-lg px-5 py-5 ">
+          <div className="w-full bg-white shadow-xl ring ring-gray-300/5 rounded-lg px-5 py-5 flex flex-col justify-center items-center ">
             <Image
               src="https://devsriwararak.com/wp-content/uploads/2024/01/%E0%B8%94%E0%B8%B9%E0%B9%81%E0%B8%A5%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%87%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%82%E0%B8%B2%E0%B8%A2-%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B9%80%E0%B8%82%E0%B8%B5%E0%B8%A2%E0%B8%99%E0%B9%82%E0%B8%9B%E0%B8%A3%E0%B9%81%E0%B8%81%E0%B8%A3%E0%B8%A1-%E0%B8%82%E0%B8%AD%E0%B8%99%E0%B9%81%E0%B8%81%E0%B9%88%E0%B8%99.webp"
               loading="lazy"
@@ -71,7 +71,7 @@ const page = () => {
             />
             <p className="text-center">Backend Dev</p>
           </div>
-          <div className="w-full bg-white shadow-xl ring ring-gray-300/5 rounded-lg px-5 py-5 ">
+          <div className="w-full bg-white shadow-xl ring ring-gray-300/5 rounded-lg px-5 py-5 flex flex-col justify-center items-center ">
             <Image
               src="https://devsriwararak.com/wp-content/uploads/2024/01/%E0%B8%94%E0%B8%B9%E0%B9%81%E0%B8%A5%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%87%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%82%E0%B8%B2%E0%B8%A2-%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B9%80%E0%B8%82%E0%B8%B5%E0%B8%A2%E0%B8%99%E0%B9%82%E0%B8%9B%E0%B8%A3%E0%B9%81%E0%B8%81%E0%B8%A3%E0%B8%A1-%E0%B8%82%E0%B8%AD%E0%B8%99%E0%B9%81%E0%B8%81%E0%B9%88%E0%B8%99.webp"
               loading="lazy"

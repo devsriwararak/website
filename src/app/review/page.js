@@ -16,7 +16,7 @@ export const metadata = {
 
 const page = () => {
   return (
-    <div className="     md:px-20">
+    <div className="     md:px-10 lg:px-36 container mx-auto">
       <h1 className="text-2xl md:text-3xl text-center px-8 mt-12">
         ผลงานรับเขียนโปรแกรม และรับทำเว็บไซต์ที่ผ่านมา
       </h1>
@@ -32,7 +32,7 @@ const page = () => {
           ใช้งานออนไลน์ควบคุมได้ง่าย เหมาะสำหรับทุกๆ ธุรกิจที่กำลังเติบโตที่นี้ <Link href="/">รับเขียนโปรแกรม ขอนแก่น</Link>{" "}
         </p>
 
-        <div className="flex flex-col md:flex-row justify-between items-center">
+        <div className="flex flex-col lg:flex-row justify-between items-center">
           <h3 className="mt-8 text-xl">
             ผลงานทำเว็บไซต์ SEO ( ติดอันดับ Google Search )
           </h3>
@@ -53,7 +53,7 @@ const page = () => {
 
         </div>
 
-        <div className="flex flex-row  gap-1 md:gap-4  mt-6">
+        <div className="flex flex-col lg:flex-row  gap-1 md:gap-4  mt-6">
           <div className="w-full ">
             <Image
               src="https://devsriwararak.com/wp-content/uploads/2024/01/%E0%B8%9C%E0%B8%A5%E0%B8%87%E0%B8%B2%E0%B8%99%E0%B9%80%E0%B8%82%E0%B8%B5%E0%B8%A2%E0%B8%99%E0%B9%82%E0%B8%9B%E0%B8%A3%E0%B9%81%E0%B8%81%E0%B8%A3%E0%B8%A1%E0%B8%A8%E0%B8%B2%E0%B8%A5%E0%B9%80%E0%B8%88%E0%B9%89%E0%B8%B2%E0%B8%82%E0%B8%AD%E0%B8%99%E0%B9%81%E0%B8%81%E0%B9%88%E0%B8%99.webp"
@@ -88,7 +88,7 @@ const page = () => {
           </div>
         </div>
 
-        <div className=" grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2 md:gap-4  mt-5">
+        <div className=" grid grid-cols  lg:grid-cols-4 gap-2 md:gap-4  mt-5">
           <div className="w-full">
             <Image
               src="https://devsriwararak.com/wp-content/uploads/2023/09/fb-post-1.webp"

@@ -1,3 +1,3 @@
 export default function RootLayout({ children }) {
-  return <div className="px-6 md:px-24 py-1 md:py-10">{children}</div>;
+  return <div className="px-6 md:px-10 lg:px-36  container mx-auto ">{children}</div>;
 }

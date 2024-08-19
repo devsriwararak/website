@@ -13,14 +13,15 @@ const Accordion = () => {
     }));
   };
   return (
-    <div>
-      <div id="accordionExample " className=" shadow-xl">
-        <div className="rounded-t-lg border border-gray-300   ">
+ 
+      <div  className=" shadow-xl flex flex-col gap-4 ">
+
+        <div className=" border border-gray-200  shadow-lg rounded-lg py-2    ">
           <h3 className="mb-0" id="headingOne">
             <button
               className={classname(
-                isActive.number1 ? "bg-gray-200 " : "bg-white text-neutral-800",
-                "group  flex w-full items-center rounded-t-[15px] border-0  px-5 py-4 text-left text-base  transition "
+                isActive.number1 ? "bg-purple-100 " : "bg-white text-neutral-800",
+                "group  flex w-full items-center  border-0  px-5 py-4 text-left text-base  transition "
               )}
               type="button"
               data-te-collapse-init
@@ -39,7 +40,8 @@ const Accordion = () => {
                   viewBox="0 0 24 24"
                   strokeWidth="1.5"
                   stroke="currentColor"
-                  className="h-6 w-6"
+                  className="h-7 w-7 bg-purple-700 text-white rounded-full p-0.5  "
+                  
                 >
                   <path
                     strokeLinecap="round"
@@ -52,7 +54,7 @@ const Accordion = () => {
           </h3>
           <div
             id="collapseOne"
-            className={`!visible bg-white ${!isActive.number1 && "hidden"} `}
+            className={`!visible bg-white ${!isActive.number1 && "hidden"}  px-4`}
             data-te-collapse-item
             data-te-collapse-show
             aria-labelledby="headingOne"
@@ -67,17 +69,18 @@ const Accordion = () => {
             </p>
           </div>
         </div>
+        
 
         {/* number 2 */}
 
-        <div className="border border-t-0  border-gray-300 ">
-          <h2 className="mb-0" id="headingTwo">
+        <div className="border  border-gray-200 rounded-lg py-2 shadow-lg  ">
+          <h3 className="mb-0" id="headingTwo">
             <button
               className={` ${
                 isActive.number2
-                  ? "bg-gray-200   "
+                  ? "bg-purple-200   "
                   : "bg-white text-neutral-800"
-              }group  flex w-full items-center rounded-none border-0  px-5 py-4 text-left text-base transition `}
+              }group  flex w-full items-center e border-0  px-5 py-4 text-left text-base transition `}
               type="button"
               data-te-collapse-init
               data-te-collapse-collapsed
@@ -96,7 +99,7 @@ const Accordion = () => {
                   viewBox="0 0 24 24"
                   strokeWidth="1.5"
                   stroke="currentColor"
-                  className="h-6 w-6"
+                  className="h-7 w-7 bg-purple-700 text-white rounded-full p-0.5  "
                 >
                   <path
                     strokeLinecap="round"
@@ -106,10 +109,10 @@ const Accordion = () => {
                 </svg>
               </span>
             </button>
-          </h2>
+          </h3>
           <div
             id="collapseTwo"
-            className={`!visible bg-white ${!isActive.number2 && "hidden"} `}
+            className={`!visible bg-white ${!isActive.number2 && "hidden"} px-4 `}
             data-te-collapse-item
             aria-labelledby="headingTwo"
             data-te-parent="#accordionExample"
@@ -123,15 +126,17 @@ const Accordion = () => {
           </div>
         </div>
 
+
+
         {/* number 3 */}
-        <div className="border border-t-0  border-gray-300 ">
-          <h2 className="mb-0" id="headingThree">
+        <div className="border border-gray-200 py-2 rounded-lg shadow-lg  ">
+          <h3 className="" id="headingThree">
             <button
               className={` ${
                 isActive.number3
-                  ? "bg-gray-200   "
+                  ? "bg-purple-200   "
                   : "bg-white text-neutral-800"
-              }group  flex w-full items-center rounded-none border-0  px-5 py-4 text-left text-base transition `}
+              }group  flex w-full items-center  px-5 py-4 text-left text-base transition `}
               type="button"
               data-te-collapse-init
               data-te-collapse-collapsed
@@ -150,7 +155,7 @@ const Accordion = () => {
                   viewBox="0 0 24 24"
                   strokeWidth="1.5"
                   stroke="currentColor"
-                  className="h-6 w-6"
+                  className="h-7 w-7 bg-purple-700 text-white rounded-full p-0.5  "
                 >
                   <path
                     strokeLinecap="round"
@@ -160,10 +165,10 @@ const Accordion = () => {
                 </svg>
               </span>
             </button>
-          </h2>
+          </h3>
           <div
             id="collapseThree"
-            className={`!visible bg-white ${!isActive.number3 && "hidden"} `}
+            className={`!visible bg-white ${!isActive.number3 && "hidden"} px-4`}
             data-te-collapse-item
             aria-labelledby="headingThree"
             data-te-parent="#accordionExample"
@@ -178,14 +183,14 @@ const Accordion = () => {
         </div>
 
         {/* number 4 */}
-        <div className="rounded-b-lg border border-t-0  border-gray-300 ">
-          <h2 className="accordion-header mb-0" id="headingFore">
+        <div className="border  border-gray-200  rounded-lg py-2 shadow-lg  ">
+          <h3 className="accordion-header mb-0" id="headingFore">
             <button
               className={` ${
                 isActive.number4
-                  ? "bg-gray-200   "
+                  ? "bg-purple-200   "
                   : "bg-white text-neutral-800"
-              }group  flex w-full items-center rounded-none border-0 rounded-b-[15px]  px-5 py-4 text-left text-base transition `}
+              }group  flex w-full items-center  px-5 py-4 text-left text-base transition `}
               type="button"
               data-te-collapse-init
               data-te-collapse-collapsed
@@ -204,7 +209,7 @@ const Accordion = () => {
                   viewBox="0 0 24 24"
                   strokeWidth="1.5"
                   stroke="currentColor"
-                  className="h-6 w-6"
+                  className="h-7 w-7 bg-purple-700 text-white rounded-full p-0.5  "
                 >
                   <path
                     strokeLinecap="round"
@@ -214,7 +219,7 @@ const Accordion = () => {
                 </svg>
               </span>
             </button>
-          </h2>
+          </h3>
           <div
             id="collapseFore"
             className={`!visible bg-white ${!isActive.number4 && "hidden"} `}
@@ -229,7 +234,7 @@ const Accordion = () => {
           </div>
         </div>
       </div>
-    </div>
+ 
   );
 };
 

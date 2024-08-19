@@ -98,7 +98,7 @@ export default function RootLayout({ children }) {
         />
 
         <Header />
-        <div className=" w-full    ">
+        <div className=" w-full mt-24 md:mt-36    ">
           <SpeedDial />
           {children}
         </div>

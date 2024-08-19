@@ -17,11 +17,11 @@ export const metadata = {
 
 const page = () => {
   return (
-    <div>
-      <div className="bg-purple-500 py-14 w-full">
-        <div className="flex flex-col md:flex-row gap-4 px-10 md:mx-32 items-center ">
+    <div className=" -mt-20">
+      <div className="bg-purple-500 py-16 w-full  ">
+        <div className="flex flex-col md:flex-row gap-4 px-10 lg:px-36 items-center container mx-auto ">
           <div className="w-full">
-            <h1 className="text-2xl md:text-3xl text-white">ติดต่อเรา</h1>
+            <h1 className="text-2xl md:text-3xl text-white">ติดต่อเรา รับทำเว็บไซต์ ขอนแก่น</h1>
             <p className="mt-2 text-gray-200">
               Dev Sriwararak รับออกแบบเขียนโปรแกรม และทำเว็บไซต์เพื่อการตลาดของ
               ทุกๆธรุกิจ ที่ต้องการสร้างความน่าเชื่อถือให้กับร้านค้าและบริการ
