@@ -18,7 +18,7 @@ const PriceWebsite = () => {
     <div className="flex flex-col justify-center items-center  lg:flex-row gap-3 mt-10 ">
       <div className="w-full bg-white  shadow-xl rounded-lg border border-purple-200 m-1    ">
         <div className="px-6 py-5">
-          <h3 className="text-black text-lg md:text-xl font-semibold mt-16 ">
+          <h3 className="text-black text-lg font-semibold mt-16 ">
             เว็บไซต์หน้าเดียว ( landing page )
           </h3>
           <p className="text-gray-600 mt-2 text-sm">
@@ -34,8 +34,8 @@ const PriceWebsite = () => {
             </div>
           </div>
 
-          <h4 className="mt-4 text-2xl md:text-3xl font-semibold">
-            ราคาเริ่มต้นที่ 6,000 บาท
+          <h4 className="mt-4 text-xl md:text-2xl font-semibold">
+            เริ่มต้นที่ 6,000 บาท
           </h4>
           <button className="mt-6 border-2 border-purple-300 w-full py-2 rounded-lg hover:bg-purple-100 text-purple-600 text-lg font-semibold ">
             ติดต่อสอบถาม
@@ -95,7 +95,7 @@ const PriceWebsite = () => {
         </div>
 
         <div className="px-8 py-5 ">
-          <h3 className="text-black text-lg md:text-xl font-semibold mt-7 ">
+          <h3 className="text-black text-lg font-semibold mt-7 ">
             เว็บไซต์ 5 หน้า ( เพิ่มความน่าเชื่อถือ )
           </h3>
           <p className="text-gray-600 mt-2 text-sm">
@@ -111,7 +111,7 @@ const PriceWebsite = () => {
             </div>
           </div>
 
-          <h4 className="mt-4 text-2xl md:text-3xl font-semibold">
+          <h4 className="mt-4 text-xl md:text-2xl font-semibold">
             เริ่มต้นที่ 13,000 บาท
           </h4>
           <button className="mt-6 border-2 border-purple-300 w-full py-2 rounded-lg bg-purple-600 text-white   hover:bg-purple-300  text-lg font-semibold ">
@@ -169,7 +169,7 @@ const PriceWebsite = () => {
 
       <div className="w-full bg-white  shadow-xl rounded-lg border border-purple-200 m-1   ">
         <div className=" px-6 py-5">
-          <h3 className="text-black text-lg md:text-xl font-semibold mt-16 ">
+          <h3 className="text-black text-lg  font-semibold mt-16 ">
             เว็บไซต์ Ecommerce (เว็บไซต์ขายของ)
           </h3>
           <p className="text-gray-600 mt-2 text-sm">
@@ -185,7 +185,7 @@ const PriceWebsite = () => {
             </div>
           </div>
 
-          <h4 className="mt-4 text-2xl md:text-3xl font-semibold">
+          <h4 className="mt-4 text-xl md:text-2xl font-semibold">
             เริ่มต้นที่ 20,000 บาท
           </h4>
           <button className="mt-6 border-2 border-purple-300 w-full py-2 rounded-lg hover:bg-purple-100 text-purple-600 text-lg font-semibold ">

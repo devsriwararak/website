@@ -18,8 +18,8 @@ const PriceProgram = () => {
     <div className="flex flex-col justify-center items-center  lg:flex-row gap-3 mt-10 ">
       <div className="w-full bg-white  shadow-xl rounded-lg border border-purple-200 m-1    ">
         <div className="px-6 py-5">
-          <h3 className="text-black text-xl font-semibold mt-16 ">
-            โปรแกรมขนาดเล็ก 
+          <h3 className="text-black text-lg font-semibold mt-16 ">
+            โปรแกรมขนาดเล็ก ช่วยวิเคราะห์บันทึก
           </h3>
           <p className="text-gray-600 mt-2 text-sm">
             สร้างเว็บไซต์การตลาดที่มีความซับซ้อน หรือโปรแกรมขนาดเล็ก
@@ -35,8 +35,8 @@ const PriceProgram = () => {
             </div>
           </div>
 
-          <h4 className="mt-4 text-2xl md:text-3xl font-semibold">
-            ราคาเริ่มต้นที่ 9,000 บาท
+          <h4 className="mt-4 text-xl md:text-2xl font-semibold">
+            เริ่มต้นที่ 9,000 บาท
           </h4>
           <button className="mt-6 border-2 border-purple-300 w-full py-2 rounded-lg hover:bg-purple-100 text-purple-600 text-lg font-semibold ">
             ติดต่อสอบถาม
@@ -86,8 +86,8 @@ const PriceProgram = () => {
         </div>
 
         <div className="px-8 py-5 ">
-          <h3 className="text-black text-xl font-semibold mt-7 ">
-            โปรแกรมขนาดเล็ก 
+          <h3 className="text-black text-lg font-semibold mt-7 ">
+            โปรแกรมสำหรับองค์กรขนาดกลาง 
           </h3>
           <p className="text-gray-600 mt-2 text-sm">
             พัฒนาโปรแกรมสำหรับธุรกิจที่ต้องการเครื่องมือ หรือตัวช่วยที่สะดวก
@@ -103,7 +103,7 @@ const PriceProgram = () => {
             </div>
           </div>
 
-          <h4 className="mt-4 text-2xl md:text-3xl font-semibold">
+          <h4 className="mt-4 text-xl md:text-2xl font-semibold">
             เริ่มต้นที่ 20,000 บาท
           </h4>
           <button className="mt-6 border-2 border-purple-300 w-full py-2 rounded-lg bg-purple-600 text-white   hover:bg-purple-300  text-lg font-semibold ">
@@ -150,8 +150,8 @@ const PriceProgram = () => {
 
       <div className="w-full bg-white  shadow-xl rounded-lg border border-purple-200 m-1   ">
         <div className=" px-6 py-5">
-          <h3 className="text-black text-xl font-semibold mt-16 ">
-            โปรแกรมขนาดใหญ่ 
+          <h3 className="text-black text-lg font-semibold mt-16 ">
+            โปรแกรมบริหารจัดการธุรกิจขนาดใหญ่
           </h3>
           <p className="text-gray-600 mt-2 text-sm">
             สร้างเว็บไซต์การตลาดที่มีความซับซ้อน หรือโปรแกรมขนาดเล็ก
@@ -167,7 +167,7 @@ const PriceProgram = () => {
             </div>
           </div>
 
-          <h4 className="mt-4 text-2xl md:text-3xl font-semibold">
+          <h4 className="mt-4 text-xl md:text-2xl font-semibold">
             เริ่มต้นที่ 50,000 บาท
           </h4>
           <button className="mt-6 border-2 border-purple-300 w-full py-2 rounded-lg hover:bg-purple-100 text-purple-600 text-lg font-semibold ">

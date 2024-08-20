@@ -53,8 +53,8 @@ const Footer = () => {
         <div className="  px-10 lg:px-36     mt-28 ">
           <div className="container mx-auto flex flex-col lg:flex-row gap-10">
             <div className="w-full">
-              <h3 className="text-lg md:text-xl text-gray-600">DEV SRIWARARAK</h3>
-              <p className="text-gray-400 mt-2 text-sm md:text-base">
+              <h3 className="text-lg  text-gray-600">DEV SRIWARARAK</h3>
+              <p className="text-gray-400 mt-2 text-sm ">
                 รับเขียนโปรแกรม รับออกแบบเว็บไซต์ ตามความต้องการของลูกค้า
                 ทุกธุรกิจ ครบวงจร
               </p>
@@ -64,8 +64,8 @@ const Footer = () => {
             </div>
 
             <div className="w-full">
-              <h3 className="text-lg md:text-xl text-gray-600">เมนู</h3>
-              <ul className="text-gray-400 mt-2 text-sm md:text-base">
+              <h3 className="text-lg  text-gray-600">เมนู</h3>
+              <ul className="text-gray-400 mt-2 text-sm ">
                 <li>หน้าหลัก</li>
                 <li>เกี่ยวกับเรา</li>
                 <li>ผลงานที่ผ่านมา</li>
@@ -78,8 +78,8 @@ const Footer = () => {
             </div>
 
             <div className="w-full">
-              <h3 className="text-lg md:text-xl text-gray-600">ข่าวใหม่</h3>
-              <ul className="text-gray-400 mt-2 text-sm md:text-base">
+              <h3 className="text-lg  text-gray-600">ข่าวใหม่</h3>
+              <ul className="text-gray-400 mt-2 text-sm ">
                 <li>Next.js เวอร์ชั่นใหม่</li>
                 <li>PERN STACK สอน</li>
                 <li>สอนทำ SEO 2024</li>
@@ -89,8 +89,8 @@ const Footer = () => {
             </div>
 
             <div className="w-full">
-              <h3 className="text-lg md:text-xl text-gray-600">Stack For Developer</h3>
-              <ul className="text-gray-400 mt-2 text-sm md:text-base">
+              <h3 className="text-lg  text-gray-600">Stacks For Developer</h3>
+              <ul className="text-gray-400 mt-2 text-sm ">
                 <li>React.js / Next.js 14</li>
                 <li>Node.js</li>
                 <li>Python / Fast API</li>
@@ -100,13 +100,13 @@ const Footer = () => {
             </div>
 
             <div className="w-full">
-              <h3 className="text-lg md:text-xl text-gray-600">ติดต่อเรา</h3>
-              <p className="text-gray-400 mt-2 text-sm md:text-base">test : khonkaen 40000</p>
-              <a href="tel:0850032649" className="text-gray-400 text-sm md:text-base">
+              <h3 className="text-lg  text-gray-600">ติดต่อเรา</h3>
+              <p className="text-gray-400 mt-2 text-sm ">test : khonkaen 40000</p>
+              <a href="tel:0850032649" className="text-gray-400 text-sm ">
                 โทรศัพท์ : 085-0032649
               </a>
-              <p className="text-gray-400 text-sm md:text-base">tel : 0850032649</p>
-              <p className="text-gray-400 text-sm md:text-base" >tel : 0850032649</p>
+              <p className="text-gray-400 text-sm ">tel : 0850032649</p>
+              <p className="text-gray-400 text-sm " >tel : 0850032649</p>
               <div
                 className="flex flex-row gap-4 mt-4"
               >
