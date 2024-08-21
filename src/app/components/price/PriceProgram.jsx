@@ -4,18 +4,18 @@ import { FcOk } from "react-icons/fc";
 const PriceProgram = () => {
   return (
     <section className=" ">
-    <h2 className=" text-2xl md:text-3xl text-center">
+    <h2 className=" text-2xl md:text-3xl text-left md:text-center">
       <span className="text-purple-700 font-semibold">ค่าบริการ </span>
       จ้างเขียนโปรแกรมทุกบริษัท
     </h2>
-    <p className="text-center mt-4 text-gray-500 text-base ">
+    <p className="text-left md:text-center mt-4 text-gray-500 text-sm md:text-base ">
       <span className="text-purple-600">
         พัฒนาโปรแกรม
       </span>{" "}
       เพื่อตอบโจทย์ และลดการทำงานในบริษัทของคุณ สำหรับธุรกิจหรือองค์กรขนาดเล็ก กลาง ใหญ่
       ทุกธุรกิจ{" "}
     </p>
-    <div className="flex flex-col justify-center items-center  lg:flex-row gap-3 mt-10 ">
+    <div className="flex flex-col justify-center items-center  lg:flex-row gap-6 lg:gap-1 mt-10 ">
       <div className="w-full bg-white  shadow-xl rounded-lg border border-purple-200 m-1    ">
         <div className="px-6 py-5">
           <h3 className="text-black text-md md:text-lg font-semibold mt-16 ">
