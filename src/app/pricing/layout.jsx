@@ -1,31 +1,62 @@
-'use client'
+"use client";
 import Link from "next/link";
-import { usePathname } from 'next/navigation'
+import { usePathname, useRouter  } from "next/navigation";
 import { useState } from "react";
 
 export default function RootLayout({ children }) {
-    const pathname = usePathname()
+  const pathname = usePathname();
+  const router = useRouter()
 
-    const styleBtn =  (path)=> {
-       return ` ${pathname === path ? "bg-purple-500 text-white" : ""} px-4  hover:bg-purple-300 hover:text-white py-1 rounded-md `
-    }
+  const menu = [
+    { name: "รับเขียนโปรแกรม", path: "/pricing/program" },
+    { name: "รับทำเว็บไซต์ SEO", path: "/pricing/website" },
+  ];
+
+  const mobileOnChange = (link)=> {
+    return router.push(link)
+    
+  }
+
+
   return (
     <div className="px-6 md:px-10 lg:px-14  container mx-auto ">
       <section className="flex flex-col lg:flex-row gap-3">
+        <div className="w-full lg:w-2/12   ">
+          <h1 className="text-lg">บริการของเรา </h1>
 
-        <div className="w-full lg:w-2/12  ">
-          <h1 className="text-lg">บริการของเรา  </h1>
-          <ul className=" mt-4 py-7 flex flex-col gap-5 text-gray-700 text-sm  px-4 border-2 border-purple-100 rounded-md overflow-y-scroll h-28 md:h-96">
-            <li>
-              <Link className={styleBtn("/pricing/program")} href="/pricing/program">รับเขียนโปรแกรม</Link>
-            </li>
-            <li>
-              <Link className={styleBtn("/pricing/website")} href="/pricing/website">รับทำเว็บไซต์ SEO</Link>
-            </li>
+          
+          <div className="lg:hidden block py-6">
+            <select className="bg-gray-100 border border-gray-300 py-2 rounded-md px-4 w-full" onChange={(e)=>mobileOnChange(e.target.value)} >
+              <option className="" value="">เลือกบริการที่ต้องการ</option>
+              {menu.map((item,index)=> (
+                <option key={index}  value={item.path}>{item.name}</option>
+              ))}
+            </select>
+
+          </div>
+          <ul className=" mt-4   flex-col gap-0 text-gray-700 text-sm     rounded-md overflow-y-scroll h-28 md:h-60 hidden lg:flex">
+            {menu.map((item, index) => (
+              <div key={index}>
+                <li
+                  className={`${
+                    pathname === item.path
+                      ? "bg-gradient-to-r from-indigo-400 via-purple-400 to-purple-200  text-white"
+                      : ""
+                  } hover:bg-purple-200 hover:text-white py-3`}
+                >
+                  <Link className=" px-4  " href={item.path}>
+                    {item.name}
+                  </Link>
+                </li>
+                <hr className="px-4" />
+              </div>
+            ))}
           </ul>
         </div>
 
-        <div className=" mt-4  md:mt-0 w-full lg:w-10/12  md:px-6 ">{children}</div>
+        <div className=" mt-4  md:mt-0 w-full lg:w-10/12  md:px-6 ">
+          {children}
+        </div>
       </section>
     </div>
   );

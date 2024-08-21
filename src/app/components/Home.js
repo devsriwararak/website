@@ -1,11 +1,13 @@
-import React from "react";
+import React, { lazy } from "react";
 import Image from "next/image";
-import { FaBeer, FaLaptopCode , FaChartLine  } from "react-icons/fa";
+import { FaBeer, FaLaptopCode, FaChartLine } from "react-icons/fa";
 import { AiFillFacebook, AiFillPhone } from "react-icons/ai";
 import { FcComboChart } from "react-icons/fc";
 import { SiLine, SiTiktok } from "react-icons/si";
-import { MdOutlineQueuePlayNext, MdOutlineLocalGroceryStore } from "react-icons/md";
-
+import {
+  MdOutlineQueuePlayNext,
+  MdOutlineLocalGroceryStore,
+} from "react-icons/md";
 
 import {
   HiMiniCpuChip,
@@ -19,17 +21,17 @@ import {
 import Link from "next/link";
 import Accordion from "./Accordion";
 import BannerSwiper from "./BannerSwiper";
-import PriceProgram from "./PriceProgram";
-import Prices from "./Prices";
+import Prices from "./price/Prices";
+import Carousel from "./carousel/Carousel";
+import Thank from "./Thank";
 
 const Home = () => {
-
   const scrollToTarget = (id) => {
     const element = document.getElementById(id);
     if (element) {
       window.scrollTo({
         top: element.offsetTop,
-        behavior: 'smooth', // เลื่อนอย่างเรียบเนียน
+        behavior: "smooth", // เลื่อนอย่างเรียบเนียน
       });
     }
   };
@@ -114,8 +116,11 @@ const Home = () => {
       <div className="  bg-gradient-to-r from-indigo-400 via-purple-400 to-pink-300 border-t-2 border-purple-200 ">
         <div className="bg-red-100 bg-opacity-20 px-10 lg:px-32 py-4    ">
           <ul className="flex flex-wrap lg:flex-row gap-1 md:gap-5 lg:gap-10 justify-start md:justify-center ">
-            <li className="text-sm md:text-lg    text-gray-100 hover:bg-white hover:bg-opacity-25 px-4 py-2 rounded-lg  " >
-              <Link href="/#web_1" className="flex flex-row gap-2 items-center transition duration-300 ease-in-out"  >
+            <li className="text-sm md:text-lg    text-gray-100 hover:bg-white hover:bg-opacity-25 px-4 py-2 rounded-lg  ">
+              <Link
+                href="/#web_1"
+                className="flex flex-row gap-2 items-center transition duration-300 ease-in-out"
+              >
                 {" "}
                 <MdOutlineQueuePlayNext color="white" size={25} />{" "}
                 รับเขียนโปรแกรม
@@ -124,22 +129,20 @@ const Home = () => {
             <li className="text-sm md:text-lg  text-gray-100 hover:bg-white hover:bg-opacity-25 px-4 py-2 rounded-lg ">
               <Link href="/" className="flex flex-row gap-2 items-center">
                 {" "}
-                <MdOutlineLocalGroceryStore  color="white" size={25} />{" "}
+                <MdOutlineLocalGroceryStore color="white" size={25} />{" "}
                 รับทำเว็บไซต์สำเร็จรูป
               </Link>
             </li>
             <li className="text-sm md:text-lg  text-gray-100 hover:bg-white hover:bg-opacity-25 px-4 py-2 rounded-lg ">
               <Link href="/" className="flex flex-row gap-2 items-center">
                 {" "}
-                <FaLaptopCode color="white" size={25} />{" "}
-                รับทำเว็บไซต์ขนาดใหญ่
+                <FaLaptopCode color="white" size={25} /> รับทำเว็บไซต์ขนาดใหญ่
               </Link>
             </li>
             <li className="text-sm md:text-lg  text-gray-100 hover:bg-white hover:bg-opacity-25 px-4 py-2 rounded-lg ">
               <Link href="/" className="flex flex-row gap-2 items-center">
                 {" "}
-                <FaChartLine color="white" size={25} /> รับดูแล SEO
-                รายเดือน
+                <FaChartLine color="white" size={25} /> รับดูแล SEO รายเดือน
               </Link>
             </li>
           </ul>
@@ -147,7 +150,10 @@ const Home = () => {
       </div>
 
       {/*  About Me section */}
-      <section className="px-6 md:px-10 lg:px-32 py-16 md:py-28 container mx-auto   " id="web_1">
+      <section
+        className="px-6 md:px-10 lg:px-32 py-16 md:py-28 container mx-auto   "
+        id="web_1"
+      >
         <h2 className="text-2xl md:text-3xl text-center">
           ออกแบบ{" "}
           <span className="text-purple-700 font-semibold">พัฒนาซอฟต์แวร์</span>{" "}
@@ -341,8 +347,7 @@ const Home = () => {
       </section>
 
       {/* อัตราค่าบริการ */}
-      <Prices/>
-
+      <Prices />
 
       {/* show mobile */}
       <h2 className=" md:mt-8 text-center text-2xl lg:text-3xl px-10 lg:px-0">
@@ -434,186 +439,85 @@ const Home = () => {
         </div>
       </section>
 
-      {/* ผลงานที่ผ่านมทา */}
-      <section className="mt-32 bg-gradient-to-r from-indigo-100  to-pink-50  py-14 md:py-24  ">
-        <div className="px-6 md:px-10 lg:px-36 container mx-auto">
-          <h2 className="text-2xl lg:text-3xl text-center ">
-            ผลงานรับทำเว็บไซต์ และรับเขียนโปรแกรม ที่ผ่านมา
-          </h2>
-          <p className="text-gray-600 text-center mt-2 text-sm lg:text-base">
-            สำหรับลูกค้าที่มีความชอบแนว มินิมอล ลักชูรี่ (Minimal luxury)
-            เราพร้อมบริการ{" "}
-            <span className="text-purple-700">
-              รับเขียนโปรแกรม รับทำเว็บไซต์ SEO ขอนแก่น
-            </span>
-          </p>
+      {/* carousel  bg-gradient-to-b from-transparent via-indigo-50 to-purple-50 */}
+      <section className=" mt-10 md:mt-24  py-14 bg-gradient-to-b from-transparent via-indigo-50 to-purple-50     ">
 
-          <div className="flex flex-row  gap-1 md:gap-4   mt-10 ">
-            <div className="w-full">
-              <Image
-                src="https://devsriwararak.com/wp-content/uploads/2024/01/%E0%B8%9C%E0%B8%A5%E0%B8%87%E0%B8%B2%E0%B8%99%E0%B9%80%E0%B8%82%E0%B8%B5%E0%B8%A2%E0%B8%99%E0%B9%82%E0%B8%9B%E0%B8%A3%E0%B9%81%E0%B8%81%E0%B8%A3%E0%B8%A1%E0%B8%A8%E0%B8%B2%E0%B8%A5%E0%B9%80%E0%B8%88%E0%B9%89%E0%B8%B2%E0%B8%82%E0%B8%AD%E0%B8%99%E0%B9%81%E0%B8%81%E0%B9%88%E0%B8%99.webp"
-                loading="lazy"
-                width={768}
-                height={644}
-                alt="ผลงานเขียนโปรแกรมศาลเจ้าขอนแก่น"
-                objectFit="cover"
-                quality={75}
-                className=" rounded-lg"
-              />
-            </div>
-
-            <div className="w-full">
-              <Image
-                src="https://devsriwararak.com/wp-content/uploads/2023/11/webport.webp"
-                loading="lazy"
-                width={768}
-                height={644}
-                alt="ผลงานรับทำเว็บไซต์ บริษัทอสังหาริมทรัพย์"
-                objectFit="cover"
-                quality={75}
-                className=" rounded-lg"
-              />
-            </div>
-
-            <div className="w-full">
-              <Image
-                src="https://devsriwararak.com/wp-content/uploads/2023/08/finalp.webp"
-                loading="lazy"
-                width={768}
-                height={644}
-                alt="ผงานทำเว็บไซต์โรงน้ำแข็งที่ขอนแก่น"
-                objectFit="cover"
-                quality={75}
-                className=" rounded-lg"
-              />
-            </div>
-          </div>
-
-          <div className=" grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2 md:gap-4 md:mx-16 mt-5">
-            <div className="w-full">
-              <Image
-                src="https://devsriwararak.com/wp-content/uploads/2023/09/fb-post-1.webp"
-                loading="lazy"
-                width={760}
-                height={500}
-                alt="ผลงานรับทำเว็บไซต์ ขอนแก่น บริษัทจำหน่ายอุปกรณ์ฟิตเนส"
-                objectFit="cover"
-                quality={75}
-                className=" rounded-lg"
-              />
-            </div>
-
-            <div className="w-full">
-              <Image
-                src="https://devsriwararak.com/wp-content/uploads/2023/08/fb-post.webp"
-                loading="lazy"
-                width={760}
-                height={500}
-                alt="ผลงานรับทำเว็บไซต์ ขอนแก่น เว็บขายเสื้อผ้าออนไลน์"
-                objectFit="cover"
-                quality={75}
-                className=" rounded-lg"
-              />
-            </div>
-
-            <div className="w-full">
-              <Image
-                src="https://devsriwararak.com/wp-content/uploads/2023/10/fb-post-2.webp"
-                loading="lazy"
-                width={760}
-                height={500}
-                alt="ผลงานรับทำเว็บไซต์ ขอนแก่น เว็บรับฝากสุนัข"
-                objectFit="cover"
-                quality={75}
-                className=" rounded-lg"
-              />
-            </div>
-
-            <div className="w-full">
-              <Image
-                src="https://devsriwararak.com/wp-content/uploads/2024/08/port.png.webp"
-                loading="lazy"
-                width={760}
-                height={500}
-                alt="ผลงานรับทำเว็บไซต์ รับสร้างบ้านจังหวัดเลย"
-                objectFit="cover"
-                quality={75}
-                className=" rounded-lg"
-              />
-            </div>
-          </div>
-
-          <div className="text-center mt-16 lg:mt-10">
-            <Link
-              href="/about"
-              className=" bg-gradient-to-r from-indigo-400  to-pink-300  text-white px-10 md:px-32 py-2 rounded-full"
-            >
-              ผลงานทั้งหมด
-            </Link>
-          </div>
-        </div>
-      </section>
-
-      {/* ขอขอบคุณลูกค้าทุกท่าน */}
-      <section className="mt-16 md:mt-24 px-6 md:px-10 lg:px-36 container  mx-auto">
-        <h2 className="text-2xl lg:text-3xl text-center">
-          ขอขอบคุณลูกค้าทุกท่าน
+        <div className="px-6 md:px-10 lg:px-36 container mx-auto ">
+        <h2 className="text-2xl lg:text-3xl text-center  ">
+          ผลงานรับทำเว็บไซต์ และรับเขียนโปรแกรม ที่ผ่านมา
         </h2>
-        <p className="text-gray-600 text-center mt-2 text-sm lg:text-base">
-          ขอขอบพระคุณลูกค้าทุกท่าน ที่ไว้วางใขใช้บริการเขียนโปรแกรม
-          และทำเว็บไซต์ ขอนแก่น กับเรา
+        <p className="text-gray-600 text-center mt-4 text-sm lg:text-base ">
+          สำหรับลูกค้าที่มีความชอบแนว มินิมอล ลักชูรี่ (Minimal luxury)
+          เราพร้อมบริการ{" "}
+          <span className="text-purple-700">
+            รับเขียนโปรแกรม รับทำเว็บไซต์ SEO ขอนแก่น
+          </span>
         </p>
 
-        <div className=" grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2 md:gap-4 md:mx-16 mt-10">
-          <div className="w-full">
-            <Image
-              src="https://devsriwararak.com/wp-content/uploads/2023/09/%E0%B8%A3%E0%B8%B5%E0%B8%A7%E0%B8%B4%E0%B8%A7%E0%B8%A5%E0%B8%B9%E0%B8%81%E0%B8%84%E0%B9%89%E0%B8%B2-%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B9%80%E0%B8%82%E0%B8%B5%E0%B8%A2%E0%B8%99%E0%B9%82%E0%B8%9B%E0%B8%A3%E0%B9%81%E0%B8%81%E0%B8%A3%E0%B8%A1%E0%B8%82%E0%B8%AD%E0%B8%AD%E0%B8%99%E0%B9%81%E0%B8%81%E0%B9%88%E0%B8%99-%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B8%97%E0%B8%B3%E0%B9%80%E0%B8%A7%E0%B9%87%E0%B8%9A%E0%B9%84%E0%B8%8B%E0%B8%95%E0%B9%8C-%E0%B8%82%E0%B8%AD%E0%B8%99%E0%B9%81%E0%B8%81%E0%B9%88%E0%B8%99-1.webp"
-              loading="lazy"
-              width={760}
-              height={500}
-              alt="ขอขอบคุณลูกค้า รับเขียนโปรแกรม รับทำเว็บไซต์"
-              objectFit="cover"
-              quality={75}
-            />
+        <div className="flex flex-col lg:flex-row gap-4 mt-10 items-center">
+          <div className="w-full lg:w-2/3">
+            <Carousel />
           </div>
-
-          <div className="w-full">
+          <div className="w-full lg:w-1/3  flex flex-col gap-4">
             <Image
-              src="https://devsriwararak.com/wp-content/uploads/2023/09/%E0%B8%A3%E0%B8%B5%E0%B8%A7%E0%B8%B4%E0%B8%A7%E0%B8%A5%E0%B8%B9%E0%B8%81%E0%B8%84%E0%B9%89%E0%B8%B2-%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B9%80%E0%B8%82%E0%B8%B5%E0%B8%A2%E0%B8%99%E0%B9%82%E0%B8%9B%E0%B8%A3%E0%B9%81%E0%B8%81%E0%B8%A3%E0%B8%A1%E0%B8%82%E0%B8%AD%E0%B8%AD%E0%B8%99%E0%B9%81%E0%B8%81%E0%B9%88%E0%B8%99-%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B8%97%E0%B8%B3%E0%B9%80%E0%B8%A7%E0%B9%87%E0%B8%9A%E0%B9%84%E0%B8%8B%E0%B8%95%E0%B9%8C-%E0%B8%82%E0%B8%AD%E0%B8%99%E0%B9%81%E0%B8%81%E0%B9%88%E0%B8%99-2.webp"
-              loading="lazy"
-              width={760}
+              width={500}
               height={500}
-              alt="ขอขอบคุณลูกค้า รับเขียนโปรแกรม รับทำเว็บไซต์ "
-              objectFit="cover"
-              quality={75}
+              loading="lazy"
+              src="https://devsriwararak.com/wp-content/uploads/2024/08/banner-1.webp"
+              className=" rounded-lg w-full"
             />
-          </div>
 
-          <div className="w-full">
             <Image
-              src="https://devsriwararak.com/wp-content/uploads/2024/01/%E0%B8%82%E0%B8%AD%E0%B8%82%E0%B8%AD%E0%B8%9A%E0%B8%84%E0%B8%B8%E0%B8%93%E0%B8%A5%E0%B8%B9%E0%B8%81%E0%B8%84%E0%B9%89%E0%B8%B2-%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B9%80%E0%B8%82%E0%B8%B5%E0%B8%A2%E0%B8%99%E0%B9%82%E0%B8%9B%E0%B8%A3%E0%B9%81%E0%B8%81%E0%B8%A3%E0%B8%A1-%E0%B8%82%E0%B8%AD%E0%B8%99%E0%B9%81%E0%B8%81%E0%B9%88%E0%B8%99-3.webp"
-              loading="lazy"
-              width={760}
+              width={500}
               height={500}
-              alt="ขอขอบคุณลูกค้า รับเขียนโปรแกรม รับทำเว็บไซต์"
-              objectFit="cover"
-              quality={75}
-            />
-          </div>
-
-          <div className="w-full">
-            <Image
-              src="https://devsriwararak.com/wp-content/uploads/2024/01/%E0%B8%82%E0%B8%AD%E0%B8%82%E0%B8%AD%E0%B8%9A%E0%B8%84%E0%B8%B8%E0%B8%93%E0%B8%A5%E0%B8%B9%E0%B8%81%E0%B8%84%E0%B9%89%E0%B8%B2-%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B9%80%E0%B8%82%E0%B8%B5%E0%B8%A2%E0%B8%99%E0%B9%82%E0%B8%9B%E0%B8%A3%E0%B9%81%E0%B8%81%E0%B8%A3%E0%B8%A1-%E0%B8%82%E0%B8%AD%E0%B8%99%E0%B9%81%E0%B8%81%E0%B9%88%E0%B8%99-4.webp"
               loading="lazy"
-              width={760}
-              height={500}
-              alt="ขอขอบคุณลูกค้า รับเขียนโปรแกรม รับทำเว็บไซต์"
-              objectFit="cover"
-              quality={75}
+              src="https://devsriwararak.com/wp-content/uploads/2024/01/%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B9%80%E0%B8%82%E0%B8%B5%E0%B8%A2%E0%B8%99%E0%B9%82%E0%B8%9B%E0%B8%A3%E0%B9%81%E0%B8%81%E0%B8%A3%E0%B8%A1%E0%B8%82%E0%B8%AD%E0%B8%99%E0%B9%81%E0%B8%81%E0%B9%88%E0%B8%99-%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B8%97%E0%B8%B3%E0%B9%80%E0%B8%A7%E0%B9%87%E0%B8%9A%E0%B9%84%E0%B8%8B%E0%B8%95%E0%B9%8C-%E0%B8%82%E0%B8%AD%E0%B8%99%E0%B9%81%E0%B8%81%E0%B9%88%E0%B8%99-1.webp"
+              className=" rounded-lg w-full"
             />
           </div>
         </div>
+ 
+
+        <div className="mt-10 shadow-lg rounded-md px-10 py-10 border border-gray-100 relative overflow-hidden ">
+          <div
+            className="absolute inset-0 "
+            style={{
+              backgroundImage:
+                "linear-gradient(to right, rgba(255, 255, 255, 1) 50%, rgba(255, 255, 255, 0)), url('https://devsriwararak.com/wp-content/uploads/2024/08/4959.webp')",
+              backgroundSize: "cover",
+              backgroundPosition: "center",
+            }}
+          ></div>
+          <div className="relative flex flex-col lg:flex-row gap-8 px-0 md:px-12 lg:px-32 items-center ">
+            <div className="w-full">
+              <h3 className="text-xl">
+                เพิ่มความเชื่อถือ และผู้ช่วยในการทำงานให้ธุรกิจ
+              </h3>
+              <p className="mt-3 text-gray-500 text-sm">
+                Dev Sriwararak เรามีบริการรับทำเว็บไซต์รองรับ SEO
+                และออกแบบพัฒนาโปรแกรมสำหรับทุกธุรกิจ{" "}
+              </p>
+            </div>
+            <div className="w-full">
+              <Link
+                href="/review"
+                className=" bg-purple-800 hover:bg-purple-700 text-white px-6 py-2 rounded-md"
+              >
+                ผลงานที่ผ่านมา
+              </Link>
+            </div>
+          </div>
+        </div>
+        </div>
+   
+        
       </section>
+
+
+
+      {/* ขอขอบคุณลูกค้าทุกท่าน */}
+      <Thank/>
+      
 
       {/* FAQ */}
       <section className="mt-20 md:mt-32 container mx-auto px-6 md:px-10 lg:px-36">
@@ -625,9 +529,11 @@ const Home = () => {
         </h2>
 
         <div className="flex flex-col lg:flex-row gap-4 justify-center mt-8 md:mt-16  ">
-          <div className="w-full bg-gray-50">
-            <Accordion />
+
+          <div className="w-full ">
+          <Accordion />
           </div>
+
           <div className="w-full  block mt-4 ">
             <div className="flex justify-center items-center">
               <Image

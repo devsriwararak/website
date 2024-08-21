@@ -1,5 +1,5 @@
 import React from "react";
-import PriceProgram from "../../components/PriceProgram";
+import PriceProgram from "../../components/price/PriceProgram";
 import Image from "next/image";
 import Link from "next/link";
 
