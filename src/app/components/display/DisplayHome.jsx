@@ -31,13 +31,15 @@ const DisplayHome = async ({id, limit}) => {
           <div className=" w-full md:w-1/2 lg:w-1/5 px-2 py-3" key={item.id}>
             <Link href={`/contents/${item.id}`}>
               <div className="bg-white shadow-lg border border-gray-100 rounded-md fliex ">
-                <Image
-                  src={`${process.env.NEXT_PUBLIC_IMAGE}/${item.image}`}
-                  width={200}
-                  height={200}
-                  loading="lazy"
-                  className="w-full"
-                />
+              <div className="relative w-full h-48">
+                  <Image
+                    src={`${process.env.NEXT_PUBLIC_IMAGE}/${item.image}`}
+                    layout="fill" 
+                    objectFit="cover" 
+                    alt={item.title}
+                    className="w-full h-full"
+                  />
+                </div>
                 <div className=" py-2 px-4">
                   <h3 className="text-sm lg:text-base font-semibold">
                     {item.title}

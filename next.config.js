@@ -16,7 +16,7 @@ const withPWA = require("@ducanh2912/next-pwa").default({
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     images: {
-        domains: ['devsriwararak.com', 'thesummary.blog']
+        domains: ['devsriwararak.com', 'thesummary.blog', 'nextsoftwarethailand.com', 'travelandexplore.co']
     }
 }
 

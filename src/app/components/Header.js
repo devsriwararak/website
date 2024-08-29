@@ -118,7 +118,7 @@ const Header = () => {
 
                 <li
                   className={`hover:bg-purple-100 px-2 py-2 rounded-lg ${
-                    pathname.startsWith("/blogs")
+                    pathname.startsWith("/blogs") || pathname.startsWith("/contents")
                       ? isScrolled
                         ? "bg-purple-100 "
                         : " bg-purple-100 bg-opacity-50 text-purple-500"

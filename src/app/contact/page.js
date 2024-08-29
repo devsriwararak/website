@@ -5,7 +5,7 @@ import { FaMobileScreenButton } from "react-icons/fa6";
 import Link from "next/link";
 
 export const metadata = {
-    title: "ติดต่อเรา รับเขียนโปรแกรม รับทำเว็บไซต์ SEO ขอนแก่น",
+    title: "ติดต่อเรา ปรึกษาเรื่องเขียนโปรแกรม ปัญหาเกี่ยวกับการทำเว็บไซต์ SEO ขอนแก่น",
     description:
       "Dev Sriwararak รับออกแบบเขียนโปรแกรม และทำเว็บไซต์เพื่อการตลาดทุกธรุกิจที่ต้องการสร้างความน่าเชื่อถือให้กับร้านค้าและบริการ",
     openGraph: {
