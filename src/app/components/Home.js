@@ -24,6 +24,7 @@ import BannerSwiper from "./BannerSwiper";
 import Prices from "./price/Prices";
 import Carousel from "./carousel/Carousel";
 import Thank from "./Thank";
+import DisplayHome from "./display/DisplayHome";
 
 const Home = () => {
   const scrollToTarget = (id) => {
@@ -517,6 +518,9 @@ const Home = () => {
 
       {/* ขอขอบคุณลูกค้าทุกท่าน */}
       <Thank/>
+
+      {/* 5 บทความยอดนิยม */}
+      <DisplayHome />
       
 
       {/* FAQ */}

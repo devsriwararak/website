@@ -16,22 +16,22 @@ const PriceProgram = () => {
       ทุกธุรกิจ{" "}
     </p>
     <div className="flex flex-col justify-center items-center  lg:flex-row gap-6 lg:gap-1 mt-10 ">
+
       <div className="w-full bg-white  shadow-xl rounded-lg border border-purple-200 m-1    ">
         <div className="px-6 py-5">
           <h3 className="text-black text-md md:text-lg font-semibold mt-16 ">
             โปรแกรมขนาดเล็ก ช่วยวิเคราะห์บันทึก
           </h3>
           <p className="text-gray-600 mt-3 text-sm">
-            สร้างเว็บไซต์การตลาดที่มีความซับซ้อน หรือโปรแกรมขนาดเล็ก
-            เป็นตัวช่วยที่ดีในการทำงาน
+            สร้างเว็บไซต์การตลาดที่มีความซับซ้อน หรือพัฒนาฟีเจอเล็กๆ เพื่อให้การทำงานง่ายขึ้น
           </p>
 
           <div className="flex  items-center flex-row gap-3 mt-8">
-            <p className=" line-through text-gray-400">
+            <p className=" line-through text-sm text-gray-400">
               เริ่มต้นที่ 9,500 บาท{" "}
             </p>
             <div className="bg-purple-100 px-2 py-1 rounded-full">
-              <p>ประหยัด 6%</p>
+              <p className='text-gray-600 text-sm'>ประหยัด 6%</p>
             </div>
           </div>
 
@@ -47,15 +47,13 @@ const PriceProgram = () => {
 
           <hr className=" mt-6 border border-purple-200" />
           <ul className="md:px-4 py-5 text-xs md:text-sm">
-            <li className="flex flex-row gap-4 items-center text-gray-500">
-              {" "}
-              <FcOk size={23} /> สำหรับเว็บไซต์ขายของ
-            </li>
+        
             <li className="flex flex-row gap-4 items-center text-gray-500  mt-4">
               {" "}
               <FcOk size={23} />
               สำหรับเว็บไซต์ที่มีความซับซ้อน
             </li>
+            
             <li className="flex flex-row gap-4 items-center text-gray-500  mt-4">
               {" "}
               <FcOk size={23} />
@@ -64,7 +62,12 @@ const PriceProgram = () => {
             <li className="flex flex-row gap-4 items-center text-gray-500  mt-4">
               {" "}
               <FcOk size={23} />
-              สำหรับโปรแกรมช่วยในการทำงาน ขนาดเล็ก
+              พัฒนาโปรแกรมขนาดเล็ก ช่วยในการทำงาน
+            </li>
+            <li className="flex flex-row gap-4 items-center text-gray-500  mt-4">
+              {" "}
+              <FcOk size={23} />
+              พัฒนาตัวช่วยที่ตอบโจทย์ ในการทำงาน
             </li>
             <li className="flex flex-row gap-4 items-center text-gray-500  mt-4">
               {" "}
@@ -87,19 +90,19 @@ const PriceProgram = () => {
 
         <div className="px-8 py-5 ">
           <h3 className="text-black text-md md:text-lg font-semibold mt-7 ">
-            โปรแกรมสำหรับองค์กรขนาดกลาง 
+            โปรแกรมขนาดกลาง สำหรับองค์กร
           </h3>
           <p className="text-gray-600 mt-3 text-sm">
             พัฒนาโปรแกรมสำหรับธุรกิจที่ต้องการเครื่องมือ หรือตัวช่วยที่สะดวก
-            รวดเร็ว แม่นยำในการทำงาน
+            รวดเร็ว และแม่นยำในการทำงาน
           </p>
 
           <div className="flex flex-col items-start md:items-center lg:flex-row gap-3 mt-8">
-            <p className=" line-through text-gray-400">
+            <p className=" line-through text-gray-400 text-sm ">
               เริ่มต้นที่ 23,000 บาท{" "}
             </p>
             <div className="bg-purple-100 px-2 py-1 rounded-full">
-              <p>ประหยัด 13%</p>
+              <p className='text-gray-600 text-sm'>ประหยัด 13%</p>
             </div>
           </div>
 
@@ -119,6 +122,13 @@ const PriceProgram = () => {
               {" "}
               <FcOk size={23} /> สำหรับองค์กร หรือบริษัทขนาดเล็ก
             </li>
+
+            <li className="flex flex-row gap-4 items-center text-gray-500  mt-4">
+              {" "}
+              <FcOk size={23} />
+              ปรึกษาพูดคุยออกแบบระบบ
+            </li>
+
             <li className="flex flex-row gap-4 items-center text-gray-500  mt-4">
               {" "}
               <FcOk size={23} />
@@ -159,11 +169,11 @@ const PriceProgram = () => {
           </p>
 
           <div className="flex flex-col items-start md:items-center lg:flex-row gap-3 mt-8">
-            <p className=" line-through text-gray-400">
+            <p className=" line-through text-gray-400 text-sm">
               เริ่มต้นที่ 60,000 บาท{" "}
             </p>
             <div className="bg-purple-100 px-2 py-1 rounded-full">
-              <p>ประหยัด 17%</p>
+              <p className='text-gray-600 text-sm'>ประหยัด 17%</p>
             </div>
           </div>
 
@@ -182,6 +192,16 @@ const PriceProgram = () => {
             <li className="flex flex-row gap-4 items-center text-gray-500">
               {" "}
               <FcOk size={23} /> สำหรับองค์กร หรือบริษัทขนาดใหญ่
+            </li>
+            <li className="flex flex-row gap-4 items-center text-gray-500  mt-4">
+              {" "}
+              <FcOk size={23} />
+              ปรึกษาพูดคุยออกแบบระบบ
+            </li>
+            <li className="flex flex-row gap-4 items-center text-gray-500  mt-4">
+              {" "}
+              <FcOk size={23} />
+              พัฒนาโปรแกรมตามความต้องการของลูกค้า
             </li>
             <li className="flex flex-row gap-4 items-center text-gray-500  mt-4">
               {" "}

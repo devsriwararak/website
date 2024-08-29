@@ -6,9 +6,9 @@ const Footer = () => {
   return (
     <>
       <div className="mt-20 ">
-        <div className="px-6 md:px-16 mx-10   lg:mx-[300px] py-10 md:py-16 flex flex-col md:flex-row gap-4 justify-center items-center bg-gradient-to-r from-indigo-400  to-pink-200 rounded-xl">
+        <div className="px-6 md:px-16 mx-6   lg:mx-[300px] py-10 md:py-16 flex flex-col md:flex-row gap-4 justify-center items-center bg-gradient-to-r from-indigo-400  to-pink-200 rounded-xl">
           <div className="w-full lg:w-2/3  lg:pr-20 ">
-            <h2 className="text-2xl md:text-3xl text-white font-semibold leading-normal">
+            <h2 className="text-xl md:text-3xl text-white font-semibold leading-normal">
               พัฒนาโปรแกรมสำหรับองค์กร และธุรกิจที่กำลังเติบโต
             </h2>
             <p className="text-gray-100 mt-4">

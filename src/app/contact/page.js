@@ -7,7 +7,7 @@ import Link from "next/link";
 export const metadata = {
     title: "ติดต่อเรา รับเขียนโปรแกรม รับทำเว็บไซต์ SEO ขอนแก่น",
     description:
-      "Dev Sriwararak รับออกแบบเขียนโปรแกรม และทำเว็บไซต์เพื่อการตลาดของทุกๆธรุกิจ ที่ต้องการสร้างความน่าเชื่อถือให้กับร้านค้าและบริการ",
+      "Dev Sriwararak รับออกแบบเขียนโปรแกรม และทำเว็บไซต์เพื่อการตลาดทุกธรุกิจที่ต้องการสร้างความน่าเชื่อถือให้กับร้านค้าและบริการ",
     openGraph: {
       images:
         "https://devsriwararak.com/wp-content/uploads/2024/01/%E0%B8%94%E0%B8%B9%E0%B9%81%E0%B8%A5%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%87%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%82%E0%B8%B2%E0%B8%A2-%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B9%80%E0%B8%82%E0%B8%B5%E0%B8%A2%E0%B8%99%E0%B9%82%E0%B8%9B%E0%B8%A3%E0%B9%81%E0%B8%81%E0%B8%A3%E0%B8%A1-%E0%B8%82%E0%B8%AD%E0%B8%99%E0%B9%81%E0%B8%81%E0%B9%88%E0%B8%99.webp",
@@ -21,10 +21,9 @@ const page = () => {
       <div className="bg-purple-500 py-16 w-full  ">
         <div className="flex flex-col md:flex-row gap-4 px-10 lg:px-36 items-center container mx-auto ">
           <div className="w-full">
-            <h1 className="text-2xl md:text-3xl text-white">ติดต่อเรา รับทำเว็บไซต์ ขอนแก่น</h1>
+            <h1 className="text-2xl md:text-3xl text-white">ติดต่อเรา</h1>
             <p className="mt-2 text-gray-200">
-              Dev Sriwararak รับออกแบบเขียนโปรแกรม และทำเว็บไซต์เพื่อการตลาดของ
-              ทุกๆธรุกิจ ที่ต้องการสร้างความน่าเชื่อถือให้กับร้านค้าและบริการ
+              Dev Sriwararak รับออกแบบเขียนโปรแกรม และทำเว็บไซต์เพื่อการตลาดทุกธรุกิจ ที่ต้องการสร้างความน่าเชื่อถือให้กับร้านค้าและบริการ
             </p>
           </div>
           <div className="w-full flex justify-center ">

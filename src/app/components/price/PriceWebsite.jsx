@@ -6,7 +6,7 @@ const PriceWebsite = () => {
     <section className=" ">
     <h2 className=" text-2xl md:text-3xl text-left md:text-center">
       <span className="text-purple-700 font-semibold">ค่าบริการ </span>
-      จ้างทำเว็บไซต์เพื่อการตลาด
+      ทำเว็บไซต์ (เพื่อการตลาด)
     </h2>
     <p className="text-left md:text-center mt-4 text-gray-500 text-sm md:text-base ">
       <span className="text-purple-600">
@@ -26,11 +26,11 @@ const PriceWebsite = () => {
           </p>
 
           <div className="flex  items-center flex-row gap-3 mt-8">
-            <p className=" line-through text-gray-400">
+            <p className=" line-through text-gray-400 text-sm">
               เริ่มต้นที่ 6,500 บาท{" "}
             </p>
             <div className="bg-purple-100 px-2 py-1 rounded-full">
-              <p>ประหยัด 8%</p>
+              <p className='text-gray-700 text-sm'>ประหยัด 8%</p>
             </div>
           </div>
 
@@ -83,7 +83,7 @@ const PriceWebsite = () => {
             <li className="flex flex-row gap-4 items-center text-gray-500  mt-4">
               {" "}
               <FcOk size={23} />
-              ต่ออายุ xxxx บาท/ปี{" "}
+              ต่ออายุ 2,000 บาท/ปี{" "}
             </li>
           </ul>
         </div>
@@ -103,11 +103,11 @@ const PriceWebsite = () => {
           </p>
 
           <div className="flex flex-col items-start md:items-center lg:flex-row gap-3 mt-8">
-            <p className=" line-through text-gray-400">
+            <p className=" line-through text-gray-400 text-sm ">
               เริ่มต้นที่ 15,000 บาท{" "}
             </p>
             <div className="bg-purple-100 px-2 py-1 rounded-full">
-              <p>ประหยัด 13%</p>
+              <p className='text-gray-600 text-sm'>ประหยัด 13%</p>
             </div>
           </div>
 
@@ -131,6 +131,11 @@ const PriceWebsite = () => {
               {" "}
               <FcOk size={23} />
               หน้าเว็บ 5 หน้า + บทความ (SEO)
+            </li>
+            <li className="flex flex-row gap-4 items-center text-gray-500  mt-4">
+              {" "}
+              <FcOk size={23} />
+              รองรับการใช้งาน 2 ภาษา 
             </li>
             <li className="flex flex-row gap-4 items-center text-gray-500  mt-4">
               {" "}
@@ -177,11 +182,11 @@ const PriceWebsite = () => {
           </p>
 
           <div className="flex flex-col items-start md:items-center lg:flex-row gap-3 mt-8">
-            <p className=" line-through text-gray-400">
+            <p className=" line-through text-gray-400 text-sm">
               เริ่มต้นที่ 24,000 บาท{" "}
             </p>
             <div className="bg-purple-100 px-2 py-1 rounded-full">
-              <p>ประหยัด 17%</p>
+              <p className='text-gray-600 text-sm'>ประหยัด 17%</p>
             </div>
           </div>
 
@@ -209,6 +214,11 @@ const PriceWebsite = () => {
             <li className="flex flex-row gap-4 items-center text-gray-500  mt-4">
               {" "}
               <FcOk size={23} />
+              รองรับการใช้งาน 2 ภาษา 
+            </li>
+            <li className="flex flex-row gap-4 items-center text-gray-500  mt-4">
+              {" "}
+              <FcOk size={23} />
               จูน Performance SEO + ความเร็วเว็บ
             </li>
             <li className="flex flex-row gap-4 items-center text-gray-500  mt-4">
@@ -220,6 +230,11 @@ const PriceWebsite = () => {
               {" "}
               <FcOk size={23} />
               ดูกราฟ GSC, GA{" "}
+            </li>
+            <li className="flex flex-row gap-4 items-center text-gray-500  mt-4">
+              {" "}
+              <FcOk size={23} />
+              ดูรายงานยอดขายได้
             </li>
             <li className="flex flex-row gap-4 items-center text-gray-500  mt-4">
               {" "}

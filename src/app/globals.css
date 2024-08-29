@@ -26,4 +26,32 @@ body  {
     object-fit: cover;
   }
 
+  .custom-container h2 {
+    color: black;
+  font-size: 26px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  }
+
+  .custom-container p {
+  padding-bottom: 16px;
+  font-size: 17px;
+  }
+
+  .custom-container a {
+    color: purple;
+    font-size: 17px;
+    font-weight: bold;
+    }
+
+
+    /* MOBILES */
+    @media (max-width: 768px) {
+      .custom-container p a{
+        font-size: 14px; /* ปรับขนาดตัวอักษรตามที่ต้องการ */
+      }
+      .custom-container h2 {
+        font-size: 22px;
+      }
+    }
 
