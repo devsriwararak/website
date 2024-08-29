@@ -31,7 +31,7 @@ const DisplayHome = async ({id, limit}) => {
           <div className=" w-full md:w-1/2 lg:w-1/5 px-2 py-3" key={item.id}>
             <Link href={`/contents/${item.id}`}>
               <div className="bg-white shadow-lg border border-gray-100 rounded-md fliex ">
-              <div className="relative w-full h-48">
+             <div className="relative w-full h-48">
                   <Image
                     src={`${process.env.NEXT_PUBLIC_IMAGE}/${item.image}`}
                     layout="fill" 

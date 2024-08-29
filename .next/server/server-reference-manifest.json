@@ -1,5 +1,13 @@
 {
   "node": {
+    "b5585d0e798365c1b9172e9e6692373be47abeda": {
+      "workers": {
+        "app/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5Capplications%5C%5Cdevsriwararak%5C%5Cwebsite%5C%5Csrc%5C%5Capp%5C%5Ccomponents%5C%5Cdisplay%5C%5CDisplayHome.jsx%22%2C%5B%22default%22%5D%5D%5D&__client_imported__=!"
+      },
+      "layer": {
+        "app/page": "rsc"
+      }
+    },
     "77d103bb62797e904bc63ce37a5d594303a35393": {
       "workers": {
         "app/blogs/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5Capplications%5C%5Cdevsriwararak%5C%5Cwebsite%5C%5Csrc%5C%5Capp%5C%5Cblogs%5C%5Cpage.jsx%22%2C%5B%22default%22%2C%22AllBlogs%22%2C%22%24%24ACTION_0%22%5D%5D%5D&__client_imported__=!"
@@ -23,42 +31,8 @@
       "layer": {
         "app/blogs/page": "rsc"
       }
-    },
-    "b5585d0e798365c1b9172e9e6692373be47abeda": {
-      "workers": {
-        "app/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5Capplications%5C%5Cdevsriwararak%5C%5Cwebsite%5C%5Csrc%5C%5Capp%5C%5Ccomponents%5C%5Cdisplay%5C%5CDisplayHome.jsx%22%2C%5B%22default%22%5D%5D%5D&__client_imported__=!",
-        "app/contents/[id]/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5Capplications%5C%5Cdevsriwararak%5C%5Cwebsite%5C%5Csrc%5C%5Capp%5C%5Ccontents%5C%5C%5Bid%5D%5C%5Cpage.jsx%22%2C%5B%22generateMetadata%22%2C%22%24%24ACTION_0%22%2C%22default%22%5D%5D%2C%5B%22C%3A%5C%5Capplications%5C%5Cdevsriwararak%5C%5Cwebsite%5C%5Csrc%5C%5Capp%5C%5Ccomponents%5C%5Cdisplay%5C%5CDisplayHome.jsx%22%2C%5B%22default%22%5D%5D%5D&__client_imported__=!"
-      },
-      "layer": {
-        "app/page": "rsc",
-        "app/contents/[id]/page": "rsc"
-      }
-    },
-    "11b42a12bfeaa60af4148465326c8c5d51005018": {
-      "workers": {
-        "app/contents/[id]/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5Capplications%5C%5Cdevsriwararak%5C%5Cwebsite%5C%5Csrc%5C%5Capp%5C%5Ccontents%5C%5C%5Bid%5D%5C%5Cpage.jsx%22%2C%5B%22generateMetadata%22%2C%22%24%24ACTION_0%22%2C%22default%22%5D%5D%2C%5B%22C%3A%5C%5Capplications%5C%5Cdevsriwararak%5C%5Cwebsite%5C%5Csrc%5C%5Capp%5C%5Ccomponents%5C%5Cdisplay%5C%5CDisplayHome.jsx%22%2C%5B%22default%22%5D%5D%5D&__client_imported__=!"
-      },
-      "layer": {
-        "app/contents/[id]/page": "rsc"
-      }
-    },
-    "2dca16bbf82ff4e4d909786f7e92a9ce23245d8b": {
-      "workers": {
-        "app/contents/[id]/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5Capplications%5C%5Cdevsriwararak%5C%5Cwebsite%5C%5Csrc%5C%5Capp%5C%5Ccontents%5C%5C%5Bid%5D%5C%5Cpage.jsx%22%2C%5B%22generateMetadata%22%2C%22%24%24ACTION_0%22%2C%22default%22%5D%5D%2C%5B%22C%3A%5C%5Capplications%5C%5Cdevsriwararak%5C%5Cwebsite%5C%5Csrc%5C%5Capp%5C%5Ccomponents%5C%5Cdisplay%5C%5CDisplayHome.jsx%22%2C%5B%22default%22%5D%5D%5D&__client_imported__=!"
-      },
-      "layer": {
-        "app/contents/[id]/page": "rsc"
-      }
-    },
-    "d03ffeff95efe39064a1f8a508971c66f3dc9053": {
-      "workers": {
-        "app/contents/[id]/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5Capplications%5C%5Cdevsriwararak%5C%5Cwebsite%5C%5Csrc%5C%5Capp%5C%5Ccontents%5C%5C%5Bid%5D%5C%5Cpage.jsx%22%2C%5B%22generateMetadata%22%2C%22%24%24ACTION_0%22%2C%22default%22%5D%5D%2C%5B%22C%3A%5C%5Capplications%5C%5Cdevsriwararak%5C%5Cwebsite%5C%5Csrc%5C%5Capp%5C%5Ccomponents%5C%5Cdisplay%5C%5CDisplayHome.jsx%22%2C%5B%22default%22%5D%5D%5D&__client_imported__=!"
-      },
-      "layer": {
-        "app/contents/[id]/page": "rsc"
-      }
     }
   },
   "edge": {},
-  "encryptionKey": "mD0Cka+4M73NIXExd941o950a20B+3yZ6P5QHGQcjNU="
+  "encryptionKey": "i4PoMV9jGkDhj3imM3H00ZAiBiIkwxs5xsb7KkE8cfw="
 }

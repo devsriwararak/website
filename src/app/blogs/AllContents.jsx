@@ -63,14 +63,14 @@ const AllContents = () => {
         onChange={(e) => handleSearch(e.target.value)}
         type="text"
         placeholder="ค้นหาบทความ"
-        className="bg-purple-100 px-8 py-1 rounded-md text-purple-600 border border-purple-200 w-96"
+        className="bg-purple-100 px-8 py-1 rounded-md text-purple-600 border border-purple-200 w-full lg:w-96"
       />
 
       <div className="mt-6 flex flex-wrap">
         {data.map((item, index) => (
-          <div className=" lg:w-1/4 p-2 mt-2" key={item.id}>
+          <div className=" w-full lg:w-1/4 p-2 mt-2" key={item.id}>
             <Link href={`/contents/${item.id}`}>
-              <div className="bg-white shadow-lg border border-gray-100 rounded-md fliex h-full ">
+              <div className="bg-white shadow-lg border border-gray-100 rounded-md  h-full ">
           
 
                 <div className="relative w-full h-48">
