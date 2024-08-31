@@ -19,7 +19,7 @@ const Prices = () => {
             status === 1
               ? "bg-purple-600 text-white"
               : "bg-purple-200 text-black"
-          } px-4 py-2 rounded-lg `}
+          } px-3 md:px-4 py-2 rounded-lg text-sm lg:text-base `}
         >
           ค่าบริการทำเว็บไซต์
         </button>
@@ -30,7 +30,7 @@ const Prices = () => {
             status === 2
               ? "bg-purple-600 text-white"
               : "bg-purple-200 text-black"
-          } px-4 py-2 rounded-lg `}
+          } px-3 md:px-4 py-2 rounded-lg text-sm lg:text-base `}
         >
           ค่าบริการเขียนโปรแกรม
         </button>

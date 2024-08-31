@@ -3,6 +3,20 @@ import PriceWebsite from "../../components/price/PriceWebsite";
 import Image from "next/image";
 import Link from "next/link";
 
+export const metadata = {
+  manifest: "/manifest.json",
+  title: "ราคาค่าบริการ รับจ้างทำเว็บไซต์บริษัท ขอนแก่น เพิ่มความน่าเชื่อถือ ค้นหาเจอบน Google",
+  description:
+    "ราคาค่าบริการ รับจ้างทำเว็บไซต์บริษัท ขอนแก่น ช่วยเพิ่มความน่าเชื่อถือให้องค์กรและบริษัท ค้นหาเจอบน Google ช่วยเพิ่มการมองเห็น และเพิ่มยอดขายด้วย SEO ",
+  keywords:
+    "ราคาค่าบริการนับจ้างทำเว็บไซต์ , ราคาค่าบริการพัฒนาเว็บไซต์ , ราคาค่าบริการทำเว็บไซต์บริษัท , ราคาค่าบริการทำเว็บไซต์ธุรกิจส่วนตัว  ",
+  openGraph: {
+    images:
+      "https://devsriwararak.com/wp-content/uploads/2024/08/banner-1.webp",
+  },
+};
+
+
 const page = () => {
   return (
     <div>

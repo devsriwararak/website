@@ -118,7 +118,8 @@ const Header = () => {
 
                 <li
                   className={`hover:bg-purple-100 px-2 py-2 rounded-lg ${
-                    pathname.startsWith("/blogs") || pathname.startsWith("/contents")
+                    pathname.startsWith("/blogs") ||
+                    pathname.startsWith("/contents")
                       ? isScrolled
                         ? "bg-purple-100 "
                         : " bg-purple-100 bg-opacity-50 text-purple-500"
@@ -127,15 +128,14 @@ const Header = () => {
                 >
                   <Link href="/blogs">บทความ</Link>
                 </li>
-                
-                  <li
-                    className={`hover:bg-purple-100 px-2 py-2 rounded-lg ${
-                      pathname === "/contact" && "bg-purple-100 text-purple-500"
-                    }`}
-                  >
-                   <Link href="/contact">ติดต่อเรา</Link> 
-                  </li>
-              
+
+                <li
+                  className={`hover:bg-purple-100 px-2 py-2 rounded-lg ${
+                    pathname === "/contact" && "bg-purple-100 text-purple-500"
+                  }`}
+                >
+                  <Link href="/contact">ติดต่อเรา</Link>
+                </li>
 
                 <li>
                   <button className="bg-purple-800 hover:bg-purple-700 text-white px-3 py-1 rounded-full">
@@ -175,62 +175,65 @@ const Header = () => {
             className="md:hidden mt-2 py-4 "
           >
             <ul className="flex flex-col gap-2 justify-start ">
-              
+              <Link href="/" onClick={() => openMobileMenu()}>
                 <li
                   className={`hover:bg-purple-100 px-2 py-2 rounded-lg ${
                     pathname === "/" && "bg-purple-200"
                   }`}
                 >
-                 <Link href="/" onClick={() => openMobileMenu()}>หน้าหลัก</Link> 
+                  หน้าหลัก
                 </li>
-              
+              </Link>
 
-              
+              <Link href="/about" onClick={() => openMobileMenu()}>
                 <li
                   className={`hover:bg-purple-100 px-2 py-2 rounded-lg ${
                     pathname === "/about" && "bg-purple-200"
                   }`}
                 >
-                  <Link href="/about" onClick={() => openMobileMenu()}>เกี่ยวกับเรา</Link>
+                  เกี่ยวกับเรา
                 </li>
+              </Link>
 
+              <Link href="/pricing" onClick={() => openMobileMenu()}>
                 <li
-              className={`hover:bg-purple-100 px-2 py-2 rounded-lg ${
-                pathname.startsWith("/pricing") && "bg-purple-200"
-              }`}
+                  className={`hover:bg-purple-100 px-2 py-2 rounded-lg ${
+                    pathname.startsWith("/pricing") && "bg-purple-200"
+                  }`}
                 >
-                  <Link href="/pricing" onClick={() => openMobileMenu()}>บริการ/ราคา</Link>
+                  บริการ/ราคา
                 </li>
-          
+              </Link>
 
-              
+              <Link href="/review" onClick={() => openMobileMenu()}>
                 <li
                   className={`hover:bg-purple-100 px-2 py-2 rounded-lg ${
                     pathname === "/review" && "bg-purple-200"
                   }`}
                 >
-                  <Link href="/review" onClick={() => openMobileMenu()}>ผลงาน</Link>
+                  ผลงาน
                 </li>
-             
+              </Link>
 
-              <li
-                className={`hover:bg-purple-100 px-2 py-2 rounded-lg ${
-                  pathname.startsWith("/blogs") && "bg-purple-200"
-                }`}
-              >
-                <Link href="/blogs" onClick={() => openMobileMenu()}>
+              <Link href="/blogs" onClick={() => openMobileMenu()}>
+                <li
+                  className={`hover:bg-purple-100 px-2 py-2 rounded-lg ${
+                    pathname.startsWith("/blogs") && "bg-purple-200"
+                  }`}
+                >
                   บทความ
-                </Link>
-              </li>
+                </li>
+              </Link>
 
-              
+              <Link href="/contact" onClick={() => openMobileMenu()}>
                 <li
                   className={`hover:bg-purple-100 px-2 py-2 rounded-lg ${
                     pathname === "/contact" && "bg-purple-200"
                   }`}
                 >
-                  <Link href="/contact" onClick={() => openMobileMenu()}>ติดต่อเรา</Link>
+                  ติดต่อเรา
                 </li>
+              </Link>
 
               <li>
                 <button className="bg-purple-600 hover:bg-purple-700 text-white px-3 py-1.5 rounded-full">

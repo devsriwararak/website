@@ -58,13 +58,14 @@ const AllContents = () => {
   }, [search]);
 
   return (
-    <div className="mt-16">
+    <div className="mt-8">
       <input
         onChange={(e) => handleSearch(e.target.value)}
         type="text"
         placeholder="ค้นหาบทความ"
-        className="bg-purple-100 px-8 py-1 rounded-md text-purple-600 border border-purple-200 w-full lg:w-96"
+        className="bg-gray-100 px-8 py-1 rounded-md text-gray-600 border border-purple-200 w-full lg:w-96"
       />
+
 
       <div className="mt-6 flex flex-wrap">
         {data.map((item, index) => (

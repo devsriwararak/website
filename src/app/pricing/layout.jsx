@@ -54,7 +54,7 @@ export default function RootLayout({ children }) {
           </ul>
         </div>
 
-        <div className=" mt-4  md:mt-0 w-full lg:w-10/12  md:px-6 ">
+        <div className=" mt-4  md:mt-0 w-full lg:w-10/12  md:px-2 ">
           {children}
         </div>
       </section>

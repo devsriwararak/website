@@ -3,6 +3,19 @@ import PriceProgram from "../../components/price/PriceProgram";
 import Image from "next/image";
 import Link from "next/link";
 
+export const metadata = {
+  manifest: "/manifest.json",
+  title: "ราคาค่าบริการ รับจ้างเขียนโปรแกรมขอนแก่น พัฒนาเครื่องมือช่วยให้การทำงานง่ายขึ้น 100%",
+  description:
+    "ราคาค่าบริการ รับจ้างเขียนโปรแกรมขอนแก่น พัฒนาเครื่องมือที่ช่วยให้การทำงานง่ายขึ้น ลดการใช้พนักงาน ช่วยจบงานเร็วเพิ่มยอดขายได้อย่างแม่นยำ",
+  keywords:
+    "ราคาค่าบริการเขียนโปรแกรม , ราคาค่าบริการพัฒนาโปรแกรม , ราคาค่าบริการพัฒนาซอฟต์แวร์ ",
+  openGraph: {
+    images:
+      "https://devsriwararak.com/wp-content/uploads/2024/08/banner-1.webp",
+  },
+};
+
 const page = () => {
   return (
     <div className=" ">
