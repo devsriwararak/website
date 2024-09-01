@@ -1,14 +1,14 @@
 {
   "pages": {
-    "/blogs/page": [
+    "/pricing/seo/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/blogs/page.js"
+      "static/chunks/app/pricing/seo/page.js"
     ],
-    "/blogs/layout": [
+    "/pricing/layout": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/blogs/layout.js"
+      "static/chunks/app/pricing/layout.js"
     ],
     "/layout": [
       "static/chunks/webpack.js",
@@ -16,56 +16,31 @@
       "static/css/app/layout.css",
       "static/chunks/app/layout.js"
     ],
-    "/page": [
+    "/loading": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/css/app/page.css",
-      "static/chunks/app/page.js"
-    ],
-    "/pricing/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/pricing/page.js"
-    ],
-    "/pricing/layout": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/pricing/layout.js"
-    ],
-    "/pricing/program/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/pricing/program/page.js"
+      "static/chunks/app/loading.js"
     ],
     "/pricing/website/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/pricing/website/page.js"
     ],
-    "/contents/[id]/page": [
+    "/pricing/program/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/contents/[id]/page.js"
+      "static/chunks/app/pricing/program/page.js"
     ],
-    "/about/page": [
+    "/pricing/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/about/page.js"
+      "static/chunks/app/pricing/page.js"
     ],
-    "/review/page": [
+    "/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/review/page.js"
-    ],
-    "/contact/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/contact/page.js"
-    ],
-    "/loading": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/loading.js"
+      "static/css/app/page.css",
+      "static/chunks/app/page.js"
     ]
   }
 }

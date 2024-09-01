@@ -28,7 +28,7 @@ const DisplayHome = async ({id, limit}) => {
       <h2 className="text-xl text-center lg:text-3xl">บทความที่เกี่ยวข้อง</h2>
       <div className="flex flex-wrap mt-8 justify-center">
         {data?.map((item, index) => (
-          <div className=" w-full md:w-1/2 lg:w-1/5 px-2 py-3" key={item.id}>
+          <div className=" w-full md:w-1/2 lg:w-1/4 px-2 py-3" key={item.id}>
             <Link href={`/contents/${item.id}`}>
               <div className="bg-white shadow-lg border border-gray-100 rounded-md fliex ">
              <div className="relative w-full h-48">
@@ -41,7 +41,7 @@ const DisplayHome = async ({id, limit}) => {
                   />
                 </div>
                 <div className=" py-2 px-4">
-                  <h3 className="text-sm lg:text-base font-semibold">
+                  <h3 className="text-sm  ">
                     {item.title}
                   </h3>
                 </div>

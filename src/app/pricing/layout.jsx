@@ -10,6 +10,7 @@ export default function RootLayout({ children }) {
   const menu = [
     { name: "รับเขียนโปรแกรม", path: "/pricing/program" },
     { name: "รับทำเว็บไซต์ SEO", path: "/pricing/website" },
+    { name: "ดูแล SEO รายเดือน", path: "/pricing/seo" },
   ];
 
   const mobileOnChange = (link)=> {
@@ -21,7 +22,7 @@ export default function RootLayout({ children }) {
   return (
     <div className="px-6 md:px-10 lg:px-14  container mx-auto ">
       <section className="flex flex-col lg:flex-row gap-3">
-        <div className="w-full lg:w-2/12   ">
+        <div className="w-full lg:w-2/12    ">
           <h1 className="text-lg">บริการของเรา </h1>
 
           

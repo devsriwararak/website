@@ -63,7 +63,7 @@ const PriceWebsite = () => {
                 <FcOk size={21} />
                 หน้าเพจ 1 หน้า + บทความ (SEO)
               </li>
-              <li className="flex flex-row gap-4 items-center text-gray-500  mt-4">
+              <li className="flex flex-row gap-4 items-center text-red-500  mt-4">
                 {" "}
                 <AiOutlineClose color="red" size={21} />
                 รองรับการใช้งาน 2 ภาษา TH ENG
@@ -73,7 +73,7 @@ const PriceWebsite = () => {
                 <FcOk size={21} />
                 จูน Performance SEO + ความเร็วเว็บ
               </li>
-              <li className="flex flex-row gap-4 items-center text-gray-500  mt-4 ">
+              <li className="flex flex-row gap-4 items-center text-red-500  mt-4 ">
                 {" "}
                 <AiOutlineClose color="red" size={21} />
                 ระบบจัดการหลังบ้าน 100%
@@ -83,7 +83,7 @@ const PriceWebsite = () => {
                 <FcOk size={21} />
                 ดูกราฟ GSC, GA วิเคาะห์ยอดขาย{" "}
               </li>
-              <li className="flex flex-row gap-4 items-center text-gray-500  mt-4">
+              <li className="flex flex-row gap-4 items-center text-red-500  mt-4">
                 {" "}
                 <AiOutlineClose color="red" size={21} />
                 ดูรายงานยอดขายได้
@@ -98,7 +98,7 @@ const PriceWebsite = () => {
                 <FcOk size={21} />
                 ดูแล 4 - 6 เดือน หรือตามตกลง{" "}
               </li>
-              <li className="flex flex-row gap-4 items-center text-gray-500  mt-4">
+              <li className="flex flex-row gap-4 items-center text-red-500  mt-4">
                 {" "}
                 <AiOutlineClose color="red" size={21} />
                 คู่มือสอนแก้ไข จุดที่แก้ไขได้เอง{" "}
@@ -176,7 +176,7 @@ const PriceWebsite = () => {
                 <FcOk size={21} />
                 ดูกราฟ GSC, GA วิเคาะห์ยอดขาย{" "}
               </li>
-              <li className="flex flex-row gap-4 items-center text-gray-500  mt-4">
+              <li className="flex flex-row gap-4 items-center text-red-500  mt-4">
                 {" "}
                 <AiOutlineClose color="red" size={21} />
                 ดูรายงานยอดขายได้

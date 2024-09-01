@@ -9,7 +9,7 @@ export const metadata = {
   description:
     "ราคาค่าบริการ รับจ้างทำเว็บไซต์บริษัท ขอนแก่น ช่วยเพิ่มความน่าเชื่อถือให้องค์กรและบริษัท ค้นหาเจอบน Google ช่วยเพิ่มการมองเห็น และเพิ่มยอดขายด้วย SEO ",
   keywords:
-    "ราคาค่าบริการนับจ้างทำเว็บไซต์ , ราคาค่าบริการพัฒนาเว็บไซต์ , ราคาค่าบริการทำเว็บไซต์บริษัท , ราคาค่าบริการทำเว็บไซต์ธุรกิจส่วนตัว  ",
+    "ราคาค่าบริการรับจ้างทำเว็บไซต์ , ราคาค่าบริการพัฒนาเว็บไซต์ , ราคาค่าบริการทำเว็บไซต์บริษัท , ราคาค่าบริการทำเว็บไซต์ธุรกิจส่วนตัว  ",
   openGraph: {
     images:
       "https://devsriwararak.com/wp-content/uploads/2024/08/banner-1.webp",
@@ -28,7 +28,7 @@ const page = () => {
             src="https://devsriwararak.com/wp-content/uploads/2024/08/9245940-removebg-preview-1.png"
             width={500}
             height={500}
-            alt="รับเขียนโปรแกรม ขอนแก่น"
+            alt="ราคารับทำเว็บไซต์ ขอนแก่น"
             loading="lazy"
           />
         </div>
@@ -95,7 +95,7 @@ const page = () => {
             src="https://devsriwararak.com/wp-content/uploads/2024/08/6721402_3323713-removebg-preview.png"
             width={500}
             height={500}
-            alt="รับเขียนโปรแกรม ขอนแก่น"
+            alt="ราคารับทำเว็บไซต์ ขอนแก่น"
             loading="lazy"
           />
         </div>
