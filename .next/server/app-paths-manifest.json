@@ -2,5 +2,6 @@
   "/page": "app/page.js",
   "/pricing/seo/page": "app/pricing/seo/page.js",
   "/pricing/website/page": "app/pricing/website/page.js",
-  "/pricing/program/page": "app/pricing/program/page.js"
+  "/pricing/program/page": "app/pricing/program/page.js",
+  "/blogs/page": "app/blogs/page.js"
 }

@@ -11,6 +11,7 @@ const AllContents = () => {
   const [pageStart, setPageStart] = useState(1);
   const [pageEnd, setPageEnd] = useState(1);
   const [search, setSearch] = useState("");
+  const [status, setStatus] =useState(false)
 
   const fetchData = async (page_start) => {
     try {
@@ -29,6 +30,7 @@ const AllContents = () => {
         setData(res.data.data);
         setPageStart(res.data.page);
         setPageEnd(res.data.totalPages);
+        setStatus(false)
       }
     } catch (error) {
       console.log(error);
@@ -36,6 +38,7 @@ const AllContents = () => {
   };
 
   const handleSearch = (text) => {
+    setStatus(true)
     setTimeout(() => {
       setSearch(text);
     }, 3000);
@@ -65,6 +68,7 @@ const AllContents = () => {
         placeholder="ค้นหาบทความ"
         className="bg-gray-100 px-8 py-1 rounded-md text-gray-600 border border-purple-200 w-full lg:w-96"
       />
+      {status && <small className="mx-4 text-purple-800">รอค้นหาอีก 3 วิจ้าาา....</small>}
 
 
       <div className="mt-6 flex flex-wrap">
@@ -95,19 +99,19 @@ const AllContents = () => {
         ))}
       </div>
 
-      <div className="text-black mt-8 flex flex-row gap-2 justify-center items-center">
+      <div className=" mt-8 flex flex-row gap-2 justify-start items-center">
         <button
           onClick={() => handleActions(1)}
-          className="border border-gray-300 hover:bg-gray-200 px-4 py-1 rounded-lg text-sm"
+          className="bg-white border border-gray-100 hover:bg-gray-50 px-4 py-1 rounded-lg shadow-lg text-sm text-gray-700"
         >
           ก่อนหน้า
         </button>
-        <p className="text-black">
+        <p className="text-gray-500">
           หน้า {pageStart} / {pageEnd}
         </p>
         <button
           onClick={() => handleActions(2)}
-          className="border border-gray-300 hover:bg-gray-200 px-4 py-1 rounded-lg text-sm"
+          className="bg-white border border-gray-100 hover:bg-gray-50 px-4 py-1 rounded-lg shadow-lg text-sm text-gray-700"
         >
           ถัดไป
         </button>
