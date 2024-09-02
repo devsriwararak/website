@@ -65,13 +65,14 @@ const Thank = () => {
           >
             {articles.map((article, index) => (
               <SwiperSlide key={index}>
-                <div className="bg-white p-2 rounded-lg shadow-lg border border-gray-100">
+                <div className="relative w-full h-48">
                   <Image
-                    width={500}
-                    height={500}
+                    layout="fill" 
+                    objectFit="cover" 
                     src={article.img}
                     loading="lazy"
-                    className=" rounded-md"
+
+                    className="  w-full rounded-md"
                   />
                 </div>
               </SwiperSlide>

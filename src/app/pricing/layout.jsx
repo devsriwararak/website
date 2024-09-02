@@ -28,7 +28,6 @@ export default function RootLayout({ children }) {
           
           <div className="lg:hidden block py-6">
             <select className="bg-gray-100 border border-gray-300 py-2 rounded-md px-4 w-full" onChange={(e)=>mobileOnChange(e.target.value)} >
-              <option className="" value="">เลือกบริการที่ต้องการ</option>
               {menu.map((item,index)=> (
                 <option key={index}  value={item.path}>{item.name}</option>
               ))}

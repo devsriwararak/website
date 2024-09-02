@@ -37,7 +37,7 @@ const DisplayHome = async ({id, limit}) => {
                     layout="fill" 
                     objectFit="cover" 
                     alt={item.title}
-                    className="w-full h-full"
+                    className="w-full h-full rounded-t-md"
                   />
                 </div>
                 <div className=" py-2 px-4">

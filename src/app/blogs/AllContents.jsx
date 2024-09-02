@@ -89,7 +89,7 @@ const AllContents = () => {
                 </div>
 
                 <div className=" py-4 px-4">
-                  <h3 className="text-sm  font-semibold">
+                  <h3 className="text-sm  ">
                     {item.title}
                   </h3>
                 </div>

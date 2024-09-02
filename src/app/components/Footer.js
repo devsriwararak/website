@@ -5,7 +5,7 @@ import { SiLine, SiTiktok } from "react-icons/si";
 const Footer = () => {
   return (
     <>
-      <div className="mt-20 ">
+      <div className="mt-20 lg:mt-32 ">
         <div className="px-6 md:px-16 mx-6   lg:mx-[300px] py-10 md:py-16 flex flex-col md:flex-row gap-4 justify-center items-center bg-gradient-to-r from-indigo-400  to-pink-200 rounded-xl">
           <div className="w-full lg:w-2/3  lg:pr-20 ">
             <h2 className="text-xl md:text-3xl text-white font-semibold leading-normal">
