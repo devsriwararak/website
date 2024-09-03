@@ -118,9 +118,7 @@ const Home = () => {
       {/* xxx */}
       <div className="  bg-gradient-to-r from-indigo-400 via-purple-400 to-pink-300 border-t-2 border-purple-200 ">
         <div className="bg-red-100 bg-opacity-20 px-4 lg:px-32 py-4    ">
-          
           <ul className="flex flex-wrap lg:flex-row gap-2 md:gap-5 lg:gap-10 justify-between md:justify-center ">
-
             <li className="text-sm md:text-lg    text-gray-100 hover:bg-white hover:bg-opacity-25  py-2 rounded-lg  ">
               <Link
                 href="/#web_1"
@@ -156,7 +154,7 @@ const Home = () => {
 
       {/*  About Me section */}
       <section
-        className="px-6 md:px-10 lg:px-32 py-16 md:py-24 container mx-auto    "
+        className="px-6 md:px-10 lg:px-32 py-10 md:py-24 container mx-auto  mt-6   "
         id="web_1"
       >
         <h2 className="text-2xl md:text-3xl text-center">
@@ -173,10 +171,27 @@ const Home = () => {
         <Intro />
       </section>
 
+      {/* Image detail */}
+      <section className=" px-6 md:px-10 lg:px-32   container mx-auto">
+        <h2 className="text-center text-xl lg:text-3xl">เดินหน้าธุรกิจออนไลน์ของคุณ ให้มีรายได้มากกว่าเดิม </h2>
+        <p className="text-gray-500 text-center mt-3">  ดูแลและพัฒนาซอฟต์แวร์หน้าบ้าน-หลังบ้าน <b className="text-purple-600 font-semibold text-sm">จัดการระบบบริษัท</b> และองค์กรได้ง่ายขึ้น </p>
+        <div className=" mt-4 ">
+          {/* <img src="https://devsriwararak.com/wp-content/uploads/2024/09/Frame-1-1.webp" className="w-[1000px] object-cover "/> */}
+          <Image
+            src="https://devsriwararak.com/wp-content/uploads/2024/09/Frame-1-4.webp"
+            width={500}
+            height={500}
+            alt="รับทำเว็บไซต์ ขอนแก่น"
+            className=""
+            layout="responsive"
+          />
+        </div>
+      </section>
+
       {/* 4 ขั้นตอน  */}
-      <section className=" bg-gradient-to-r from-indigo-300 via-purple-200 to-pink-200 py-10 md:py-20  ">
+      <section className=" bg-gradient-to-r from-indigo-300 via-purple-200 to-pink-200 py-10 md:py-20 mt-16 lg:mt-20  ">
         <div className="container mx-auto px-6 md:px-20 lg:px-32">
-          <div className="bg-white bg-opacity-25 py-10 rounded-xl px-6 ">
+          <div className="bg-white bg-opacity-25 py-10 rounded-xl px-2 lg:px-6 ">
             <h2 className=" text-center text-xl  lg:text-3xl mx-10  md:mx-14 lg:mx-0">
               4 ขั้นตอนการจ้างงาน เขียนโปรแกรม รับทำเว็บไซต์ ขอนแก่น
             </h2>
@@ -184,7 +199,6 @@ const Home = () => {
               สรุป 4 ขั้นตอนง่ายๆ เพื่อโปรแกรมที่สมบูรณ์ที่สุด
             </p>
             <Step />
-       
           </div>
         </div>
       </section>

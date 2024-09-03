@@ -71,7 +71,6 @@ const Thank = () => {
                     objectFit="cover" 
                     src={article.img}
                     loading="lazy"
-
                     className="  w-full rounded-md"
                   />
                 </div>

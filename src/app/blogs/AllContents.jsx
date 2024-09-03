@@ -85,6 +85,7 @@ const AllContents = () => {
                     objectFit="cover" 
                     alt={item.title}
                     className="w-full h-full"
+                    loading="lazy"
                   />
                 </div>
 

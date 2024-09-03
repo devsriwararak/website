@@ -52,6 +52,7 @@ const OldPosts = () => {
                   layout="fill"
                   objectFit="cover"
                   alt={item.title}
+                  loading="lazy"
                   className="w-full h-full"
                 />
               </div>
