@@ -34,7 +34,7 @@ const page = () => {
       <section className="flex flex-col lg:flex-row gap-8 lg:gap-3 mt-10 justify-center items-center lg:mx-4">
         {/* card 1 */}
         <div className="w-full   ">
-          <p className="text-xl text-center py-2 rounded-t-lg text-white bg-gradient-to-r from-indigo-400 via-purple-400 to-pink-300">
+          <p className="text-xl text-center py-2 rounded-t-lg text-white bg-purple-400">
             แพ็กเกจเกจเริ่มต้น
           </p>
           <div className=" bg-white shadow-xl px-4 py-6 pt-10  rounded-md border border-gray-100 ">
@@ -56,7 +56,7 @@ const page = () => {
             </h3>
 
             <hr className="border border-purple-100 my-5" />
-            <ul className="text-sm text-gray-600 flex flex-col gap-3">
+            <ul className="text-sm text-gray-500 flex flex-col gap-3 pl-3">
               <li className="flex gap-3 items-center">
                 {" "}
                 <IoCheckmarkSharp size={20} color="green" /> รองรับ 4 Keywords
@@ -131,7 +131,7 @@ const page = () => {
 
         {/* card 2 */}
         <div className="w-full ">
-          <p className="text-xl text-center py-2 rounded-t-lg text-white bg-gradient-to-r from-indigo-400 via-purple-400 to-pink-300">
+          <p className="text-xl text-center py-2 rounded-t-lg text-white bg-gradient-to-r from-indigo-400  to-purple-500">
             แพ็กเกจยอดนิยม !!
           </p>
           <div className="bg-white shadow-xl px-4 py-6 pt-10  rounded-md border border-gray-100">
@@ -153,7 +153,7 @@ const page = () => {
             </h3>
 
             <hr className="border border-purple-100 my-5" />
-            <ul className="text-sm text-gray-600 flex flex-col gap-3">
+            <ul className="text-sm text-gray-500 flex flex-col gap-3 pl-3">
               <li className="flex gap-3 items-center">
                 {" "}
                 <IoCheckmarkSharp size={20} color="green" /> รองรับ 4 Keywords
@@ -249,7 +249,7 @@ const page = () => {
             </h3>
 
             <hr className="border border-purple-100 my-5" />
-            <ul className="text-sm text-gray-600 flex flex-col gap-3">
+            <ul className="text-sm text-gray-500 flex flex-col gap-3 pl-3">
               <li className="flex gap-3 items-center">
                 {" "}
                 <IoCheckmarkSharp size={20} color="green" /> รองรับ 4 Keywords
@@ -405,6 +405,7 @@ const page = () => {
         </p>
 
       </section>
+    
     </div>
   );
 };

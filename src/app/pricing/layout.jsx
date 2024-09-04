@@ -9,7 +9,8 @@ export default function RootLayout({ children }) {
 
   const menu = [
     { name: "รับเขียนโปรแกรม", path: "/pricing/program" },
-    { name: "รับทำเว็บไซต์ SEO", path: "/pricing/website" },
+    { name: "รับทำเว็บไซต์สำเร็จรูป", path: "/pricing/website" },
+    { name: "รับทำเว็บไซต์ขนาดใหญ่", path: "/pricing/webSiteBig" },
     { name: "ดูแล SEO รายเดือน", path: "/pricing/seo" },
   ];
 

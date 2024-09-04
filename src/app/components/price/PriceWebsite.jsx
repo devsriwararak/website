@@ -73,6 +73,11 @@ const PriceWebsite = () => {
                 <FcOk size={21} />
                 จูน Performance SEO + ความเร็วเว็บ
               </li>
+              <li className="flex flex-row gap-4 items-center text-gray-500  mt-4">
+                {" "}
+                <FcOk size={21} />
+                ติดตั้ง SSL เพิ่มความปลอดภัย
+              </li>
               <li className="flex flex-row gap-4 items-center text-red-500  mt-4 ">
                 {" "}
                 <AiOutlineClose color="red" size={21} />
@@ -166,6 +171,11 @@ const PriceWebsite = () => {
                 <FcOk size={21} />
                 จูน Performance SEO + ความเร็วเว็บ
               </li>
+              <li className="flex flex-row gap-4 items-center text-gray-500  mt-4">
+                {" "}
+                <FcOk size={21} />
+                ติดตั้ง SSL เพิ่มความปลอดภัย
+              </li>
               <li className="flex flex-row gap-4 items-center text-gray-500  mt-4 bg-purple-100 py-2 rounded-md">
                 {" "}
                 <FcOk size={21} />
@@ -254,6 +264,11 @@ const PriceWebsite = () => {
                 {" "}
                 <FcOk size={21} />
                 จูน Performance SEO + ความเร็วเว็บ
+              </li>
+              <li className="flex flex-row gap-4 items-center text-gray-500  mt-4">
+                {" "}
+                <FcOk size={21} />
+                ติดตั้ง SSL เพิ่มความปลอดภัย
               </li>
               <li className="flex flex-row gap-4 items-center text-gray-500  mt-4 bg-purple-100 py-2 rounded-md">
                 {" "}
