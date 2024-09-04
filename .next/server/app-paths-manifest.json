@@ -1,5 +1,5 @@
 {
-  "/pricing/webSiteBig/page": "app/pricing/webSiteBig/page.js",
   "/pricing/seo/page": "app/pricing/seo/page.js",
-  "/pricing/website/page": "app/pricing/website/page.js"
+  "/pricing/website/page": "app/pricing/website/page.js",
+  "/pricing/webSiteBig/page": "app/pricing/webSiteBig/page.js"
 }
