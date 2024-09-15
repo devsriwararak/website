@@ -1,5 +1,9 @@
 {
-  "/pricing/seo/page": "app/pricing/seo/page.js",
+  "/contact/page": "app/contact/page.js",
+  "/about/page": "app/about/page.js",
+  "/review/page": "app/review/page.js",
   "/pricing/website/page": "app/pricing/website/page.js",
-  "/pricing/webSiteBig/page": "app/pricing/webSiteBig/page.js"
+  "/pricing/webSiteBig/page": "app/pricing/webSiteBig/page.js",
+  "/pricing/program/page": "app/pricing/program/page.js",
+  "/pricing/seo/page": "app/pricing/seo/page.js"
 }

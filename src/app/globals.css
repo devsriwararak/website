@@ -55,3 +55,28 @@ body  {
       }
     }
 
+
+
+    .dots {
+      display: flex;
+      justify-content: center;
+    }
+    
+    .dot {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background-color: #ccc;
+      margin: 0 5px;
+      cursor: pointer;
+    }
+    
+    .dot:hover {
+      background-color: #333;
+    }
+    
+    /* เปลี่ยนสีของ dot ที่ active เป็นสีม่วง */
+    .glide__bullet--active {
+      background-color: purple !important;
+    }
+    

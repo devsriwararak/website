@@ -10,14 +10,18 @@
   },
   "dependencies": {
     "@ducanh2912/next-pwa": "^10.2.2",
+    "@glidejs/glide": "^3.6.2",
     "axios": "^1.7.5",
     "classname": "^0.0.0",
+    "embla-carousel-react": "^8.3.0",
     "html-react-parser": "^5.1.15",
     "next": "^14.2.5",
     "react": "^18",
     "react-dom": "^18",
     "react-icons": "^4.12.0",
-    "swiper": "^11.1.9"
+    "react-slick": "^0.30.2",
+    "slick-carousel": "^1.8.1",
+    "swiper": "^11.1.14"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.16",

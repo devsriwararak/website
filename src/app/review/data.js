@@ -8,6 +8,7 @@ export const data = [
     {id:6, link:"https://kaewsiwa.com/", alt:"ผลงานรับทำเว็บไซต์ บริษัทรับเหมาสร้างบ้านจังหวัดเลย",image:"https://devsriwararak.com/wp-content/uploads/2024/08/port.png"},
     {id:7, link:"https://psolartech.com/", alt:"ผลงานรับทำเว็บไซต์ บริษัทขายจำหน่ายติดตั้งโซล่าเซลล์",image:"https://devsriwararak.com/wp-content/uploads/2024/02/Modern-Cabinet-Furniture-Instagram-Post_20240224_171438_0000.png"},
     {id:8, link:"", alt:"โปรแกรมออกใบกำกับภาษีตามสั่ง",image:"https://devsriwararak.com/wp-content/uploads/2024/01/รับเขียนโปรแกรมขอนแก่น-รับทำเว็บไซต์-ขอนแก่น-1.webp"},
+    {id:9, link:"https://xn--e3cuvqbc6c8bdy6y.com", alt:"รับทำเว็บไซต์ บริษัทรับสร้างบ้านนครพนม",image:"https://devsriwararak.com/wp-content/uploads/2024/09/Frame-1-2.webp"},
    
    
 ]

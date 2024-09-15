@@ -1,9 +1,10 @@
 {
   "pages": {
-    "/pricing/webSiteBig/page": [
+    "/pricing/website/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/pricing/webSiteBig/page.js"
+      "static/css/app/pricing/website/page.css",
+      "static/chunks/app/pricing/website/page.js"
     ],
     "/pricing/layout": [
       "static/chunks/webpack.js",
@@ -21,15 +22,43 @@
       "static/chunks/main-app.js",
       "static/chunks/app/loading.js"
     ],
+    "/pricing/program/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/pricing/program/page.css",
+      "static/chunks/app/pricing/program/page.js"
+    ],
+    "/pricing/webSiteBig/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/pricing/webSiteBig/page.css",
+      "static/chunks/app/pricing/webSiteBig/page.js"
+    ],
     "/pricing/seo/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
+      "static/css/app/pricing/seo/page.css",
       "static/chunks/app/pricing/seo/page.js"
     ],
-    "/pricing/website/page": [
+    "/contact/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/pricing/website/page.js"
+      "static/chunks/app/contact/page.js"
+    ],
+    "/pricing/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/pricing/page.js"
+    ],
+    "/about/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/about/page.js"
+    ],
+    "/review/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/review/page.js"
     ]
   }
 }
