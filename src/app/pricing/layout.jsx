@@ -24,7 +24,7 @@ export default function RootLayout({ children }) {
     <div className="px-6 md:px-10 lg:px-14  container mx-auto ">
       <section className="flex flex-col lg:flex-row gap-3">
         <div className="w-full lg:w-2/12    ">
-          <h1 className="text-lg">บริการของเรา </h1>
+          <p className="text-lg">บริการของเรา </p>
 
           
           <div className="lg:hidden block py-6">
