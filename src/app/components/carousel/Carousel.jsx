@@ -8,6 +8,8 @@ const Carousel = () => {
     "https://devsriwararak.com/wp-content/uploads/2023/08/finalp.webp",
     "https://devsriwararak.com/wp-content/uploads/2023/09/fb-post-1.webp",
     "https://devsriwararak.com/wp-content/uploads/2023/08/fb-post.webp",
+    "https://devsriwararak.com/wp-content/uploads/2024/08/port.png",
+    "https://devsriwararak.com/wp-content/uploads/2024/09/Frame-1-2.webp"
   ];
 
   useEffect(() => {

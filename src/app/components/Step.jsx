@@ -6,7 +6,9 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/autoplay";
-import { Navigation, Autoplay } from "swiper/modules";
+import "swiper/css/pagination";
+
+import { Navigation, Autoplay, Pagination } from "swiper/modules";
 
 const data = [
   {
@@ -43,8 +45,10 @@ const Step = () => {
   return (
     <div className=" mt-12    ">
       <Swiper
-        modules={[Navigation, Autoplay]}
+        modules={[Navigation, Autoplay, Pagination]}
         spaceBetween={20}
+        pagination={{ clickable: true }}
+         className="flex-grow"
         breakpoints={{
           640: {
             // สำหรับหน้าจอที่กว้างกว่า 640px (sm)
@@ -70,7 +74,7 @@ const Step = () => {
         loop={true}
       >
         {data.map((item, index) => (
-          <SwiperSlide className="w-full flex  flex-col gap-2 justify-center items-center  ">
+          <SwiperSlide className="w-full flex  flex-col gap-2 justify-center items-center mb-16 lg:mb-0  ">
             <div className=" relative w-full h-32 mb-4">
               <Image
                 src={item.image}

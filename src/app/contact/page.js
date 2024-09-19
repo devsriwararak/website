@@ -41,7 +41,7 @@ const page = () => {
 
       {/* card */}
 
-      <div className="bg-white shadow-2xl mx-5 md:mx-40 py-10 px-10 -mt-10 rounded-lg flex flex-col lg:flex-row gap-4">
+      <div className="bg-white shadow-2xl mx-5 md:mx-20 py-10 px-10 -mt-10 rounded-lg flex flex-col lg:flex-row gap-4">
         <div className="w-full">
           <h3 className="text-lg">ช่องทางติดต่อ</h3>
           <ul className="text-base text-gray-800 mt-3">
@@ -92,12 +92,12 @@ const page = () => {
 
           <input
             type="text"
-            className="mt-3 px-3  py-1.5 rounded-lg  border border-gray-300 hover:bg-gray-100 "
+            className="mt-3 px-3 m-1  py-1.5 rounded-lg  border border-gray-300 hover:bg-gray-100 "
             placeholder="email"
           />
           <input
             type="text"
-            className="mt-3 px-3  py-1.5 rounded-lg  border border-gray-300 hover:bg-gray-100 "
+            className="mt-3 px-3 m-1  py-1.5 rounded-lg  border border-gray-300 hover:bg-gray-100 "
             placeholder="ข้อความ"
           />
 

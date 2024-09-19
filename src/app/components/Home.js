@@ -43,7 +43,7 @@ const Home = () => {
     <div className="    ">
       {/* Hero Secction */}
       <div className="bg-gradient-to-r from-indigo-400 via-purple-400 to-pink-300 pt-32 lg:pt-48 pb-14 lg:pb-32  -mt-36 ">
-        <div className="flex flex-col md:flex-row  gap-1  container mx-auto px-6  lg:px-32     ">
+        <div className="flex flex-col md:flex-row  gap-1  container mx-auto px-6 md:px-8  lg:px-32     ">
           <div className=" text-center lg:text-left  flex flex-col gap-3 lg:w-3/5 justify-start  lg:pr-20  tracking-widest   ">
             <p className="text-gray-200 font-semibold text-md text-left ">
               ปรึกษา เว็บไซต์สำหรับการตลาดฟรี
@@ -117,9 +117,9 @@ const Home = () => {
 
       {/* xxx */}
       <div className="  bg-gradient-to-r from-indigo-400 via-purple-400 to-pink-300 border-t-2 border-purple-200 ">
-        <div className="bg-red-100 bg-opacity-20 px-4 lg:px-32 py-4    ">
-          <ul className="flex flex-wrap lg:flex-row gap-2 md:gap-5 lg:gap-10 justify-between md:justify-center ">
-            <li className="text-sm md:text-lg    text-gray-100 hover:bg-white hover:bg-opacity-25  py-2 rounded-lg  ">
+        <div className="bg-red-100 bg-opacity-20 px-4  lg:px-32 py-4    ">
+          <ul className="flex flex-wrap lg:flex-row gap-2  lg:gap-10 justify-between md:justify-center  ">
+            <li className="text-sm md:text-base lg:text-lg    text-gray-100 hover:bg-white hover:bg-opacity-25  py-2 px-4 rounded-lg  ">
               <Link
                 href="/#web_1"
                 className="flex flex-row gap-2 items-center transition duration-300 ease-in-out"
@@ -129,20 +129,20 @@ const Home = () => {
                 รับเขียนโปรแกรม
               </Link>
             </li>
-            <li className="text-sm md:text-lg  text-gray-100 hover:bg-white hover:bg-opacity-25  py-2 rounded-lg ">
+            <li className="text-sm md:text-base lg:text-lg text-gray-100 hover:bg-white hover:bg-opacity-25  py-2 px-4 rounded-lg ">
               <Link href="/" className="flex flex-row gap-2 items-center">
                 {" "}
                 <MdOutlineLocalGroceryStore color="white" size={25} />{" "}
                 รับทำเว็บไซต์สำเร็จรูป
               </Link>
             </li>
-            <li className="text-sm md:text-lg  text-gray-100 hover:bg-white hover:bg-opacity-25  py-2 rounded-lg ">
+            <li className="text-sm md:text-base lg:text-lg  text-gray-100 hover:bg-white hover:bg-opacity-25  py-2 px-4 rounded-lg ">
               <Link href="/" className="flex flex-row gap-2 items-center">
                 {" "}
                 <FaLaptopCode color="white" size={25} /> รับทำเว็บไซต์ขนาดใหญ่
               </Link>
             </li>
-            <li className="text-sm md:text-lg  text-gray-100 hover:bg-white hover:bg-opacity-25  py-2 rounded-lg ">
+            <li className="text-sm md:text-base lg:text-lg  text-gray-100 hover:bg-white hover:bg-opacity-25  py-2 px-4 rounded-lg ">
               <Link href="/" className="flex flex-row gap-2 items-center">
                 {" "}
                 <FaChartLine color="white" size={25} /> รับดูแล SEO รายเดือน
@@ -154,7 +154,7 @@ const Home = () => {
 
       {/*  About Me section */}
       <section
-        className="px-6 md:px-10 lg:px-32 py-10 md:py-24 container mx-auto  mt-6   "
+        className="px-6 md:px-10 lg:px-32 py-10 container mx-auto  mt-6 md:mt-14    "
         id="web_1"
       >
         <h2 className="text-2xl md:text-3xl text-center">
@@ -172,7 +172,7 @@ const Home = () => {
       </section>
 
       {/* Image detail */}
-      <section className=" px-6 md:px-10 lg:px-32   container mx-auto">
+      <section className=" px-6 md:px-10 lg:px-32    container mx-auto">
         <h2 className="text-center text-xl lg:text-3xl">เดินหน้าธุรกิจออนไลน์ของคุณ ให้มีรายได้มากกว่าเดิม </h2>
         <p className="text-gray-500 text-center mt-3">  ดูแลและพัฒนาซอฟต์แวร์หน้าบ้าน-หลังบ้าน <b className="text-purple-600 font-semibold text-sm">จัดการระบบบริษัท</b> และองค์กรได้ง่ายขึ้น </p>
         <div className=" mt-4 ">
@@ -214,10 +214,10 @@ const Home = () => {
           <div className="flex  flex-row gap-4 ">
             <HiMiniPresentationChartLine className="" size={49} />
             <div>
-              <h3 className="text-lg ">1. ช่วยเพิ่มยอดขาย</h3>
-              <p className="text-gray-600 text-sm  mt-1">
-                ผู้คนจำนวนมากบนโลกออนไลน์ จะเห็นร้านค้าของคุณมากขึ้น
-                ทำให้ผู้คนเหล่านั้นแวะเวียนเข้ามาชมสินค้าในร้านมากขึ้น
+              <h3 className=" text-base lg:text-lg ">1. ช่วยเพิ่มยอดขาย</h3>
+              <p className="text-gray-500 text-sm  mt-1">
+                ผู้คนจำนวนมากบนโลกออนไลน์ เห็นร้านค้าของคุณมากขึ้น
+                ทำให้ผู้คนเข้ามาชมสินค้าในร้านมากขึ้น
               </p>
             </div>
           </div>
@@ -225,8 +225,8 @@ const Home = () => {
           <div className="flex flex-row gap-4 ">
             <HiMiniServerStack className="" size={40} />
             <div>
-              <h3 className="text-lg  ">2. จัดเก็บข้อมูลเป็นระบบ</h3>
-              <p className="text-gray-700 text-sm mt-1">
+              <h3 className="text-base lg:text-lg  ">2. จัดเก็บข้อมูลเป็นระบบ</h3>
+              <p className="text-gray-500 text-sm mt-1">
                 โปรแกรมจะจัดเก็บข้อมูลและเอกสารให้อย่างปลอดภัย
                 สามารถค้นหาย้อนหลังได้ ไม่หายไปไหน
               </p>
@@ -236,8 +236,8 @@ const Home = () => {
           <div className="flex flex-row gap-4 ">
             <HiMiniShieldExclamation className="" size={42} />
             <div>
-              <h3 className="text-lg  ">3. ลดการทำงานที่ซ้ำซ้อน</h3>
-              <p className="text-gray-700 text-sm mt-1">
+              <h3 className="text-base lg:text-lg ">3. ลดการทำงานที่ซ้ำซ้อน</h3>
+              <p className="text-gray-500 text-sm mt-1">
                 โปรแกรมถูกตั้งคำสั่งให้ทำงานอย่างเป็นระบบ ตามที่ลูกค้าต้องการ
                 ทำงานเสร็จเร็ว ไม่ทำงานซ้ำ{" "}
               </p>
@@ -259,8 +259,8 @@ const Home = () => {
         <div className="w-full lg:w-2/3 flex flex-col items-center justify-center gap-10 ">
           <div className="flex flex-row gap-4 text-left md:text-right">
             <div>
-              <h3 className="text-lg ">4. ออนไลน์ใช้งานได้ทุกที่</h3>
-              <p className="text-gray-700 text-sm  mt-1">
+              <h3 className="text-base lg:text-lg ">4. ออนไลน์ใช้งานได้ทุกที่</h3>
+              <p className="text-gray-500 text-sm  mt-1">
                 ผู้จัดการสามารถตรวจสอบยอดขาย หรือ
                 ความเคลื่อนไหวของร้านค้าตัวเองได้จากที่ไหนก็ได้ ทุกที่ทุกเวลา
               </p>
@@ -270,10 +270,10 @@ const Home = () => {
 
           <div className="flex flex-row gap-4 text-left md:text-right ">
             <div>
-              <h3 className="text-lg">5. คำนวณแม่น ลดการผิดพลาด</h3>
-              <p className="text-gray-700 text-sm  mt-1">
-                โปรแกรมถูกตั้งคำสั่งให้ทำงานถูกต้องแม่นยำ 100%
-                ทำให้ลดอาการผิดพลาดลงได้เยอะ ทำให้ธุรกิจเดินหน้าต่ออย่างรวดเร็ว
+              <h3 className="text-base lg:text-lg">5. คำนวณแม่น ลดการผิดพลาด</h3>
+              <p className="text-gray-500 text-sm  mt-1">
+                พัฒนาโปรแกรมให้ทำงานถูกต้องแม่นยำ 100%
+                ลดข้อผิดพลาดละหว่างการทำงาน ลดการใช้พนักงาน
               </p>
             </div>
             <HiMiniCpuChip size={49} />
@@ -281,10 +281,9 @@ const Home = () => {
 
           <div className="flex flex-row gap-4 text-left md:text-right ">
             <div>
-              <h3 className="text-lg">6. สร้างความน่าเชื่อถือ</h3>
-              <p className="text-gray-700 text-sm  mt-1">
-                เว็บไซต์สำหรับธุรกิจของตัวเอง
-                จะทำให้ลูกค้าที่จะมาใช้บริการได้รับความไว้วางใจ
+              <h3 className="text-base lg:text-lg">6. สร้างความน่าเชื่อถือ</h3>
+              <p className="text-gray-500 text-sm  mt-1">
+                เว็บไซต์สำหรับธุรกิจทำให้ลูกค้าที่มาใช้บริการได้รับความไว้วางใจ
                 และเชื่อถือในความเป็นมืออาชีพของเรา
               </p>
             </div>

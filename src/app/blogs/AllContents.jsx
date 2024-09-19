@@ -73,7 +73,7 @@ const AllContents = () => {
 
       <div className="mt-6 flex flex-wrap">
         {data.map((item, index) => (
-          <div className=" w-full lg:w-1/4 p-2 mt-2" key={item.id}>
+          <div className=" w-full md:w-1/2 lg:w-1/4 p-2 mt-2" key={item.id}>
             <Link href={`/contents/${item.id}`}>
               <div className="bg-white shadow-lg border border-gray-100 rounded-md  h-full ">
           

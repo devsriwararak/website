@@ -7,7 +7,8 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/autoplay";
-import { Navigation, Autoplay } from "swiper/modules";
+import "swiper/css/pagination";
+import { Navigation, Autoplay, Pagination } from "swiper/modules";
 
 const data = [
   {
@@ -21,7 +22,7 @@ const data = [
   },
   {
     id: 1,
-    title: "เว็บไซต์การตลาด",
+    title: "พัฒนาเว็บไซต์การตลาด",
     dec: "จ้างทำเว็บไซต์บริษัท เพิ่มความน่าเชื่อถือ บ่งบอกถึงภาพลักษณ์บริษัท",
     link: "tel:0850032649",
     link_name: "โทรศัพท์",
@@ -30,7 +31,7 @@ const data = [
   },
   {
     id: 2,
-    title: "ดูแล LINE OA",
+    title: "LINE OA ครบวงจร",
     dec: "ออกแบบและตั้งค่าเขียนโปรแกรมเชื่อมต่อ LINE OA ครบวงจร",
     link: "https://line.me/ti/p/KMjKL3G9qz",
     link_name: "LINE",
@@ -53,8 +54,9 @@ const Intro = () => {
     <section>
       <div className="mt-0 py-8   mx-6 md:mx-0     ">
         <Swiper
-          modules={[Navigation, Autoplay]}
+          modules={[Navigation, Autoplay, Pagination]}
           spaceBetween={20}
+          pagination={{ clickable: true }}
           breakpoints={{
             640: {
               // สำหรับหน้าจอที่กว้างกว่า 640px (sm)
@@ -78,11 +80,12 @@ const Intro = () => {
             nextEl: ".swiper-button-next",
           }}
           loop={true}
+          className="flex-grow"
         >
-          {data.map((item, index) => (
+     {data.map((item, index) => (
             <SwiperSlide
               key={item.id}
-              className="  bg-white  shadow-xl rounded-md px-8 md:px-6 py-8   border border-gray-300 border-b-4 border-b-purple-600 mt-9     "
+              className="  bg-white  shadow-xl rounded-md px-8 md:px-6 py-8   border border-gray-300 border-b-4 border-b-purple-600 mt-9  mb-12 lg:mb-0    "
             >
               <div className={` ${item.color} w-14 p-3 rounded-full -mt-14 `}>
                 <Image

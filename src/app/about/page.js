@@ -16,7 +16,7 @@ export const metadata = {
 
 const page = () => {
   return (
-    <div className="  md:px-10 lg:px-36 container mx-auto">
+    <div className="   lg:px-36 container mx-auto">
       <h1 className="text-2xl md:text-3xl text-center px-8 mt-12">
         เกี่ยวกับเรา รับเขียนโปรแกรม รับทำเว็บไซต์ SEO ขอนแก่น
       </h1>
