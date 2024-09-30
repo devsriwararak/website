@@ -24,7 +24,7 @@ const fetchData = async (id, limit) => {
 const DisplayHome = async ({id, limit}) => {
   const data = await fetchData(id, limit);
   return (
-    <div className="mt-20 md:mt-24 container mx-auto px-6 md:px-10 lg:px-36  ">
+    <div className="mt-20 md:mt-24   ">
       <h2 className="text-xl text-center lg:text-3xl">บทความที่เกี่ยวข้อง</h2>
       <div className="flex flex-wrap mt-8 justify-center">
         {data?.map((item, index) => (

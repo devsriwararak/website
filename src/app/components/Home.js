@@ -173,8 +173,17 @@ const Home = () => {
 
       {/* Image detail */}
       <section className=" px-6 md:px-10 lg:px-32    container mx-auto">
-        <h2 className="text-center text-xl lg:text-3xl">เดินหน้าธุรกิจออนไลน์ของคุณ ให้มีรายได้มากกว่าเดิม </h2>
-        <p className="text-gray-500 text-center mt-3">  ดูแลและพัฒนาซอฟต์แวร์หน้าบ้าน-หลังบ้าน <b className="text-purple-600 font-semibold text-sm">จัดการระบบบริษัท</b> และองค์กรได้ง่ายขึ้น </p>
+        <h2 className="text-center text-xl lg:text-3xl">
+          เดินหน้าธุรกิจออนไลน์ของคุณ ให้มีรายได้มากกว่าเดิม{" "}
+        </h2>
+        <p className="text-gray-500 text-center mt-3">
+          {" "}
+          ดูแลและพัฒนาซอฟต์แวร์หน้าบ้าน-หลังบ้าน{" "}
+          <b className="text-purple-600 font-semibold text-sm">
+            จัดการระบบบริษัท
+          </b>{" "}
+          และองค์กรได้ง่ายขึ้น{" "}
+        </p>
         <div className=" mt-4 ">
           {/* <img src="https://devsriwararak.com/wp-content/uploads/2024/09/Frame-1-1.webp" className="w-[1000px] object-cover "/> */}
           <Image
@@ -225,7 +234,9 @@ const Home = () => {
           <div className="flex flex-row gap-4 ">
             <HiMiniServerStack className="" size={40} />
             <div>
-              <h3 className="text-base lg:text-lg  ">2. จัดเก็บข้อมูลเป็นระบบ</h3>
+              <h3 className="text-base lg:text-lg  ">
+                2. จัดเก็บข้อมูลเป็นระบบ
+              </h3>
               <p className="text-gray-500 text-sm mt-1">
                 โปรแกรมจะจัดเก็บข้อมูลและเอกสารให้อย่างปลอดภัย
                 สามารถค้นหาย้อนหลังได้ ไม่หายไปไหน
@@ -259,7 +270,9 @@ const Home = () => {
         <div className="w-full lg:w-2/3 flex flex-col items-center justify-center gap-10 ">
           <div className="flex flex-row gap-4 text-left md:text-right">
             <div>
-              <h3 className="text-base lg:text-lg ">4. ออนไลน์ใช้งานได้ทุกที่</h3>
+              <h3 className="text-base lg:text-lg ">
+                4. ออนไลน์ใช้งานได้ทุกที่
+              </h3>
               <p className="text-gray-500 text-sm  mt-1">
                 ผู้จัดการสามารถตรวจสอบยอดขาย หรือ
                 ความเคลื่อนไหวของร้านค้าตัวเองได้จากที่ไหนก็ได้ ทุกที่ทุกเวลา
@@ -270,7 +283,9 @@ const Home = () => {
 
           <div className="flex flex-row gap-4 text-left md:text-right ">
             <div>
-              <h3 className="text-base lg:text-lg">5. คำนวณแม่น ลดการผิดพลาด</h3>
+              <h3 className="text-base lg:text-lg">
+                5. คำนวณแม่น ลดการผิดพลาด
+              </h3>
               <p className="text-gray-500 text-sm  mt-1">
                 พัฒนาโปรแกรมให้ทำงานถูกต้องแม่นยำ 100%
                 ลดข้อผิดพลาดละหว่างการทำงาน ลดการใช้พนักงาน
@@ -366,7 +381,9 @@ const Home = () => {
       <Thank />
 
       {/* 5 บทความยอดนิยม */}
-      <DisplayHome />
+      <div className="container mx-auto px-6 md:px-10 lg:px-36">
+        <DisplayHome />
+      </div>
 
       {/* FAQ */}
       <section className="mt-20 md:mt-32 container mx-auto px-6 md:px-10 lg:px-36">

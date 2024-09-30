@@ -54,7 +54,9 @@ const page = async ({ params }) => {
         </div>
         <div className="mt-8 md:mt-12 lg:mt-20">
           <h1 className=" text-xl md:text-3xl font-semibold">{data.title}</h1>
-          <p className="mt-4 text-gray-700 text-sm md:text-lg">{data.description}</p>
+          <p className="mt-4 text-gray-700 text-sm md:text-lg">
+            {data.description}
+          </p>
 
           <div className="mt-8 text-gray-500 text-lg custom-container">
             {parse(data.content)}
@@ -63,10 +65,14 @@ const page = async ({ params }) => {
       </div>
 
       {/* บทความที่เกี่ยวข้อง */}
-      <DisplayHome id={params.id} limit={5} />
+      <div className="container mx-auto px-6 md:px-10 lg:px-36">
+        <DisplayHome id={params.id} limit={5} />
+      </div>
 
       <div className="container mx-auto px-6 md:px-10 lg:px-36 mt-16 ">
-        <div className="text-center bg-purple-900 py-14 text-xl text-white rounded-md">ADS SPACE</div>
+        <div className="text-center bg-purple-900 py-14 text-xl text-white rounded-md">
+          ADS SPACE
+        </div>
       </div>
     </>
   );
