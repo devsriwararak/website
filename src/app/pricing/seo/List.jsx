@@ -51,7 +51,7 @@ const data = [
     discount: "",
     color_header: "bg-purple-400",
     result: [
-      { id: 0, status: true, title: "รองรับ 4 Keywords" },
+      { id: 0, status: true, title: "รองรับ 10 Keywords" },
       {
         id: 1,
         status: true,
@@ -61,7 +61,7 @@ const data = [
       { id: 3, status: true, title: "ปรับปรุงด้านเทคนิคของเว็บไซต์" },
       { id: 4, status: true, title: "ปรังปรุงโครงสร้างเว็บไซต์ (On-page)" },
       { id: 5, status: true, title: "บริการลิงก์สายขาวคุณภาพ PBN" },
-      { id: 6, status: true, title: "ลงบทความใหม่ไม่ซ้ำใคร 1 บท/อาทิตย์" },
+      { id: 6, status: true, title: "ลงบทความใหม่ไม่ซ้ำใคร 3 บท/อาทิตย์" },
       { id: 7, status: true, title: "เพิ่ม Performance ความเร็วเว็บ" },
       { id: 8, status: true, title: "กู้ทุกหน้าให้ใช้งานเต็ม 100%" },
       { id: 9, status: false, title: "ปรับปรุง UX/UI หน้าเว็บไซต์ WP" },
@@ -81,7 +81,7 @@ const data = [
     discount: "",
     color_header: "bg-gradient-to-r from-indigo-400 via-purple-400 to-pink-300",
     result: [
-      { id: 0, status: true, title: "รองรับ 4 Keywords" },
+      { id: 0, status: true, title: "รองรับ 14 Keywords" },
       {
         id: 1,
         status: true,
@@ -91,7 +91,7 @@ const data = [
       { id: 3, status: true, title: "ปรับปรุงด้านเทคนิคของเว็บไซต์" },
       { id: 4, status: true, title: "ปรังปรุงโครงสร้างเว็บไซต์ (On-page)" },
       { id: 5, status: true, title: "บริการลิงก์สายขาวคุณภาพ PBN" },
-      { id: 6, status: true, title: "ลงบทความใหม่ไม่ซ้ำใคร 1 บท/อาทิตย์" },
+      { id: 6, status: true, title: "ลงบทความใหม่ไม่ซ้ำใคร 5 บท/อาทิตย์" },
       { id: 7, status: true, title: "เพิ่ม Performance ความเร็วเว็บ" },
       { id: 8, status: true, title: "กู้ทุกหน้าให้ใช้งานเต็ม 100%" },
       { id: 9, status: true, title: "ปรับปรุง UX/UI หน้าเว็บไซต์ WP" },
