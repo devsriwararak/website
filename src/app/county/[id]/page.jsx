@@ -17,7 +17,7 @@ const page = async ({ params }) => {
     <div className="">
       <div className="flex flex-col md:flex-row gap-4 bg-gray-100 container mx-auto px-6 md:px-10 lg:px-36 -mt-20 py-20">
         <div className="w-full">
-          <h1 className=" text-3xl">{data.title}</h1>
+          <h1 className=" text-2xl">{data.title}</h1>
           <p className="mt-5 text-gray-500 text-sm">{data.dec_1}</p>
           <div className="mt-8 flex flex-row gap-4">
             <Link
@@ -104,6 +104,19 @@ const page = async ({ params }) => {
               ))}
             </div>
           </div>
+        </div>
+
+        <div className=" mt-12 flex flex-col lg:flex-row gap-4 px-6 md:px-10 lg:px-36 ">
+          <div className="w-full">
+            <Image 
+            src={"https://devsriwararak.com/wp-content/uploads/2024/10/461423519_857117036554830_6555859867161443312_n-1.jpg"}
+            width={500}
+            height={500}
+            alt={data.title}
+            className=" rounded-md"
+            />
+          </div>
+          <div className="w-full">xxxxx</div>
         </div>
 
         <div className="mt-14 container mx-auto px-6 md:px-10 lg:px-36 ">

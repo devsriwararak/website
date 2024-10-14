@@ -2,13 +2,15 @@
   "node": {
     "b5585d0e798365c1b9172e9e6692373be47abeda": {
       "workers": {
-        "app/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5Capplications%5C%5Cdevsriwararak%5C%5Cwebsite%5C%5Csrc%5C%5Capp%5C%5Ccomponents%5C%5Cdisplay%5C%5CDisplayHome.jsx%22%2C%5B%22default%22%5D%5D%5D&__client_imported__=!"
+        "app/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5Capplications%5C%5Cdevsriwararak%5C%5Cwebsite%5C%5Csrc%5C%5Capp%5C%5Ccomponents%5C%5Cdisplay%5C%5CDisplayHome.jsx%22%2C%5B%22default%22%5D%5D%5D&__client_imported__=!",
+        "app/county/[id]/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5Capplications%5C%5Cdevsriwararak%5C%5Cwebsite%5C%5Csrc%5C%5Capp%5C%5Ccomponents%5C%5Cdisplay%5C%5CDisplayHome.jsx%22%2C%5B%22default%22%5D%5D%5D&__client_imported__=!"
       },
       "layer": {
-        "app/page": "rsc"
+        "app/page": "rsc",
+        "app/county/[id]/page": "rsc"
       }
     }
   },
   "edge": {},
-  "encryptionKey": "KlttLteJT+OZDkPeGC+u46JiKIVMhSo9bAiHEVH49Qs="
+  "encryptionKey": "wYhUidfFt045b9epBxi2mNoBZ6siVf4N4CEh0CrL8cI="
 }

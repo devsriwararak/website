@@ -1,5 +1,8 @@
 {
   "/page": "app/page.js",
+  "/county/[id]/page": "app/county/[id]/page.js",
+  "/county/page": "app/county/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
   "/pricing/program/page": "app/pricing/program/page.js",
-  "/pricing/seo/page": "app/pricing/seo/page.js"
+  "/blogs/page": "app/blogs/page.js"
 }
