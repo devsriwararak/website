@@ -1,11 +1,9 @@
 
 import React from "react";
-import data from "./data";
 import Link from "next/link";
-import AllContents from "./AllContents";
 import Image from "next/image";
 import { truncateText } from "../lib/Tool.js";
-import OldPosts from "./OldPosts";
+import AllBlogs from "./AllBlogs";
 
 export const metadata = {
   manifest: "/manifest.json",
@@ -16,30 +14,26 @@ export const metadata = {
     "บทความรับเขียนโปรแกรม , บทความรับทำเว็บไซต์ , บทความอัพเดท seo  ",
   openGraph: {
     images:
-      "https://devsriwararak.com/wp-content/uploads/2024/08/banner-1.webp",
+      "/images/banner รับทำเว็บไซต์ ขอนแก่น 2.png",
   },
 };
 
 const page = () => {
   return (
-    <div className="">
+    <div className="px-6   lg:px-36 container mx-aut">
       <h1 className="text-3xl ">บทความทั้งหมด</h1>
       <div className="mt-2">
-        <AllContents />
+        <AllBlogs />
       </div>
 
-      <div className="mt-14">
-        <h2 className="text-2xl mb-4 ">บทความยอดนิยม</h2>
-      <AllBlogs />
-      </div>
     </div>
   );
 };
 
 export default page;
 
-export const AllBlogs = () => {
-  return (
-    <OldPosts/>
-  );
-};
+// export const AllBlogs = () => {
+//   return (
+//     <OldPosts/>
+//   );
+// };

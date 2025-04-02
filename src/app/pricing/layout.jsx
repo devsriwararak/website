@@ -9,8 +9,7 @@ export default function RootLayout({ children }) {
 
   const menu = [
     { name: "รับเขียนโปรแกรม", path: "/pricing/program" },
-    { name: "รับทำเว็บไซต์บริษัท 1", path: "/pricing/website" },
-    { name: "รับทำเว็บไซต์บริษัท 2", path: "/pricing/webSiteBig" },
+    { name: "รับทำเว็บไซต์ ทุกธุรกิจ", path: "/pricing/website" },
     { name: "ดูแล SEO รายเดือน", path: "/pricing/seo" },
   ];
 
@@ -40,10 +39,10 @@ export default function RootLayout({ children }) {
               <div key={index}>
                 <li
                   className={`${
-                    pathname === item.path
+                    pathname.startsWith(item.path)
                       ? "bg-gradient-to-r from-indigo-400 via-purple-400 to-purple-200  text-white"
                       : ""
-                  } hover:bg-purple-200 hover:text-white py-3`}
+                  } hover:bg-purple-200 hover:text-white py-3 text-base`}
                 >
                   <Link className=" px-4  " href={item.path}>
                     {item.name}

@@ -22,9 +22,9 @@ import Link from "next/link";
 import Accordion from "./Accordion";
 import BannerSwiper from "./BannerSwiper";
 import Prices from "./price/Prices";
-import Carousel from "./carousel/Carousel";
-import Thank from "./Thank";
-import DisplayHome from "./display/DisplayHome";
+import Carousel from "./Carousel";
+import Thank from "../home/Thank";
+import DisplayHome from "./DisplayHome";
 import Intro from "./Intro";
 import Step from "./Step";
 
@@ -43,16 +43,16 @@ const Home = () => {
     <div className="    ">
       {/* Hero Secction */}
       <div className="bg-gradient-to-r from-indigo-400 via-purple-400 to-pink-300 pt-32 lg:pt-48 pb-14 lg:pb-32  -mt-36 ">
-        <div className="flex flex-col md:flex-row  gap-1  container mx-auto px-6 md:px-8  lg:px-32     ">
+        <div className="flex flex-col md:flex-row  gap-6  container mx-auto px-6 md:px-8  lg:px-32     ">
           <div className=" text-center lg:text-left  flex flex-col gap-3 lg:w-3/5 justify-start  lg:pr-20  tracking-widest   ">
-            <p className="text-gray-200 font-semibold text-md text-left ">
+            <p className="text-gray-200 font-medium text-md text-left ">
               ปรึกษา เว็บไซต์สำหรับการตลาดฟรี
             </p>
-            <h1 className=" text-3xl md:text-5xl text-white font-semibold leading-tight text-left   ">
+            <h1 className=" text-3xl md:text-6xl text-white font-semibold leading-10 text-left   ">
               รับเขียนโปรแกรม ทำเว็บไซต์ SEO ขอนแก่น
             </h1>
 
-            <p className="mt-1 text-gray-300 text-base   text-left pr-10">
+            <p className="mt-2 text-gray-200 text-xl   text-left pr-10">
               รับเขียนโปรแกรม รับทำเว็บไซต์ SEO{" "}
               <b className="text-yellow-400"> ค้นหาเจอใน Google Search </b>
               พัฒนาซอฟต์แวร์ วิเคราะห์ข้อมูลโดยทีมงานมืออาชีพ
@@ -75,12 +75,11 @@ const Home = () => {
           <div className=" hidden    w-2/5  lg:flex flex-col     ">
             <div className="w-28 bg-white bg-opacity-30  rounded-lg  skew-x-12  px-5  flex ml-36 -mb-5    ">
               <Image
-                src="https://devsriwararak.com/wp-content/uploads/2024/04/รับเขียนโปรแกรมขอนแก่น-next-js.webp"
+                src="/images/banner รับทำเว็บไซต์ ขอนแก่น 2.png"
                 loading="lazy"
                 width={200}
                 height={200}
                 alt="รับเขียนโปรแกรม ขอนแก่น รับทำเว็บไซต์ SEO ขอนแก่น"
-                // layout="responsive"
                 objectFit="cover"
                 quality={75}
               />
@@ -88,7 +87,7 @@ const Home = () => {
 
             <div className="w-full  rounded-2xl  -mb-20">
               <Image
-                src="https://devsriwararak.com/wp-content/uploads/2024/08/18301793_5881558-removebg-preview.png"
+                src="/images/banner รับทำเว็บไซต์ ขอนแก่น 1.webp"
                 loading="lazy"
                 width={600}
                 height={600}
@@ -101,12 +100,11 @@ const Home = () => {
 
             <div className="w-40 bg-white bg-opacity-30  rounded-xl skew-x-3  py-7 px-5 -ml-28 -mt-20 ">
               <Image
-                src="https://devsriwararak.com/wp-content/uploads/2024/04/รับเขียนโปรแกรมขอนแก่น_docker_compose.webp"
+                src="/images/banner_รับทำเว็บไซต์_ขอนแก่น_3.png"
                 loading="lazy"
                 width={300}
                 height={300}
                 alt="รับเขียนโปรแกรม ขอนแก่น รับทำเว็บไซต์ SEO ขอนแก่น"
-                // layout="responsive"
                 objectFit="cover"
                 quality={75}
               />
@@ -185,9 +183,8 @@ const Home = () => {
           และองค์กรได้ง่ายขึ้น{" "}
         </p>
         <div className=" mt-4 ">
-          {/* <img src="https://devsriwararak.com/wp-content/uploads/2024/09/Frame-1-1.webp" className="w-[1000px] object-cover "/> */}
           <Image
-            src="https://devsriwararak.com/wp-content/uploads/2024/09/Frame-1-4.webp"
+            src="/images/banner รับทำเว็บไซต์ ขอนแก่น 2.png"
             width={500}
             height={500}
             alt="รับทำเว็บไซต์ ขอนแก่น"
@@ -257,7 +254,7 @@ const Home = () => {
         </div>
         <div className=" w-full md:w-2/3 lg:w-1/3 flex justify-center py-5 md:py-0  ">
           <Image
-            src="https://devsriwararak.com/wp-content/uploads/2024/01/mobile.webp"
+            src="/images/banner รับทำเว็บไซต์ ขอนแก่น 2.png"
             width={150}
             height={80}
             loading="lazy"
@@ -330,7 +327,7 @@ const Home = () => {
                 width={500}
                 height={500}
                 loading="lazy"
-                src="https://devsriwararak.com/wp-content/uploads/2024/08/banner-1.webp"
+                src="/images/banner รับทำเว็บไซต์ ขอนแก่น 2.png"
                 className=" rounded-lg w-full"
               />
 
@@ -338,7 +335,7 @@ const Home = () => {
                 width={500}
                 height={500}
                 loading="lazy"
-                src="https://devsriwararak.com/wp-content/uploads/2024/01/%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B9%80%E0%B8%82%E0%B8%B5%E0%B8%A2%E0%B8%99%E0%B9%82%E0%B8%9B%E0%B8%A3%E0%B9%81%E0%B8%81%E0%B8%A3%E0%B8%A1%E0%B8%82%E0%B8%AD%E0%B8%99%E0%B9%81%E0%B8%81%E0%B9%88%E0%B8%99-%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B8%97%E0%B8%B3%E0%B9%80%E0%B8%A7%E0%B9%87%E0%B8%9A%E0%B9%84%E0%B8%8B%E0%B8%95%E0%B9%8C-%E0%B8%82%E0%B8%AD%E0%B8%99%E0%B9%81%E0%B8%81%E0%B9%88%E0%B8%99-1.webp"
+                src="/images/banner รับทำเว็บไซต์ ขอนแก่น 2.png"
                 className=" rounded-lg w-full"
               />
             </div>
@@ -349,7 +346,7 @@ const Home = () => {
               className="absolute inset-0 "
               style={{
                 backgroundImage:
-                  "linear-gradient(to right, rgba(255, 255, 255, 1) 50%, rgba(255, 255, 255, 0)), url('https://devsriwararak.com/wp-content/uploads/2024/08/4959.webp')",
+                  "linear-gradient(to right, rgba(255, 255, 255, 1) 50%, rgba(255, 255, 255, 0)), url('')",
                 backgroundSize: "cover",
                 backgroundPosition: "center",
               }}
@@ -402,7 +399,7 @@ const Home = () => {
           <div className="w-full  block mt-4 ">
             <div className="flex justify-center items-center">
               <Image
-                src="https://devsriwararak.com/wp-content/uploads/2023/09/dev_sriwararak-%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B8%97%E0%B8%B3%E0%B9%80%E0%B8%A7%E0%B9%87%E0%B8%9A%E0%B9%84%E0%B8%8B%E0%B8%95%E0%B9%8C-%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B9%80%E0%B8%82%E0%B8%B5%E0%B8%A2%E0%B8%99%E0%B9%82%E0%B8%9B%E0%B8%A3%E0%B9%81%E0%B8%81%E0%B8%A3%E0%B8%A1-%E0%B8%82%E0%B8%AD%E0%B8%99%E0%B9%81%E0%B8%81%E0%B9%88%E0%B8%99.webp"
+                src="/images/banner รับทำเว็บไซต์ ขอนแก่น 2.png"
                 loading="lazy"
                 width={300}
                 height={300}

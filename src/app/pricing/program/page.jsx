@@ -3,20 +3,38 @@ import PriceProgram from "../../components/price/PriceProgram";
 import Image from "next/image";
 import Link from "next/link";
 
+
+
 export const metadata = {
-  manifest: "/manifest.json",
   title: "ราคาค่าบริการ รับจ้างเขียนโปรแกรมขอนแก่น พัฒนาเครื่องมือช่วยให้การทำงานง่ายขึ้น 100%",
   description:
     "ราคาค่าบริการ รับจ้างเขียนโปรแกรมขอนแก่น พัฒนาเครื่องมือที่ช่วยให้การทำงานง่ายขึ้น ลดการใช้พนักงาน ช่วยจบงานเร็วเพิ่มยอดขายได้อย่างแม่นยำ",
   keywords:
-    "ราคาค่าบริการเขียนโปรแกรม , ราคาค่าบริการพัฒนาโปรแกรม , ราคาค่าบริการพัฒนาซอฟต์แวร์ ",
+    "ราคาค่าบริการ รับจ้างเขียนโปรแกรมขอนแก่น พัฒนาเครื่องมือช่วยให้การทำงานง่ายขึ้น 100%",
+  robots: "index, follow",
+  alternates: {
+    canonical: "https://web.thaibusinessmate.com/pricing/program",
+  },
   openGraph: {
-    images:
-      "https://devsriwararak.com/wp-content/uploads/2024/08/banner-1.webp",
+    title: "ราคาค่าบริการ รับจ้างเขียนโปรแกรมขอนแก่น พัฒนาเครื่องมือช่วยให้การทำงานง่ายขึ้น 100%",
+    description:
+      "ราคาค่าบริการ รับจ้างเขียนโปรแกรมขอนแก่น พัฒนาเครื่องมือที่ช่วยให้การทำงานง่ายขึ้น ลดการใช้พนักงาน ช่วยจบงานเร็วเพิ่มยอดขายได้อย่างแม่นยำ",
+    url: "https://web.thaibusinessmate.com/pricing/program",
+    images: [
+      {
+        url: "https://web.thaibusinessmate.com/images/review_3.webp",
+        width: 800,
+        height: 600,
+        alt: "ราคาค่าบริการ รับจ้างเขียนโปรแกรมขอนแก่น พัฒนาเครื่องมือช่วยให้การทำงานง่ายขึ้น 100%",
+      },
+    ],
+    siteName: "ราคาค่าบริการ รับจ้างเขียนโปรแกรมขอนแก่น พัฒนาเครื่องมือช่วยให้การทำงานง่ายขึ้น 100%",
+    locale: "th_TH",
+    type: "website",
   },
 };
 
-const page = () => {
+const Page = () => {
   return (
     <div className=" ">
       <PriceProgram />
@@ -24,7 +42,7 @@ const page = () => {
       <section className="flex flex-col lg:flex-row gap-4 py-8 mt-14  ">
         <div className="w-full">
           <Image
-            src="https://devsriwararak.com/wp-content/uploads/2024/08/44634-removebg-preview.png"
+            src="/images/about_thaibusinessmate_1.webp"
             width={500}
             height={500}
             alt="รับเขียนโปรแกรม ขอนแก่น"
@@ -33,7 +51,7 @@ const page = () => {
         </div>
         <div className="w-full">
           <h2 className="text-2xl">ตอบโจทย์ธุรกิจด้วยซอฟต์แวร์คุณภาพ</h2>
-          <p className="mt-4 text-sm text-gray-600 leading-normal">
+          <p className="mt-4 text-base text-gray-600 leading-normal">
             การจ้าง{" "}
             <Link href="/" className="link">
               เขียนโปรแกรม ขอนแก่น
@@ -43,7 +61,7 @@ const page = () => {
             ลดค่าใช้จ่าย และทำให้ธุรกิจเติบโตได้อย่างรวดเร็ว โปรแกรมทำงานรวดเร็ว
             คำนวณแม่นยำ 100%
           </p>
-          <p className="mt-4 text-sm text-gray-600 leading-normal">
+          <p className="mt-4 text-base text-gray-600 leading-normal">
             การมี โปรแกรมเมอร์มืออาชีพ ที่สามารถช่วยพัฒนา ซอฟต์แวร์
             ที่ตอบโจทย์ความต้องการของธุรกิจได้เป็นสิ่งที่จำเป็น
             ไม่ว่าคุณจะต้องการ พัฒนาแอปพลิเคชัน สำหรับอุปกรณ์พกพา, พัฒนาเว็บแอป
@@ -60,7 +78,7 @@ const page = () => {
       <section className="flex flex-col lg:flex-row gap-4 py-8 mt-14  ">
         <div className="w-full">
           <h2 className="text-2xl">บริการรับจ้างเขียนโปรแกรมตามสั่ง</h2>
-          <p className="mt-4 text-sm text-gray-600 leading-normal">
+          <p className="mt-4 text-base text-gray-600 leading-normal">
             หากธุรกิจของคุณต้องการ พัฒนาโปรแกรมคอมพิวเตอร์ ที่เฉพาะเจาะจง
             การเลือกใช้บริการ รับจ้างเขียนโปรแกรมตามสั่ง จะเป็นทางเลือกที่ดี
             การเขียนโปรแกรมตามสั่ง หมายถึงการสร้างซอฟต์แวร์
@@ -70,7 +88,7 @@ const page = () => {
             การพัฒนาระบบที่ออกแบบมาเฉพาะจะช่วยให้คุณสามารถควบคุมการทำงานได้อย่างเต็มที่และเพิ่มประสิทธิภาพในการดำเนินธุรกิจแบบก้าวกระโดด
             100%
           </p>
-          <p className="mt-4 text-sm text-gray-600 leading-normal">
+          <p className="mt-4 text-base text-gray-600 leading-normal">
             การใช้บริการ{" "}
             <Link href="/" className="link">
               รับเขียนโปรแกรม ขอนแก่น
@@ -84,7 +102,7 @@ const page = () => {
 
         <div className="w-full">
           <Image
-            src="https://devsriwararak.com/wp-content/uploads/2024/08/44632-removebg-preview.png"
+            src="/images/about_thaibusinessmate_1.webp"
             width={500}
             height={500}
             alt="รับเขียนโปรแกรม ขอนแก่น"
@@ -97,7 +115,7 @@ const page = () => {
         <h2 className="text-2xl">
           บทสรุป จ้างออกแบบ และพัฒนาโปรแกรมเฉพาะธุรกิจ
         </h2>
-        <p className="mt-4 text-sm text-gray-600 leading-normal">
+        <p className="mt-4 text-base text-gray-600 leading-normal">
           <Link href="/" className="link">
             รับจ้างเขียนโปรแกรม ขอนแก่น
           </Link>{" "}
@@ -111,7 +129,7 @@ const page = () => {
           , หรือ พัฒนาโปรแกรมคอมพิวเตอร์ สำหรับองค์กร
           การเลือกใช้บริการจากผู้เชี่ยวชาญจะช่วยให้คุณสามารถสร้างสรรค์โซลูชันที่ตอบโจทย์ธุรกิจของคุณได้อย่างลงตัว และปิดการขายอย่างมืออาชีพนั่นเอง
         </p>
-        <p className="mt-4 text-sm text-gray-600 leading-normal">
+        <p className="mt-4 text-base text-gray-600 leading-normal">
           สุดท้ายนี้
           การพัฒนาซอฟต์แวร์ที่ดีไม่เพียงแต่จะช่วยเพิ่มประสิทธิภาพในการดำเนินงาน
           แต่ยังช่วยให้ธุรกิจของคุณเติบโตได้อย่างมืออาชีพรวดเร็วและยั่งยืน
@@ -124,4 +142,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;

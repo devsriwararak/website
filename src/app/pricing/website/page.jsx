@@ -2,32 +2,50 @@ import React from "react";
 import PriceWebsite from "../../components/price/PriceWebsite";
 import Image from "next/image";
 import Link from "next/link";
+import CalculatePriceWeb from "./CalculatePriceWeb";
+
+
 
 export const metadata = {
-  manifest: "/manifest.json",
-  title:
-    "ราคาค่าบริการ รับจ้างทำเว็บไซต์บริษัท ขอนแก่น เพิ่มความน่าเชื่อถือ ค้นหาเจอบน Google",
+  title: "ราคาค่าบริการ รับจ้างทำเว็บไซต์บริษัท ขอนแก่น เพิ่มความน่าเชื่อถือ ค้นหาเจอบน Google",
   description:
-    "ราคาค่าบริการ รับจ้างทำเว็บไซต์บริษัท ขอนแก่น ช่วยเพิ่มความน่าเชื่อถือให้องค์กรและบริษัท ค้นหาเจอบน Google ช่วยเพิ่มการมองเห็น และเพิ่มยอดขายด้วย SEO ",
+    "ราคาค่าบริการ รับจ้างทำเว็บไซต์บริษัท ขอนแก่น ช่วยเพิ่มความน่าเชื่อถือให้องค์กรและบริษัท ค้นหาเจอบน Google ช่วยเพิ่มการมองเห็น และเพิ่มยอดขายด้วย SEO",
   keywords:
-    "ราคาค่าบริการรับจ้างทำเว็บไซต์ , ราคาค่าบริการพัฒนาเว็บไซต์ , ราคาค่าบริการทำเว็บไซต์บริษัท , ราคาค่าบริการทำเว็บไซต์ธุรกิจส่วนตัว  ",
+    "ราคาค่าบริการ รับจ้างทำเว็บไซต์บริษัท ขอนแก่น เพิ่มความน่าเชื่อถือ ค้นหาเจอบน Google",
+  robots: "index, follow",
+  alternates: {
+    canonical: "https://web.thaibusinessmate.com/pricing/website/",
+  },
   openGraph: {
-    images:
-      "https://devsriwararak.com/wp-content/uploads/2024/08/banner-1.webp",
+    title: "ราคาค่าบริการ รับจ้างทำเว็บไซต์บริษัท ขอนแก่น เพิ่มความน่าเชื่อถือ ค้นหาเจอบน Google",
+    description:
+      "ราคาค่าบริการ รับจ้างทำเว็บไซต์บริษัท ขอนแก่น ช่วยเพิ่มความน่าเชื่อถือให้องค์กรและบริษัท ค้นหาเจอบน Google ช่วยเพิ่มการมองเห็น และเพิ่มยอดขายด้วย SEO",
+    url: "https://web.thaibusinessmate.com/pricing/website/",
+    images: [
+      {
+        url: "https://web.thaibusinessmate.com/images/review_3.webp",
+        width: 800,
+        height: 600,
+        alt: "ราคาค่าบริการ รับจ้างทำเว็บไซต์บริษัท ขอนแก่น เพิ่มความน่าเชื่อถือ ค้นหาเจอบน Google",
+      },
+    ],
+    siteName: "ราคาค่าบริการ รับจ้างทำเว็บไซต์บริษัท ขอนแก่น เพิ่มความน่าเชื่อถือ ค้นหาเจอบน Google",
+    locale: "th_TH",
+    type: "website",
   },
 };
 
 const page = () => {
   return (
     <div>
-      <PriceWebsite />
+      {/* <PriceWebsite /> */}
+
+      <CalculatePriceWeb />
 
       {/* หมายเหตุ */}
-      <section className="mt-10">
-        <p className="text-sm text-gray-500">
-          <span className="text-red-500 font-semibold text-base">
-            หมายเหตุ{" "}
-          </span>
+      <section className="mt-20">
+        <p className="text-base text-gray-500">
+          <span className="text-red-500 font-semibold text-lg">หมายเหตุ </span>
           ระยะเวลาในการทำเว็บไซต์โดยประมาณ 1 เดือน
           โดยนับจากลูกค้าส่งข้อมูลให้เรา
           และทีมงานออกแบบหน้าเว็บไซต์บริษัทเพื่อส่งตรวจแก้ไขและคอนเฟิร์มแบบ 1
@@ -42,7 +60,7 @@ const page = () => {
       <section className="flex flex-col lg:flex-row gap-4 py-8 mt-14  ">
         <div className="w-full">
           <Image
-            src="https://devsriwararak.com/wp-content/uploads/2024/08/9245940-removebg-preview-1.png"
+            src="/images/about_thaibusinessmate_1.webp"
             width={500}
             height={500}
             alt="ราคารับทำเว็บไซต์สำเร็จรูป ขอนแก่น"
@@ -53,17 +71,17 @@ const page = () => {
           <h2 className="text-2xl">
             สร้างเว็บไซต์สำเร็จรูปที่มีคุณภาพและติดอันดับการค้นหา
           </h2>
-          <p className="mt-4 text-sm text-gray-600 leading-normal">
+          <p className="mt-4 text-base text-gray-600 leading-normal">
             การมีเว็บไซต์สำเร็จรูปเพียงอย่างเดียวอาจไม่เพียงพอ
-            หากเว็บไซต์บริษัทสำเร็จรูปของคุณไม่ปรากฏในผลการค้นหาของเครื่องมือค้นหาอันดับ 1
-            ของโลกอย่าง Google การเลือกใช้บริการ{" "}
+            หากเว็บไซต์บริษัทสำเร็จรูปของคุณไม่ปรากฏในผลการค้นหาของเครื่องมือค้นหาอันดับ
+            1 ของโลกอย่าง Google การเลือกใช้บริการ{" "}
             <Link href="/" className="link">
               รับทำเว็บไซต์ ขอนแก่น
             </Link>{" "}
             ที่มาพร้อมกับการ ปรับแต่ง SEO
             จึงเป็นสิ่งที่จำเป็นอย่างยิ่งสำหรับธุรกิจที่ต้องการเพิ่มยอดขาย
           </p>
-          <p className="mt-4 text-sm text-gray-600 leading-normal">
+          <p className="mt-4 text-base text-gray-600 leading-normal">
             SEO (Search Engine Optimization)
             หรือการปรับแต่งเว็บไซต์สำเร็จรูปให้ติดอันดับบนเครื่องมือค้นหา
             เป็นส่วนสำคัญที่จะช่วยให้เว็บไซต์สำเร็จรูปของคุณปรากฏในอันดับที่สูงขึ้นในผลการค้นหา
@@ -71,7 +89,7 @@ const page = () => {
             การเลือกใช้บริการ รับทำเว็บไซต์ธุรกิจรองรับ SEO ขอนแก่น
             จึงเป็นทางเลือกที่เหมาะสมสำหรับธุรกิจที่ต้องการเติบโตในโลกออนไลน์
           </p>
-          <p className="mt-4 text-sm text-gray-600 leading-normal">
+          <p className="mt-4 text-base text-gray-600 leading-normal">
             เว็บไซต์สำเร็จรูปที่ได้รับการ ปรับแต่ง SEO
             จะมีโอกาสปรากฏในหน้าแรกของผลการค้นหา
             ซึ่งมีแนวโน้มที่จะดึงดูดผู้เข้าชมมากขึ้น นอกจากนี้ การรับทำเว็บ
@@ -85,8 +103,10 @@ const page = () => {
 
       <section className="flex flex-col lg:flex-row gap-4 py-8 mt-14  ">
         <div className="w-full">
-          <h2 className="text-2xl">การสร้างเว็บไซต์สำเร็จรูปสำหรับการตลาดออนไลน์</h2>
-          <p className="mt-4 text-sm text-gray-600 leading-normal">
+          <h2 className="text-2xl">
+            การสร้างเว็บไซต์สำเร็จรูปสำหรับการตลาดออนไลน์
+          </h2>
+          <p className="mt-4 text-base text-gray-600 leading-normal">
             ขอแนะนำเว็บไซต์สำเร็จรูปเริ่มต้นสำหรับธุรกิจเปิดใหม่ที่กำลังเพิ่มยอดขายอยู่
             การมีเว็บหน้าเดียว หรือ Landing Page
             ที่มีประสิทธิภาพเป็นสิ่งที่ขาดไม่ได้{" "}
@@ -98,7 +118,7 @@ const page = () => {
             ที่ดีจะมีการออกแบบที่เน้นไปที่การเรียกร้องให้ทำการใดการหนึ่ง (Call
             to Action) ซึ่งจะช่วยเพิ่มโอกาสในการแปลงผู้เยี่ยมชมให้กลายเป็นลูกค้า
           </p>
-          <p className="mt-4 text-sm text-gray-600 leading-normal">
+          <p className="mt-4 text-base text-gray-600 leading-normal">
             สำหรับธุรกิจที่มีงบประมาณจำกัด การ รับทำเว็บราคาถูก ขอนแก่น
             ก็เป็นทางเลือกที่ดี
             โดยคุณยังสามารถได้เว็บไซต์สำเร็จรูปที่มีคุณภาพและรองรับการทำ SEO ได้
@@ -109,7 +129,7 @@ const page = () => {
 
         <div className="w-full">
           <Image
-            src="https://devsriwararak.com/wp-content/uploads/2024/08/6721402_3323713-removebg-preview.png"
+            src="/images/about_thaibusinessmate_1.webp"
             width={500}
             height={500}
             alt="ราคารับทำเว็บไซต์สำเร็จรูป ขอนแก่น"
@@ -122,7 +142,7 @@ const page = () => {
         <h2 className="text-2xl">
           บทสรุป รับจ้างทำเว็บไซต์สำเร็จรูป รองรับ SEO ค้นเจอได้ง่ายบน Google
         </h2>
-        <p className="mt-4 text-sm text-gray-600 leading-normal">
+        <p className="mt-4 text-base text-gray-600 leading-normal">
           ในบางครั้งธุรกิจของคุณอาจต้องการเว็บไซต์สำเร็จรูปที่ไม่เหมือนใคร
           การเลือกใช้บริการ รับทำเว็บไซต์แบบ Custom
           จะช่วยให้คุณได้เว็บไซต์สำเร็จรูปที่ออกแบบเฉพาะตัวและตอบโจทย์ความต้องการของธุรกิจอย่างแท้จริง
@@ -131,10 +151,10 @@ const page = () => {
           ซึ่งจะเป็นประโยชน์อย่างมากในการทำ SEO (ค้นหาธุรกิจของคุณเจอบน Google)
           เพราะคุณสามารถปรับแต่งทุกส่วนของเว็บไซต์ให้สอดคล้องกับคำค้นหาที่คุณต้องการให้ติดอันดับนั้นเอง
         </p>
-        <p className="mt-4 text-sm text-gray-600 leading-normal">
+        <p className="mt-4 text-base text-gray-600 leading-normal">
           การ รับจ้างทำเว็บไซต์สำเร็จรูป ที่มีการ ปรับแต่ง SEO
-          เป็นสิ่งสำคัญที่ทุกธุรกิจควรพิจารณา การมีเว็บไซต์สำเร็จรูปที่รองรับ SEO
-          จะช่วยเพิ่มโอกาสในการเข้าถึงกลุ่มเป้าหมายและช่วย{" "}
+          เป็นสิ่งสำคัญที่ทุกธุรกิจควรพิจารณา การมีเว็บไซต์สำเร็จรูปที่รองรับ
+          SEO จะช่วยเพิ่มโอกาสในการเข้าถึงกลุ่มเป้าหมายและช่วย{" "}
           <b className="link">เพิ่มยอดขายให้คุณอย่างเห็นได้ชัด </b>
           การเลือกใช้บริการ รับทำเว็บรองรับ SEO ขอนแก่น
           จากผู้เชี่ยวชาญจะช่วยให้คุณได้เว็บไซต์ที่มีคุณภาพและตอบโจทย์ความต้องการของธุรกิจ

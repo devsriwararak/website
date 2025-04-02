@@ -6,17 +6,35 @@ import { IoCheckmarkSharp, IoCloseSharp } from "react-icons/io5";
 import { AiOutlineClose } from "react-icons/ai";
 import List from "./List";
 
+
+
+
 export const metadata = {
-  manifest: "/manifest.json",
-  title:
-    "ราคาค่าบริการ ดูแล SEO เว็บไซต์แบบรายเดือน รักษาอันดับหน้า 1 ไม่ให้ตก ค้นหาเจอได้ง่ายบน Google",
+  title: "ราคาค่าบริการ ดูแล SEO เว็บไซต์แบบรายเดือน รักษาอันดับหน้า 1 ไม่ให้ตก ค้นหาเจอได้ง่ายบน Google",
   description:
-    "ราคาค่าบริการ รับดูแล SEO เว็บไซต์แบบรายเดือน ช่วยรักษาให้คุณอยู่หน้า 1 ไม่ให้อันดับตก ค้นหาเจอบน Google เพิ่มยอดขายด้วยพลังของ SEO ",
+    "ราคาค่าบริการ รับดูแล SEO เว็บไซต์แบบรายเดือน ช่วยรักษาให้คุณอยู่หน้า 1 ไม่ให้อันดับตก ค้นหาเจอบน Google เพิ่มยอดขายด้วยพลังของ SEO",
   keywords:
-    "รับทำ seo ขอนแก่น , รับทำ seo รายเดือนขอนแก่น , ดูแล seo เว็บไซต์บริษัท   ",
+    "ราคาค่าบริการ ดูแล SEO เว็บไซต์แบบรายเดือน รักษาอันดับหน้า 1 ไม่ให้ตก ค้นหาเจอได้ง่ายบน Google",
+  robots: "index, follow",
+  alternates: {
+    canonical: "https://web.thaibusinessmate.com/pricing/seo",
+  },
   openGraph: {
-    images:
-      "https://devsriwararak.com/wp-content/uploads/2024/08/banner-1.webp",
+    title: "ราคาค่าบริการ ดูแล SEO เว็บไซต์แบบรายเดือน รักษาอันดับหน้า 1 ไม่ให้ตก ค้นหาเจอได้ง่ายบน Google",
+    description:
+      "ราคาค่าบริการ รับดูแล SEO เว็บไซต์แบบรายเดือน ช่วยรักษาให้คุณอยู่หน้า 1 ไม่ให้อันดับตก ค้นหาเจอบน Google เพิ่มยอดขายด้วยพลังของ SEO",
+    url: "https://web.thaibusinessmate.com/pricing/seo",
+    images: [
+      {
+        url: "https://web.thaibusinessmate.com/images/review_3.webp",
+        width: 800,
+        height: 600,
+        alt: "ราคาค่าบริการ ดูแล SEO เว็บไซต์แบบรายเดือน รักษาอันดับหน้า 1 ไม่ให้ตก ค้นหาเจอได้ง่ายบน Google",
+      },
+    ],
+    siteName: "ราคาค่าบริการ ดูแล SEO เว็บไซต์แบบรายเดือน รักษาอันดับหน้า 1 ไม่ให้ตก ค้นหาเจอได้ง่ายบน Google",
+    locale: "th_TH",
+    type: "website",
   },
 };
 
@@ -27,7 +45,7 @@ const page = () => {
         <span className="text-purple-700 font-semibold">ค่าบริการ </span>
         ดูแล SEO เว็บไซต์บริษัท รายเดือน
       </h1>
-      <p className="text-left md:text-center mt-4 text-gray-500 text-sm md:text-base ">
+      <p className="text-left md:text-center mt-4 text-gray-500 text-sm md:text-lg ">
         <span className="text-purple-600">รับดูแล SEO เว็บไซต์บริษัท</span>{" "}
         ช่วยทำให้ค้นหาเว็บไซต์ของคุณเจอบน Google ช่วยเพิ่มการมองเห็น
         ทำให้มียอดขายมากขึ้น ช่วยรักษาระดับไม่ให้อันดับตกหล่น{" "}
@@ -38,7 +56,7 @@ const page = () => {
       <section className="flex flex-col lg:flex-row gap-4 py-8 mt-14  ">
         <div className="w-full">
           <h2 className="text-2xl">ข้อดีของการเลือกใช้บริการ SEO รายเดือน</h2>
-          <p className="mt-4 text-sm text-gray-600 leading-normal">
+          <p className="mt-4 text-base text-gray-600 leading-normal">
             บริการ SEO รายเดือน
             นั้นมีข้อดีหลายประการที่สามารถช่วยธุรกิจของคุณเติบโตได้ การดูแล SEO
             แบบต่อเนื่องทำให้คุณไม่ต้องกังวลเกี่ยวกับการทำ SEO ด้วยตัวเอง
@@ -53,7 +71,7 @@ const page = () => {
             การใช้บริการเหล่านี้ช่วยให้เว็บไซต์ธุรกิจของคุณสามารถติดอันดับในการค้นหาของ
             Google Search ได้อย่างมั่นคงและยาวนานแบบธรรมชาตินั่นเอง
           </p>
-          <p className="mt-4 text-sm text-gray-600 leading-normal">
+          <p className="mt-4 text-base text-gray-600 leading-normal">
             นอกจากนี้ การดูแล SEO
             รายเดือนยังช่วยในการสร้างความน่าเชื่อถือให้กับแบรนด์หรือธุรกิจของคุณ
             การที่เว็บไซต์ของคุณปรากฏอยู่บนหน้าแรกของ Google Search
@@ -67,7 +85,7 @@ const page = () => {
 
         <div className="w-full">
           <Image
-            src="https://devsriwararak.com/wp-content/uploads/2024/09/31164754_7744158-removebg-preview.webp"
+            src="/images/about_thaibusinessmate_1.webp"
             width={500}
             height={500}
             alt="ราคาค่าบริการ รับทำ seo รายเดือน ขอนแก่น"
@@ -78,7 +96,7 @@ const page = () => {
 
       <section className="py-8 mt-8">
         <h2 className="text-2xl">บทสรุป รับจ้างดูแล SEO และเว็บไซต์รายเดือน</h2>
-        <p className="mt-4 text-sm text-gray-600 leading-normal">
+        <p className="mt-4 text-base text-gray-600 leading-normal">
           การดูแล SEO รายเดือน
           เป็นการลงทุนที่คุ้มค่าสำหรับธุรกิจที่ต้องการเพิ่มโอกาสในการแข่งขันในโลกออนไลน์
           และธุรกิจที่กำลังวางแผนกลยุทธ์ทางการตลาด

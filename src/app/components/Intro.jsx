@@ -9,6 +9,7 @@ import "swiper/css/navigation";
 import "swiper/css/autoplay";
 import "swiper/css/pagination";
 import { Navigation, Autoplay, Pagination } from "swiper/modules";
+import { FiCpu, FiGlobe, FiSettings, FiSun } from "react-icons/fi";
 
 const data = [
   {
@@ -18,7 +19,7 @@ const data = [
     link: "https://www.facebook.com/dev.sriwararak",
     link_name: "Facebook",
     color: "bg-purple-800",
-    icon: "https://devsriwararak.com/wp-content/uploads/2023/09/icon-รับเขียนโปรแกรม-ขอนแก่น-1.webp",
+    icon: <FiCpu size={23} />,
   },
   {
     id: 1,
@@ -27,7 +28,7 @@ const data = [
     link: "tel:0850032649",
     link_name: "โทรศัพท์",
     color: "bg-purple-600",
-    icon: "https://devsriwararak.com/wp-content/uploads/2023/09/icon-รับเขียนโปรแกรม-ขอนแก่น-2.webp",
+    icon: <FiGlobe size={23} />,
   },
   {
     id: 2,
@@ -36,7 +37,7 @@ const data = [
     link: "https://line.me/ti/p/KMjKL3G9qz",
     link_name: "LINE",
     color: "bg-purple-400",
-    icon: "https://devsriwararak.com/wp-content/uploads/2023/09/icon-รับเขียนโปรแกรม-ขอนแก่น-3.webp",
+    icon: <FiSun size={23} />,
   },
   {
     id: 3,
@@ -45,7 +46,7 @@ const data = [
     link: "https://www.tiktok.com/@dev_sriwararak",
     link_name: "TikTok",
     color: "bg-pink-300",
-    icon: "https://devsriwararak.com/wp-content/uploads/2023/09/icon-รับเขียนโปรแกรม-ขอนแก่น-4.webp",
+    icon: <FiSettings size={23} />,
   },
 ];
 
@@ -82,21 +83,15 @@ const Intro = () => {
           loop={true}
           className="flex-grow"
         >
-     {data.map((item, index) => (
+          {data.map((item, index) => (
             <SwiperSlide
               key={item.id}
               className="  bg-white  shadow-xl rounded-md px-8 md:px-6 py-8   border border-gray-300 border-b-4 border-b-purple-600 mt-9  mb-12 lg:mb-0    "
             >
-              <div className={` ${item.color} w-14 p-3 rounded-full -mt-14 `}>
-                <Image
-                  src={item.icon}
-                  loading="lazy"
-                  width={200}
-                  height={200}
-                  alt={item.title}
-                  objectFit="cover"
-                  quality={75}
-                />
+              <div className={` ${item.color} w-12 p-3 rounded-full -mt-14 `}>
+                <div className="flex justify-center text-white ">
+                {item.icon}
+                </div>
               </div>
               <h3 className="text-lg mt-4">{item.title}</h3>
               <p className="mt-2 mb-4 text-sm text-gray-500 text-left">
@@ -112,38 +107,6 @@ const Intro = () => {
           ))}
         </Swiper>
       </div>
-
-
-      {/* <div className=" hidden  lg:flex lg:flex-row justify-center items-center gap-3 md:gap-10 lg:gap-2 mt-20 px-6 md:px-20 lg:px-0   ">
-        {data.map((item, index) => (
-          <div className="w-full m-2 bg-white shadow-md rounded-md px-4 py-10 lg:py-4 flex flex-col justify-center items-center border border-gray-100 border-b-4 border-b-purple-600  ">
-              <div className={` ${item.color} w-16 p-3 rounded-full -mt-14 `}>
-              <Image
-                src={item.icon}
-                loading="lazy"
-                width={200}
-                height={200}
-                alt="รับเขียนโปรแกรม ขอนแก่น รับทำเว็บไซต์ SEO ขอนแก่น"
-                // layout="responsive"
-                objectFit="cover"
-                quality={75}
-              />
-            </div>
-            <h3 className="text-lg mt-4">{item.title}</h3>
-            <p className="mt-2 text-sm text-gray-600 text-center">
-              {item.dec}
-            </p>
-            <Link
-              href={item.link}
-              className=" text-sm mt-5 bg-gradient-to-r from-indigo-400 via-purple-400 to-pink-300 text-white px-5 py-1 rounded-full"
-            >
-              {item.link_name}
-            </Link>
-          </div>
-        ))}
-      </div> */}
-
-
     </section>
   );
 };

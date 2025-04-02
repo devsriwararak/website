@@ -1,15 +1,16 @@
 export const data = [
-    {id:0, link:"", alt:"ผลงานเขียนโปรแกรมประมูลศาลเจ้าขอนแก่น", image: "https://devsriwararak.com/wp-content/uploads/2024/01/%E0%B8%9C%E0%B8%A5%E0%B8%87%E0%B8%B2%E0%B8%99%E0%B9%80%E0%B8%82%E0%B8%B5%E0%B8%A2%E0%B8%99%E0%B9%82%E0%B8%9B%E0%B8%A3%E0%B9%81%E0%B8%81%E0%B8%A3%E0%B8%A1%E0%B8%A8%E0%B8%B2%E0%B8%A5%E0%B9%80%E0%B8%88%E0%B9%89%E0%B8%B2%E0%B8%82%E0%B8%AD%E0%B8%99%E0%B9%81%E0%B8%81%E0%B9%88%E0%B8%99.webp"},
-    {id:1, link:"", alt:"ผลงานรับทำเว็บไซต์ บริษัทอสังหาริมทรัพย์",image:"https://devsriwararak.com/wp-content/uploads/2023/11/webport.webp"},
-    {id:2, link:"https://ttwater-ice.com/", alt:"ผงานทำเว็บไซต์โรงงานผลิตน้ำ ผลิตน้ำแข็ง",image:"https://devsriwararak.com/wp-content/uploads/2023/08/finalp.webp"},
-    {id:3, link:"", alt:"ผลงานรับทำเว็บไซต์ฟิตเนส",image:"https://devsriwararak.com/wp-content/uploads/2023/09/fb-post-1.webp"},
-    {id:4, link:"https://thunya-collection.com/", alt:"ผลงานรับทำเว็บไซต์ ขายเสื้อผ้าออนไลน์",image:"https://devsriwararak.com/wp-content/uploads/2023/08/fb-post.webp"},
-    {id:5, link:"https://farmhugcafe.com/", alt:"ผลงานรับทำเว็บไซต์ ฝากเลี้ยงสุนัข ฟาร์มสุนัข",image:"https://devsriwararak.com/wp-content/uploads/2023/10/fb-post-2.webp"},
-    {id:6, link:"https://kaewsiwa.com/", alt:"ผลงานรับทำเว็บไซต์ บริษัทรับเหมาสร้างบ้านจังหวัดเลย",image:"https://devsriwararak.com/wp-content/uploads/2024/08/port.png"},
-    {id:7, link:"https://psolartech.com/", alt:"ผลงานรับทำเว็บไซต์ บริษัทขายจำหน่ายติดตั้งโซล่าเซลล์",image:"https://devsriwararak.com/wp-content/uploads/2024/02/Modern-Cabinet-Furniture-Instagram-Post_20240224_171438_0000.png"},
-    {id:8, link:"", alt:"โปรแกรมออกใบกำกับภาษีตามสั่ง",image:"https://devsriwararak.com/wp-content/uploads/2024/01/รับเขียนโปรแกรมขอนแก่น-รับทำเว็บไซต์-ขอนแก่น-1.webp"},
-    {id:9, link:"https://xn--e3cuvqbc6c8bdy6y.com", alt:"รับทำเว็บไซต์ บริษัทรับสร้างบ้านนครพนม",image:"https://devsriwararak.com/wp-content/uploads/2024/09/Frame-1-2.webp"},
-    {id:10, link:"https://chompoonutclinic.com", alt:"รับทำเว็บไซต์ คลินิกเวชกรรมนครปฐม",image:"https://devsriwararak.com/wp-content/uploads/2024/09/9646.webp"},
+    {id:0, link:"https://xn--e3cuvqbc6c8bdy6y.com/", alt:"ผลงานเว็บไซต์ รับสร้างบ้านนครพนม ", image: "/images/review_1.webp"},
+    {id:1, link:"https://chompoonutclinic.com/", alt:"ผลงานเว็บไซต์ คลินิกโรคผิวหนัง นครปฐม ",image:"/images/review_2.webp"},
+    {id:2, link:"https://kaewsiwa.com/", alt:"ผลงานเว็บไซต์ รับสร้างบ้าน เลย ",image:"/images/review_3.webp"},
+    {id:3, link:"https://psolartech.com/", alt:"ผลงานเว็บไซต์ โซล่าเซลล์ ขอนแก่น ",image:"/images/review_4.webp"},
+    {id:4, link:"https://farmhugcafe.com/", alt:"ผลงานเว็บไซต์ รับฝากสุนัข ขอนแก่น ",image:"/images/review_5.webp"},
+    {id:5, link:"https://thanasethcharoensup.co.th/", alt:"ผลงานเว็บไซต์ รับสร้างบ้าน ทั่วภาคอีสาน ",image:"/images/review_6.webp"},
+    {id:6, link:"http://thunya-collection.com/", alt:"ผลงานเว็บไซต์ แบรนด์เสื้อผ้าส่วนตัว ",image:"/images/review_7.webp"},
+    {id:7, link:"https://ttwater-ice.com/", alt:"ผลงานเว็บไซต์ โรงงานจำหน่ายน้ำดื่ม ",image:"/images/review_8.webp"},
+    {id:8, link:"", alt:"ผลงานเว็บไซต์ อสังหาริมทรัพย์ ",image:"/images/review_9.webp"},
+    {id:9, link:"https://baanubonupvc.com/", alt:"ผลงานเว็บไซต์ ประตู หน้าต่าง upvc ",image:"/images/review_10.webp"},
+    {id:10, link:"", alt:"ผลงานรับทำเว็บไซต์ ขายอุปกรณ์ฟิตเนส ",image:"/images/review_11.webp"},
+    {id:11, link:"https://wm-manitthakant-transport.com/", alt:"ผลงานเว็บไซต์ WM มณิฐกานต์ ขนส่งรถ ",image:"/images/review_12.webp"},
    
    
 ]
